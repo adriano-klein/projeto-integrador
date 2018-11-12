@@ -569,7 +569,7 @@ ul#top_menu li a.login:before, ul#top_menu li a.search-overlay-menu-btn:before {
   line-height: 1;
 }
 ul#top_menu li a.login:before {
-  content: "\7e";
+  content: '\e87b';
 }
 ul#top_menu li a.search-overlay-menu-btn:before {
   content: "\55";
