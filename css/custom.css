@@ -1,3 +1,14 @@
 /*============================================================================================*/
 /* Your custom styles below */
 /*============================================================================================*/
+
+
+.call_section {
+    background: url(../img/bg1.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    padding: 10% 0;
+  }
