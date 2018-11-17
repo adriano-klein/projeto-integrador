@@ -12,3 +12,7 @@
     min-height: 400px;
     padding: 10% 0;
   }
+
+.main-menu ul li a{
+    font-size: 1rem !important;
+}
