@@ -16,3 +16,27 @@
 .main-menu ul li a{
     font-size: 1rem !important;
 }
+/* header color */
+header.header.sticky{
+    background: -webkit-linear-gradient(left, rgb(50, 78, 190), #81C0E3);
+    background: linear-gradient(to right, rgb(50, 78, 190), #81C0E3);
+}
+
+header.header.sticky_menu_active{
+    background: -webkit-linear-gradient(left, rgb(50, 78, 190), #81C0E3);
+    background: linear-gradient(to right, rgb(50, 78, 190), #81C0E3);
+}
+
+/* Box Color */
+
+ul#grid_home li:nth-child(1) .short_info{
+    background-color: #6A86BA;
+}
+
+ul#grid_home li:nth-child(2) .short_info{
+    background-color: #81C0E3;
+}
+
+ul#grid_home li:nth-child(3) .short_info{
+    background-color: #81A8D8;
+}
