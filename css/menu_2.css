@@ -16,6 +16,8 @@
   /* Menu */
   .main-menu {
     position: relative;
+    align-self: center;
+    padding-bottom: 5px;
     z-index: 9;
     width: auto;
     top: 12px;

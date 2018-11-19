@@ -476,6 +476,8 @@ a.btn_explore:hover {
 /* Header */
 header {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   left: 0;
   top: 0;
   width: 100%;
@@ -488,6 +490,14 @@ header {
     padding: 15px 15px 5px 15px;
   }
 }
+
+.aside-menu {
+
+    display: flex;
+    justify-content: right;
+
+}
+
 header.header.sticky {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -518,7 +528,9 @@ header.header.sticky_menu_active {
 
 ul#top_menu {
   float: right;
-  margin: 0 0 0 0;
+  align-self: center;
+  margin: 0 20px 0 20px;
+  padding: 0;
   font-size: 13px;
   font-size: 0.8125rem;
 }
@@ -587,6 +599,7 @@ ul#top_menu li a.btn_1:hover {
 
 #logo {
   float: left;
+  align-self: center;
 }
 @media (max-width: 991px) {
   #logo {
@@ -601,6 +614,8 @@ ul#top_menu li a.btn_1:hover {
     width: auto;
     height: 30px;
     margin-top: 10px;
+    float: right;
+    padding-right: 20px;
   }
 }
 
