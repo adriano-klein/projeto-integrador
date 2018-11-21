@@ -1381,7 +1381,7 @@ ul#grid_home {
 }
 ul#grid_home li {
   position: relative;
-  width: 33.33%;
+  width: 25%;
   float: left;
 }
 @media (max-width: 767px) {
@@ -1402,6 +1402,12 @@ ul#grid_home li:nth-child(3) .short_info {
   background-color: #392779;
   background-color: #392779;
 }
+
+ul#grid_home li:nth-child(4) .short_info {
+  background-color: #392779;
+  background-color: #392779;
+}
+
 ul#grid_home li a.img_container {
   position: relative;
   overflow: hidden;
