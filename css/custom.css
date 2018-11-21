@@ -46,3 +46,25 @@ ul#grid_home li:nth-child(3) .short_info{
 ul#grid_home li a.img_container .short_info h3 strong {
     font-size: 1.5rem;
   }
+
+  /* Botões dos cursos */
+
+  .box_grid ul li:last-child a:hover {
+    background: #6A86BA;
+    
+  }
+
+  .box_grid ul li:last-child a {
+    border: 2px solid #6A86BA;
+    color: #6A86BA;
+  }
+
+  /* Botão Submit */
+  #newsletter input[type='submit'] {
+    background-color: rgb(27, 65, 136);
+  }
+
+  input[type='submit']:hover {
+    background-color: #6A86BA;
+
+}
