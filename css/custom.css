@@ -76,3 +76,15 @@ ul#grid_home li:last-child .img_container:hover .short_info .btn_1{
 a.btn_1:hover, .btn_1:hover{
     background: #0054a6;
 }
+
+
+/*Background da home para dispositivos moveis*/
+
+@media (max-width: 1024px) {
+  #hero_video {
+    background: url("../img/imageCode.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
