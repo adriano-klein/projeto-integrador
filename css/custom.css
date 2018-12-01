@@ -88,3 +88,9 @@ a.btn_1:hover, .btn_1:hover{
     -o-background-size: cover;
     background-size: cover;
   }
+
+  /* Custom Login */
+
+  #login figure, #register figure {
+    background: linear-gradient(to right, #6A86BA, #3F9FFF);
+  }

@@ -11,7 +11,7 @@
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
-				<li><a href="login.html" class="login">Login</a></li>
+				<li><a href="login.php" class="login">Login</a></li>
 				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
 				<!-- <li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li> -->
 			</ul>

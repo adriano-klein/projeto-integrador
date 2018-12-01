@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>UDEMA | Modern Educational site template</title>
+    <title>ACADEMIA EVOLUTION</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -37,7 +37,7 @@
 	<div id="login">
 		<aside>
 			<figure>
-				<a href="index.html"><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></a>
+				<a href="index.html"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
 			</figure>
 			  <form>
 				<div class="access_social">
@@ -45,27 +45,27 @@
 					<a href="#0" class="social_bt google">Login with Google</a>
 					<a href="#0" class="social_bt linkedin">Login with Linkedin</a>
 				</div>
-				<div class="divider"><span>Or</span></div>
+				<div class="divider"><span>Ou</span></div>
 				<div class="form-group">
 					<span class="input">
 					<input class="input_field" type="email" autocomplete="off" name="email">
 						<label class="input_label">
-						<span class="input__label-content">Your email</span>
+						<span class="input__label-content">Email</span>
 					</label>
 					</span>
 
 					<span class="input">
 					<input class="input_field" type="password" autocomplete="new-password" name="password">
 						<label class="input_label">
-						<span class="input__label-content">Your password</span>
+						<span class="input__label-content">Senha</span>
 					</label>
 					</span>
-					<small><a href="#0">Forgot password?</a></small>
+					<small><a href="#0">Esqueceu a senha?</a></small>
 				</div>
-				<a href="#0" class="btn_1 rounded full-width add_top_60">Login to Udema</a>
-				<div class="text-center add_top_10">New to Udema? <strong><a href="register.html">Sign up!</a></strong></div>
+				<a href="#0" class="btn_1 rounded full-width add_top_60">Login to Evolution</a>
+				<div class="text-center add_top_10">Novo na Evolution? <strong><a href="register.php">Registre-se!</a></strong></div>
 			</form>
-			<div class="copy">© 2017 Udema</div>
+			<div class="copy">© <?php echo date("Y"); ?> Evolution</div>
 		</aside>
 	</div>
 	<!-- /login -->

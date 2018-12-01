@@ -54,7 +54,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<div id="copy">© 2018 Evolution</div>
+					<div id="copy">© <?php echo date("Y"); ?> Evolution</div>
 				</div>
 			</div>
 		</div>
