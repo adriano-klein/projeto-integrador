@@ -92,5 +92,16 @@ a.btn_1:hover, .btn_1:hover{
   /* Custom Login */
 
   #login figure, #register figure {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #6A86BA;
+    background: -webkit-linear-gradient(left, #6A86BA, #3F9FFF);
     background: linear-gradient(to right, #6A86BA, #3F9FFF);
+    /* background: #480048;
+    background: -webkit-linear-gradient(left, #480048, #C04848);
+    background: linear-gradient(to right, #480048, #C04848); */
+    margin: -45px -60px 30px -60px;
+    padding: 20px 60px 25px 60px;
   }
+
+ 

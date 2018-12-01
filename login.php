@@ -1,3 +1,34 @@
+<?php
+
+if($_POST){
+	session_start();
+	$email = $_POST["email"];
+	$senha = $_POST["senha"];
+
+	$validaSenha = password_verify($senha, $_SESSION["senha"]);
+
+	if($validaSenha === true && $_SESSION["email"] === $email){
+		header("location:exito.php");
+	}else{
+		echo "Seu email ou senha estão incorretos! <br> Por favor preencha-os novamente";
+	}
+
+
+
+
+
+
+}
+
+
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +70,7 @@
 			<figure>
 				<a href="index.html"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
 			</figure>
-			  <form>
+			  <form class="" action="login.php" method="post">
 				<div class="access_social">
 					<a href="#0" class="social_bt facebook">Login with Facebook</a>
 					<a href="#0" class="social_bt google">Login with Google</a>
@@ -47,22 +78,29 @@
 				</div>
 				<div class="divider"><span>Ou</span></div>
 				<div class="form-group">
+					<!-- <span class="input">
+					<input class="input_field" type="email" name="email">
+						<label class="input_label">
+						<span class="input__label-content">Email</span>
+					</label>
+					</span> -->
 					<span class="input">
-					<input class="input_field" type="email" autocomplete="off" name="email">
+					<input class="input_field" type="email" name="email">
 						<label class="input_label">
 						<span class="input__label-content">Email</span>
 					</label>
 					</span>
 
 					<span class="input">
-					<input class="input_field" type="password" autocomplete="new-password" name="password">
+					<input class="input_field" type="password"  name="senha">
 						<label class="input_label">
 						<span class="input__label-content">Senha</span>
 					</label>
 					</span>
 					<small><a href="#0">Esqueceu a senha?</a></small>
 				</div>
-				<a href="#0" class="btn_1 rounded full-width add_top_60">Login to Evolution</a>
+				<input type="submit" name="" class="btn_1 rounded full-width add_top_60" value="Login to Evolution">
+				<!-- <a href="#0" class="btn_1 rounded full-width add_top_60">Login to Evolution</a> -->
 				<div class="text-center add_top_10">Novo na Evolution? <strong><a href="register.php">Registre-se!</a></strong></div>
 			</form>
 			<div class="copy">© <?php echo date("Y"); ?> Evolution</div>

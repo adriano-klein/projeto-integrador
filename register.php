@@ -1,3 +1,31 @@
+<?php
+
+if($_POST){
+	session_start();
+
+	$nome = $_POST["nome"];
+	$sobrenome = $_POST["sobrenome"];
+	$email = $_POST["email"];
+	$senha = $_POST["senha"];
+
+	$senhaHash = password_hash($senha, PASSWORD_DEFAULT);
+
+	$_SESSION["usuario"] = $nome;
+	$_SESSION["sobrenome"] = $sobrenome;
+	$_SESSION["email"] = $email; 
+	$_SESSION["senha"] = $senhaHash;
+
+	header("location:login.php");
+}
+
+
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +35,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>UDEMA | Modern Educational site template</title>
+    <title>ACADEMIA EVOLUTION</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -41,50 +69,51 @@
 			<figure>
 				<a href="index.html"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
 			</figure>
-			<form autocomplete="off">
+			<form  action="register.php" method="post">
 				<div class="form-group">
 
 					<span class="input">
-					<input class="input_field" type="text">
+					<input class="input_field" type="text" name="nome">
 						<label class="input_label">
 						<span class="input__label-content">Nome</span>
 					</label>
 					</span>
 
 					<span class="input">
-					<input class="input_field" type="text">
+					<input class="input_field" type="text" name="sobrenome">
 						<label class="input_label">
 						<span class="input__label-content">Sobrenome</span>
 					</label>
 					</span>
 
 					<span class="input">
-					<input class="input_field" type="email">
+					<input class="input_field" type="email" name="email">
 						<label class="input_label">
 						<span class="input__label-content">Email</span>
 					</label>
 					</span>
 
 					<span class="input">
-					<input class="input_field" type="password" id="password1">
+					<input class="input_field" type="password" name="senha">
 						<label class="input_label">
 						<span class="input__label-content">Senha</span>
 					</label>
 					</span>
 
-					<span class="input">
-					<input class="input_field" type="password" id="password2">
+					<!-- <span class="input">
+					<input class="input_field" type="password" name="senha">
 						<label class="input_label">
 						<span class="input__label-content">Confirmar Senha</span>
 					</label>
-					</span>
+					</span> -->
 					
 					<div id="pass-info" class="clearfix"></div>
 				</div>
-				<a href="#0" class="btn_1 rounded full-width add_top_30">Registre-se na Evolution</a>
+				<input type="submit" name="" class="btn_1 rounded full-width add_top_30" value="Registre-se na Evolution">
+				<!-- <a href="#0" class="btn_1 rounded full-width add_top_30">Registre-se na Evolution</a> -->
 				<div class="text-center add_top_10">Ainda não tem uma conta? <strong><a href="login.php">Registre-se</a></strong></div>
 			</form>
-			<div class="copy">©<?php echo date("Y"); ?>  Evolution</div>
+			<div class="copy">© <?php echo date("Y"); ?> Evolution</div>
 		</aside>
 	</div>
 	<!-- /login -->

@@ -3018,9 +3018,9 @@ section#reviews {
 #login figure, #register figure {
   text-align: center;
   margin-bottom: 30px;
-  background: #480048;
-  background: -webkit-linear-gradient(left, #480048, #C04848);
-  background: linear-gradient(to right, #480048, #C04848);
+  background: #6A86BA;
+  background: -webkit-linear-gradient(left, #6A86BA, #3F9FFF);
+  background: linear-gradient(to right, #6A86BA, #3F9FFF);
   margin: -45px -60px 30px -60px;
   padding: 20px 60px 25px 60px;
 }
