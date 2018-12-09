@@ -109,9 +109,9 @@
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Desenvolvimento Web</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<h3>Programação</h3>
+							<p>Aprenda html, jsp, tomcat, postgresql e criar sistemas completos desde o login até os cadastros, consultas e relatórios.</p>
+							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -132,7 +132,7 @@
 						<div class="wrapper">
 							<small>Category</small>
 							<h3>Data Science</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<p>Aprenda as técnicas que o mundo real exige e torne-se um profissional competitivo na área de Inteligência Artificial!</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i></i> <small>(300)</small></div>
 						</div>
 						<ul>
@@ -147,14 +147,14 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_4.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$54</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>ersius delenit has cu</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3>Mentoria de Carreira</h3>
+							<p>Um programa individual, rápido e personalizado para quem busca acelerar a carreira, corrigir desvios e sabotadores comportamentais e conquistar excelentes</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
@@ -169,14 +169,14 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_4.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$27</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Persius delenit has cu</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3>Redes de Computadores</h3>
+							<p>Redes de Computadores, Protocolos TCP/IP Aplicados à Comunicações Via Satélite, Multicast e Segurança Telecom</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
@@ -191,14 +191,14 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_5.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$35</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Persius delenit has cu</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3>Desenvolvimento mobile</h3>
+							<p>Curso completo de desenvolvimento Android; Crie na prática apps como: Instagram, Flappy Bird, WhatsApp e muito mais.</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
@@ -220,7 +220,7 @@
 						<div class="wrapper">
 							<small>Category</small>
 							<h3>Marketing Digital</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<p>SEO, Google Ads, Facebook e Instagram Ads, LinkedIn Ads, Email Marketing e Análise. O máximo sobre Marketing Digital!</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>

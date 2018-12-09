@@ -647,7 +647,7 @@ ul#top_menu li a.btn_1:hover {
   background-color: rgba(57, 39, 121, 0.8);
 }
 #hero_in.courses:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_courses.jpg) center center no-repeat;
+  background: url(../img/cursos_online.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -655,7 +655,7 @@ ul#top_menu li a.btn_1:hover {
 }
 #hero_in.courses .wrapper {
   background-color: #372675;
-  background-color: rgba(57, 39, 121, 0.8);
+  background-color: rgb(131, 198, 235, 0.5);
 }
 #hero_in.contacts:before {
   background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_contacts.jpg) center center no-repeat;
@@ -1973,7 +1973,7 @@ a.box_feat h3 {
 /*-------- 2.2 Courses list --------*/
 .filters_listing {
   padding: 10px 0 5px 0;
-  background: #FFC107;
+  background: rgb(50, 78, 190);
   z-index: 999999 !important;
   position: relative;
 }
@@ -2473,7 +2473,7 @@ a.box_feat h3 {
   overflow: hidden;
 }
 .switch-field input:checked + label {
-  background-color: #662d91;
+  background-color: #6A86BA;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;

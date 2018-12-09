@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>UDEMA | Modern Educational site template</title>
+    <title>ACADEMIA EVOLUTION</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -40,7 +40,7 @@
 		<section id="hero_in" class="courses">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Online courses</h1>
+					<h1 class="fadeInUp"><span></span>Cursos Online</h1>
 				</div>
 			</div>
 		</section>
@@ -85,15 +85,15 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_1.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/datascience1.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$54</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Persius delenit has cu</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<h3>Data Science</h3>
+							<p>Aprenda as técnicas que o mundo real exige e torne-se um profissional competitivo na área de Inteligência Artificial!</p>
+							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -108,15 +108,15 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_2.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>At deseruisse scriptorem</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<h3>Marketing Digital</h3>
+							<p>SEO, Google Ads, Facebook e Instagram Ads, LinkedIn Ads, Email Marketing e Análise. O máximo sobre Marketing Digital!</p>
+							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -131,15 +131,15 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_3.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$39</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Ea vel semper quaerendum</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<h3>Programação</h3>
+							<p>Aprenda html, jsp, tomcat, postgresql e criar sistemas completos desde o login até os cadastros, consultas e relatórios.</p>
+							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -154,15 +154,15 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_4.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$60</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Ei has exerci graecis</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<h3>Redes de Computadores</h3>
+							<p>Redes de Computadores, Protocolos TCP/IP Aplicados à Comunicações Via Satélite, Multicast e Segurança Telecom</p>
+							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -177,15 +177,15 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_5.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Decore tractatos</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<h3>Mentoria de Carreira</h3>
+							<p>Um programa individual, rápido e personalizado para quem busca acelerar a carreira, corrigir desvios e sabotadores comportamentais e conquistar excelentes</p>
+							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -200,15 +200,15 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_6.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$39</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
-							<h3>Eam id legimus torquatos</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<h3>Desenvolvimento mobile</h3>
+							<p>Curso completo de desenvolvimento Android; Crie na prática apps como: Instagram, Flappy Bird, WhatsApp e muito mais.</p>
+							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -220,7 +220,7 @@
 				</div>
 			</div>
 			<!-- /row -->
-			<p class="text-center"><a href="#0" class="btn_1 rounded add_top_30">Load more</a></p>
+			<p class="text-center"><a href="#0" class="btn_1 rounded add_top_30">Veja mais</a></p>
 		</div>
 		<!-- /container -->
 		<div class="bg_color_1">
