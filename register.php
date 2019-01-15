@@ -1,26 +1,35 @@
 <?php
+include_once ('conexaoBanco.php');
+
+$query = $conectarBanco->query("SELECT * FROM cadastro LIMIT 5");
+
+$result = $query->fetchAll();
+
 
 if($_POST){
-	session_start();
-
+	// session_start();
 	$nome = $_POST["nome"];
 	$sobrenome = $_POST["sobrenome"];
 	$email = $_POST["email"];
 	$senha = $_POST["senha"];
 
-	$senhaHash = password_hash($senha, PASSWORD_DEFAULT);
+	$inserirRegistro = $conectarBanco->prepare('insert into cadastro (nome,sobrenome,email,senha)values(:nome,:sobrenome,:email,:senha)');
+	$inserirRegistro->bindParam(':nome',$nome, PDO::PARAM_STR);
+	$inserirRegistro->bindParam(':sobrenome',$sobrenome, PDO::PARAM_STR);
+	$inserirRegistro->bindParam(':email',$email, PDO::PARAM_STR);
+	$inserirRegistro->bindParam(':senha',$senha, PDO::PARAM_STR);
 
-	$_SESSION["usuario"] = $nome;
-	$_SESSION["sobrenome"] = $sobrenome;
-	$_SESSION["email"] = $email; 
-	$_SESSION["senha"] = $senhaHash;
+ 	$inserirRegistro->execute();
 
-	header("location:login.php");
+	// $senhaHash = password_hash($senha, PASSWORD_DEFAULT);
+
+	// $_SESSION["usuario"] = $nome;
+	// $_SESSION["sobrenome"] = $sobrenome;
+	// $_SESSION["email"] = $email; 
+	// $_SESSION["senha"] = $senhaHash;
+
+	// header("location:login.php");
 }
-
-
-
-
 
 ?>
 
@@ -69,7 +78,7 @@ if($_POST){
 			<figure>
 				<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
 			</figure>
-			<form  action="register.php" method="post">
+			<form method="post">
 				<div class="form-group">
 
 					<span class="input">
