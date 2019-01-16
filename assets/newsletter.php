@@ -16,10 +16,10 @@ if(trim($email_newsletter_2) == '') {
 	exit();
 }
 //$address = "your email address";
-$address = "info@domain.com";
+$address = "adriano25klein@gmail,com";
 
 // Below the subject of the email
-$e_subject = 'New subscription request';
+$e_subject = 'Solicitação de inscrição';
 
 // You can change this if you feel that you need to.
 $e_body = "$email_newsletter want to subscribe to the newsletter" . PHP_EOL . PHP_EOL;
@@ -34,9 +34,9 @@ $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 $user = "$email_newsletter";
-$usersubject = "Thank You";
-$userheaders = "From: info@udema.com\n";
-$usermessage = "Thank you for join to Udema Newsletter!";
+$usersubject = "Obrigado";
+$userheaders = "From: contato@evolution.com.br\n";
+$usermessage = "Obrigado por fazer parte da nossa comunidade!";
 mail($user,$usersubject,$usermessage,$userheaders);
 
 if(mail($address, $e_subject, $msg, $headers)) {

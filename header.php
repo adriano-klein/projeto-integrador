@@ -39,7 +39,7 @@
 						</ul> -->
 					</li>
 					<li><span><a href="#0">Sobre</a></span></li>
-					<li><span><a href="#0">Contato</a></span></li>
+					<li><span><a href="contato.php">Contato</a></span></li>
 					<!-- <li><span><a href="#0">Paginas</a></span> -->
 						<!-- <ul>
 							<li><a href="#0">Menu 2</a></li>

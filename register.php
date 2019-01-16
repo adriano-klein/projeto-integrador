@@ -11,7 +11,7 @@ if($_POST){
 	$nome = $_POST["nome"];
 	$sobrenome = $_POST["sobrenome"];
 	$email = $_POST["email"];
-	$senha = $_POST["senha"];
+	$senha = password_hash($_POST["senha"], PASSWORD_DEFAULT);
 
 	$inserirRegistro = $conectarBanco->prepare('insert into cadastro (nome,sobrenome,email,senha)values(:nome,:sobrenome,:email,:senha)');
 	$inserirRegistro->bindParam(':nome',$nome, PDO::PARAM_STR);

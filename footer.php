@@ -1,3 +1,9 @@
+<?php
+	require_once 'conexaoBanco.php';
+
+
+	
+?>
 <footer>
 		<div class="container margin_120_95">
 			<div class="row">

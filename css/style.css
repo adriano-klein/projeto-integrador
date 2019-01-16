@@ -658,11 +658,11 @@ ul#top_menu li a.btn_1:hover {
   background-color: rgb(131, 198, 235, 0.5);
 }
 #hero_in.contacts:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_contacts.jpg) center center no-repeat;
+  background-image: url(../img/contato.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  ;
 }
 #hero_in.contacts .wrapper {
   background-color: black;
