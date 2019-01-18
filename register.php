@@ -1,9 +1,11 @@
 <?php
 include_once ('conexaoBanco.php');
 
-$query = $conectarBanco->query("SELECT * FROM cadastro LIMIT 5");
+$query = $conectarBanco->query("SELECT * FROM cadastro");
+$mensagem = "";
 
 $result = $query->fetchAll();
+
 
 
 if($_POST){
@@ -13,13 +15,19 @@ if($_POST){
 	$email = $_POST["email"];
 	$senha = password_hash($_POST["senha"], PASSWORD_DEFAULT);
 
+	$verificaEmail = $conectarBanco->query("SELECT * FROM cadastro where email = '$email'");
+
+	if ($verificaEmail->rowCount()>0){
+		$mensagem =  "Usuário já cadastrado";
+	} else {
 	$inserirRegistro = $conectarBanco->prepare('insert into cadastro (nome,sobrenome,email,senha)values(:nome,:sobrenome,:email,:senha)');
 	$inserirRegistro->bindParam(':nome',$nome, PDO::PARAM_STR);
 	$inserirRegistro->bindParam(':sobrenome',$sobrenome, PDO::PARAM_STR);
 	$inserirRegistro->bindParam(':email',$email, PDO::PARAM_STR);
 	$inserirRegistro->bindParam(':senha',$senha, PDO::PARAM_STR);
 
- 	$inserirRegistro->execute();
+	$inserirRegistro->execute();
+	
 
 	// $senhaHash = password_hash($senha, PASSWORD_DEFAULT);
 
@@ -29,6 +37,7 @@ if($_POST){
 	// $_SESSION["senha"] = $senhaHash;
 
 	// header("location:login.php");
+	}
 }
 
 ?>
@@ -96,12 +105,16 @@ if($_POST){
 					</span>
 
 					<span class="input">
-					<input class="input_field" type="email" name="email">
+					<input class="input_field" type="email" name="email" required>
 						<label class="input_label">
 						<span class="input__label-content">Email</span>
 					</label>
 					</span>
-
+					<div>
+						<?php if ($mensagem) {
+							echo "<p class='alert-danger'> $mensagem </p>";
+						}?>
+					</div>
 					<span class="input">
 					<input class="input_field" type="password" name="senha">
 						<label class="input_label">

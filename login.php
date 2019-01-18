@@ -1,33 +1,24 @@
 <?php
+include_once ('conexaoBanco.php');
 
 if($_POST){
 	session_start();
 	$email = $_POST["email"];
 	$senha = $_POST["senha"];
+	
+	$conectarBanco->query("SELECT * FROM cadastro where email = '$email' and senha = '$senha'");
 
 	$validaSenha = password_verify($senha, $_SESSION["senha"]);
 
 	if($validaSenha === true && $_SESSION["email"] === $email){
 		header("location:exito.php");
 	}else{
-		echo "Seu email ou senha estão incorretos! <br> Por favor preencha-os novamente";
+		echo "Seu email ou senha estão incorretos! <br> Por favor tente novamente";
 	}
-
-
-
-
-
-
 }
-
-
-
-
 ?>
 
-
-
-
+<!-- Fim do código php-->
 
 <!DOCTYPE html>
 <html lang="en">
