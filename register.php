@@ -1,10 +1,7 @@
 <?php
 include_once ('conexaoBanco.php');
-
-$query = $conectarBanco->query("SELECT * FROM cadastro");
 $mensagem = "";
 
-$result = $query->fetchAll();
 
 
 
@@ -16,6 +13,7 @@ if($_POST){
 	$senha = password_hash($_POST["senha"], PASSWORD_DEFAULT);
 
 	$verificaEmail = $conectarBanco->query("SELECT * FROM cadastro where email = '$email'");
+
 
 	if ($verificaEmail->rowCount()>0){
 		$mensagem =  "Usuário já cadastrado";

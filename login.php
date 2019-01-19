@@ -2,22 +2,21 @@
 include_once ('conexaoBanco.php');
 
 if($_POST){
-	session_start();
-	$email = $_POST["email"];
-	$senha = $_POST["senha"];
+	$email = $_POST['email'];
+	$senha = $_POST['senha'];
+	$verificaUsuario = $conectarBanco->prepare("SELECT senha FROM cadastro where email = '$email'");
+	$verificaUsuario->execute();
+	$resultado = $verificaUsuario->fetchAll(PDO::FETCH_ASSOC);
+
 	
-	$conectarBanco->query("SELECT * FROM cadastro where email = '$email' and senha = '$senha'");
 
-	$validaSenha = password_verify($senha, $_SESSION["senha"]);
-
-	if($validaSenha === true && $_SESSION["email"] === $email){
-		header("location:exito.php");
-	}else{
-		echo "Seu email ou senha estão incorretos! <br> Por favor tente novamente";
-	}
+	if(password_verify($senha,$resultado[0]['senha'])){
+		echo "Bem-vindo";
+		}else{
+		echo "senha incorreta";
+		}	
 }
 ?>
-
 <!-- Fim do código php-->
 
 <!DOCTYPE html>
@@ -61,7 +60,7 @@ if($_POST){
 			<figure>
 				<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
 			</figure>
-			  <form class="" action="login.php" method="post">
+			  <form class="" method="post">
 				<div class="access_social">
 					<a href="#0" class="social_bt facebook">Login with Facebook</a>
 					<a href="#0" class="social_bt google">Login with Google</a>
