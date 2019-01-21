@@ -3,8 +3,6 @@ include_once ('conexaoBanco.php');
 $mensagem = "";
 
 
-
-
 if($_POST){
 	// session_start();
 	$nome = $_POST["nome"];
@@ -25,6 +23,8 @@ if($_POST){
 	$inserirRegistro->bindParam(':senha',$senha, PDO::PARAM_STR);
 
 	$inserirRegistro->execute();
+
+	header ("location: login.php");
 	
 
 	// $senhaHash = password_hash($senha, PASSWORD_DEFAULT);
@@ -130,8 +130,8 @@ if($_POST){
 					<div id="pass-info" class="clearfix"></div>
 				</div>
 				<input type="submit" name="" class="btn_1 rounded full-width add_top_30" value="Registre-se na Evolution">
-				<!-- <a href="#0" class="btn_1 rounded full-width add_top_30">Registre-se na Evolution</a> -->
-				<div class="text-center add_top_10">Ainda não tem uma conta? <strong><a href="login.php">Registre-se</a></strong></div>
+				<!-- <a href="login.php" class="btn_1 rounded full-width add_top_30">Registrar-se na Evolution</a> -->
+				<div class="text-center add_top_10">Já possui uma conta? <strong><a href="login.php">Faça o seu login</a></strong></div>
 			</form>
 			<div class="copy">© <?php echo date("Y"); ?> Evolution</div>
 		</aside>

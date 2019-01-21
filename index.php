@@ -43,7 +43,7 @@
 			<div id="hero_video">
 				<div>
 					<h3><strong>Academia Evolution</strong><br>Cursos Online</h3>
-					<p>Eam fastidii erroribus corrumpit cu, in quo epicuri recusabo, <strong>est vocent eleifend</strong> inimicus at.</p>
+					<!-- <p>Eam fastidii erroribus corrumpit cu, in quo epicuri recusabo, <strong>est vocent eleifend</strong> inimicus at.</p> -->
 				</div>
 				<a href="#first_section" class="btn_explore hidden_tablet"><i class="ti-arrow-down"></i></a>
 			</div>
@@ -95,7 +95,7 @@
 			<div class="main_title_2">
 				<span><em></em></span>
 				<h2>Evolution Cursos Populares</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				<p>Confira os cursos mais populares na Evolution.</p>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
 				<div class="item">
@@ -116,7 +116,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -138,7 +138,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -160,7 +160,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -182,7 +182,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -204,7 +204,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -226,7 +226,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>

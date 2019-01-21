@@ -26,7 +26,7 @@
 			<nav id="menu" class="main-menu">
 				<ul>
 					<li><span><a href="http://localhost/projeto-integrador/index.php">Home</a></span></li>
-					<li><span><a href="http://localhost/projeto-integrador/cursos.php">Cursos</a></span>
+					<li><span><a href="http://localhost:8888/projeto_integrador/projeto-integrador/cursos.php">Cursos</a></span>
 						<!-- <ul>
 							<li><a href="courses-grid.html">Courses grid</a></li>
 							<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>

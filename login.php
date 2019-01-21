@@ -1,5 +1,6 @@
 <?php
 include_once ('conexaoBanco.php');
+$mensagem = "";
 
 if($_POST){
 	$email = $_POST['email'];
@@ -8,12 +9,10 @@ if($_POST){
 	$verificaUsuario->execute();
 	$resultado = $verificaUsuario->fetchAll(PDO::FETCH_ASSOC);
 
-	
-
 	if(password_verify($senha,$resultado[0]['senha'])){
-		echo "Bem-vindo";
+		header ("location:usuario/cursos.php");
 		}else{
-		echo "senha incorreta";
+		$mensagem = "Nome de usuário ou senha incorretos. Por favor, tente novamente";
 		}	
 }
 ?>
@@ -62,11 +61,12 @@ if($_POST){
 			</figure>
 			  <form class="" method="post">
 				<div class="access_social">
-					<a href="#0" class="social_bt facebook">Login with Facebook</a>
-					<a href="#0" class="social_bt google">Login with Google</a>
-					<a href="#0" class="social_bt linkedin">Login with Linkedin</a>
+					<a href="#0" class="social_bt facebook"> Entrar com Facebook</a>
+					<a href="#0" class="social_bt google">Entrar com Google</a>
+					<a href="#0" class="social_bt linkedin">Entrar com Linkedin</a>
 				</div>
 				<div class="divider"><span>Ou</span></div>
+				<br>
 				<div class="form-group">
 					<!-- <span class="input">
 					<input class="input_field" type="email" name="email">
@@ -74,6 +74,11 @@ if($_POST){
 						<span class="input__label-content">Email</span>
 					</label>
 					</span> -->
+					<div>
+						<?php if ($mensagem) {
+							echo "<p class='alert-danger'> $mensagem </p>";
+						}?>
+					</div>
 					<span class="input">
 					<input class="input_field" type="email" name="email">
 						<label class="input_label">
@@ -89,7 +94,7 @@ if($_POST){
 					</span>
 					<small><a href="#0">Esqueceu a senha?</a></small>
 				</div>
-				<input type="submit" name="" class="btn_1 rounded full-width add_top_60" value="Login to Evolution">
+				<input type="submit" name="" class="btn_1 rounded full-width add_top_60" value="Entrar">
 				<!-- <a href="#0" class="btn_1 rounded full-width add_top_60">Login to Evolution</a> -->
 				<div class="text-center add_top_10">Novo na Evolution? <strong><a href="register.php">Registre-se!</a></strong></div>
 			</form>
