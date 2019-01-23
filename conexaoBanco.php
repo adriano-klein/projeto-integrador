@@ -2,7 +2,7 @@
 
 $dsn = "mysql:host=localhost; dbname=evolution; charset=utf8mb4;";
 $user = 'root';
-$password = 'root';
+$password = '';
 
 try {
     $conectarBanco = new PDO ($dsn, $user, $password);
