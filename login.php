@@ -80,16 +80,16 @@ if($_POST){
 						}?>
 					</div>
 					<span class="input">
-					<input class="input_field" type="email" name="email">
+					<input placeholder="email" class="input_field" type="email" name="email">
 						<label class="input_label">
-						<span class="input__label-content">Email</span>
+						
 					</label>
 					</span>
 
 					<span class="input">
-					<input class="input_field" type="password"  name="senha">
+					<input placeholder="senha" class="input_field" type="password"  name="senha">
 						<label class="input_label">
-						<span class="input__label-content">Senha</span>
+					
 					</label>
 					</span>
 					<small><a href="#0">Esqueceu a senha?</a></small>
