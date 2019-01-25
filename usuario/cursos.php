@@ -1,3 +1,22 @@
+<?php
+
+// Usado para gerar mensagem de Bem Vindo ao Usuário 
+// continuação do cod. no arquivo nav-user.php 
+
+include_once ('../conexaoBanco.php');
+
+session_start();
+$emailSession = $_SESSION["email"];
+
+$query = $conectarBanco->prepare("SELECT nome FROM cadastro where email = '$emailSession'");
+$query->execute();
+$usuarios = $query->fetchAll(PDO::FETCH_ASSOC);
+
+$exibeUser = $usuarios[0]['nome'];
+
+
+	
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,6 +53,8 @@
 	<!-- Navigation-->
   	<?php include 'nav-user.php'?>
 	<!-- /Navigation-->
+
+	<h3></h3>
 	
   <div class="content-wrapper">
     <div class="container-fluid">
@@ -152,7 +173,7 @@
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="../login.php">Logout</a>
+            <a class="btn btn-primary" href="../index.php">Logout</a>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ $mensagem = "";
 
 
 if($_POST){
-	// session_start();
+	//session_start();
 	$nome = $_POST["nome"];
 	$sobrenome = $_POST["sobrenome"];
 	$email = $_POST["email"];

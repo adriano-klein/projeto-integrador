@@ -1,12 +1,17 @@
+
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.html"><img src="img/logo.png" data-retina="true" alt="" width="163" height="36"></a>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.png" data-retina="true" alt="" width="163" height="36"></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
+      <li class="nav-item" data-toggle="tooltip" data-placement="right">
+      <i class="icone fa fa-user-circle-o" aria-hidden="true"></i>
+        <span class="user">Bem vindo(a) <?=$exibeUser;?></span>
+      </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
           <a class="nav-link" href="mensagens.php">
             <i class="fa fa-fw fa-envelope-open"></i>
             <span class="nav-link-text">Mensagens</span>

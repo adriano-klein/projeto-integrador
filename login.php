@@ -3,6 +3,7 @@ include_once ('conexaoBanco.php');
 $mensagem = "";
 
 if($_POST){
+	session_start();
 	$email = $_POST['email'];
 	$senha = $_POST['senha'];
 	$verificaUsuario = $conectarBanco->prepare("SELECT senha FROM cadastro where email = '$email'");
@@ -13,7 +14,9 @@ if($_POST){
 		header ("location:usuario/cursos.php");
 		}else{
 		$mensagem = "Nome de usuário ou senha incorretos. Por favor, tente novamente";
-		}	
+		}
+		
+		$_SESSION["email"] = $email;
 }
 ?>
 <!-- Fim do código php-->
