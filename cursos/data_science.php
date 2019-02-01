@@ -10,11 +10,11 @@
     <title>UDEMA | Modern Educational site template</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="../image/x-icon">
+    <link rel="apple-touch-icon" type="../image/x-icon" href="../img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="../image/x-icon" sizes="72x72" href="../img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="../image/x-icon" sizes="114x114" href="../img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="../image/x-icon" sizes="144x144" href="../img/apple-touch-icon-144x144-precomposed.png">
 
     <!-- BASE CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
 <body>
 	
-	<div id="page" class="theia-exception">
+	<!-- <div id="page" class="theia-exception"> -->
 		
 	<?php
 		include "../header.php";
@@ -40,7 +40,7 @@
 		<section id="hero_in" class="courses">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Programação</h1>
+					<h1 class="fadeInUp"><span></span>Data Science</h1>
 				</div>
 			</div>
 		</section>
@@ -50,7 +50,7 @@
 			<nav class="secondary_nav sticky_horizontal">
 				<div class="container">
 					<ul class="clearfix">
-						<li><a href="#description" class="active">Descrição</a></li>
+						<li><a href="#description" class="active">Description</a></li>
 						<li><a href="#lessons">Lessons</a></li>
 						<li><a href="#reviews">Reviews</a></li>
 					</ul>

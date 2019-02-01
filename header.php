@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
 <header class="header menu_2">
-		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
+		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
 			<a href="index.html"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
@@ -25,8 +19,8 @@
 			</a>
 			<nav id="menu" class="main-menu">
 				<ul>
-					<li><span><a href="http://localhost/projeto-integrador/index.php">Home</a></span></li>
-					<li><span><a href="http://localhost:8888/projeto_integrador/projeto-integrador/cursos.php">Cursos</a></span>
+					<li><span><a href="index.php">Home</a></span></li>
+					<li><span><a href="cursos.php">Cursos</a></span>
 						<!-- <ul>
 							<li><a href="courses-grid.html">Courses grid</a></li>
 							<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>
@@ -81,6 +75,3 @@
 			</form>
 		</div><!-- End Search Menu -->
 	</header>
-	<!-- /header -->
-</body>
-</html>

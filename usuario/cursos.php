@@ -1,22 +1,10 @@
 <?php
-
-// Usado para gerar mensagem de Bem Vindo ao Usuário 
-// continuação do cod. no arquivo nav-user.php 
-
-include_once ('../conexaoBanco.php');
-
-session_start();
-$emailSession = $_SESSION["email"];
-
-$query = $conectarBanco->prepare("SELECT nome FROM cadastro where email = '$emailSession'");
-$query->execute();
-$usuarios = $query->fetchAll(PDO::FETCH_ASSOC);
-
-$exibeUser = $usuarios[0]['nome'];
-
-
-	
+	// Usado para gerar mensagem de Bem Vindo ao Usuário 
+ // continuação do cod. no arquivo nav-user.php 
+ include 'apresentacao.php'	
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +17,7 @@ $exibeUser = $usuarios[0]['nome'];
   <title>UDEMA - Admin dashboard</title>
 	
   <!-- Favicons-->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
   <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -152,7 +140,7 @@ $exibeUser = $usuarios[0]['nome'];
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>Copyright © UDEMA 2018</small>
+          <small>Copyright © EVOLUTION <?php echo date("Y"); ?></small>
         </div>
       </div>
     </footer>
