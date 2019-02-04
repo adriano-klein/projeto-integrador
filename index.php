@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <?php
  	include 'head.php'
 ?>
-
 
 <body>
 	
@@ -23,7 +22,8 @@
 				</div>
 				<a href="#first_section" class="btn_explore hidden_tablet"><i class="ti-arrow-down"></i></a>
 			</div>
-			<img src="img/video_fix.png" alt="" class="header-video--media" data-video-src="video/intro" data-teaser-source="video/intro" data-provider="" data-video-width="1920" data-video-height="960">
+			<img src="img/video_fix.png" alt="" class="header-video--media" data-video-src="/video/intro" data-teaser-source="video/intro" data-provider="" data-video-width="1920" data-video-height="960">
+			<video autoplay="true" loop="loop" muted id="teaser-video" class="teaser-video"><source src="video/intro.mp4" type="video/mp4"><source src="video/intro.ogv" type="video/ogg"></video>
 		</section>
 		<!-- /header-video -->
 
@@ -84,7 +84,7 @@
 
 						</figure>
 						<div class="wrapper">
-							<small>Category</small>
+							<small>Categoria</small>
 							<h3>Programação</h3>
 							<p>Aprenda html, jsp, tomcat, postgresql e criar sistemas completos desde o login até os cadastros, consultas e relatórios.</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
