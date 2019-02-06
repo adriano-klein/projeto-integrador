@@ -34,6 +34,7 @@
 					</li>
 					<li><span><a href="#0">Sobre</a></span></li>
 					<li><span><a href="contato.php">Contato</a></span></li>
+					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
 					<!-- <li><span><a href="#0">Paginas</a></span> -->
 						<!-- <ul>
 							<li><a href="#0">Menu 2</a></li>
@@ -74,4 +75,35 @@
 				</button>
 			</form>
 		</div><!-- End Search Menu -->
+		<div id="modal-login" class="modal-login">
+
+  <!-- Modal content -->
+  <div class="modal-content-login">
+    
+	<span class="close-login">×</span>
+	<div style="text-align:center;"><img class="logo-form" src="img/logoEvolutionHeader-min.png"></div>
+	<h4>Acesse sua conta na Evolution</h4>
+	<div class="chamaerro" id="errolog"><span>Email e senha não conferem</span></div>
+    <form id="formlogin" method="post">    
+        <label for="email">Email:</label><br>
+		<div class="input-login">
+		<i style="color: black; padding: 3px;" class="fas fa-at"></i>
+        <input id="email" name="name" type="email"><br>
+		</div>
+		<label for="senha">Senha:</label><br>
+		<div class="input-login">
+		<i style="color: black; padding: 3px;" class="fas fa-key"></i>
+        <input id="senha" name="email" type="password">
+		</div>
+		<div class="button-login" style="text-align:center;">
+		<button type="submit" id="send-login" name="enviar">Enviar</button>
+		</div>
+	</form>
+	<span class="chama"><a href="register.php">Não possui conta? Crie a sua agora!</a></span>
+	<div style="display: none;" class="redireciona" id="loading-login"><i class="fas fa-spinner fa-spin fa-1x"></i>Redirecionando...</div>
+  </div>
+
+</div>
+
+
 	</header>

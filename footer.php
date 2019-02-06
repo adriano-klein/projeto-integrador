@@ -64,4 +64,8 @@
 				</div>
 			</div>
 		</div>
+		<!-- Jquery -->
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<!-- Login Modal -->
+		<script type="text/javascript" src="js/loginmodal.js"></script>
 	</footer>
