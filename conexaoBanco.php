@@ -1,8 +1,8 @@
 <?php
 
-$dsn = "mysql:host=127.0.0.1; dbname=evolution; charset=utf8mb4;port=8889";
+$dsn = "mysql:host=127.0.0.1; dbname=evolution; charset=utf8mb4";
 $user = 'root';
-$password = 'root';
+$password = '';
 
 try {
     $conectarBanco = new PDO ($dsn, $user, $password);
