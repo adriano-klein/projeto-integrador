@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <?php
  	include 'head.php'
 ?>
-
 
 <body>
 	
@@ -23,7 +22,8 @@
 				</div>
 				<a href="#first_section" class="btn_explore hidden_tablet"><i class="ti-arrow-down"></i></a>
 			</div>
-			<img src="img/video_fix.png" alt="" class="header-video--media" data-video-src="video/intro" data-teaser-source="video/intro" data-provider="" data-video-width="1920" data-video-height="960">
+			<img src="img/video_fix.png" alt="" class="header-video--media" data-video-src="/video/intro" data-teaser-source="video/intro" data-provider="" data-video-width="1920" data-video-height="960">
+			<video autoplay="true" loop="loop" muted id="teaser-video" class="teaser-video"><source src="video/intro.mp4" type="video/mp4"><source src="video/intro.ogv" type="video/ogg"></video>
 		</section>
 		<!-- /header-video -->
 
@@ -84,7 +84,7 @@
 
 						</figure>
 						<div class="wrapper">
-							<small>Category</small>
+							<small>Categoria</small>
 							<h3>Programação</h3>
 							<p>Aprenda html, jsp, tomcat, postgresql e criar sistemas completos desde o login até os cadastros, consultas e relatórios.</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
@@ -92,7 +92,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="cursos/programacao.php">Matricular-se</a></li>
+							<li><a href="curso_programacao.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -101,7 +101,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="cursos/data_science.php"><img src="img/datascientist.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_data_science.php"><img src="img/datascientist.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
@@ -114,7 +114,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="cursos/data_science.php">Matricular-se</a></li>
+							<li><a href="curso_data_science.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="cursos/mentoria.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_mentoria.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$54</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
@@ -136,7 +136,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="cursos/mentoria.php">Matricular-se</a></li>
+							<li><a href="curso_mentoria.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -145,7 +145,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="cursos/redes.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_redes.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$27</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
@@ -158,7 +158,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="cursos/redes.php">Matricular-se</a></li>
+							<li><a href="curso_redes.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -167,7 +167,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="cursos/mobile.php"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_mobile.php"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$35</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
@@ -180,7 +180,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="cursos/mobile.php">Matricular-se</a></li>
+							<li><a href="curso_mobile.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -189,7 +189,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="cursos/marketing.php"><img src="img/marketing.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_marketing.php"><img src="img/marketing.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$54</div>
 							<div class="preview"><span>Preview course</span></div>
 						</figure>
@@ -202,7 +202,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="cursos/marketing.php">Matricular-se</a></li>
+							<li><a href="curso_marketing.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>

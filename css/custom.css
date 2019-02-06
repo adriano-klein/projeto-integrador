@@ -104,4 +104,8 @@ a.btn_1:hover, .btn_1:hover{
     padding: 20px 60px 25px 60px;
   }
 
- 
+  .card-header h5 a {
+    border: 0;
+    display: block;
+    color: #999;
+  }

@@ -1,6 +1,6 @@
 <?php
 
-$dsn = "mysql:host=127.0.0.1; dbname=evolution; charset=utf8mb4;";
+$dsn = "mysql:host=127.0.0.1; dbname=evolution; charset=utf8mb4";
 $user = 'root';
 $password = '';
 
