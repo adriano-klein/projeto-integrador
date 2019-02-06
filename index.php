@@ -92,7 +92,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="cursos/programacao.php">Matricular-se</a></li>
+							<li><a href="cursoProgramacao.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
