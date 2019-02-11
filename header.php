@@ -1,7 +1,7 @@
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
-			<a href="index.html"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">

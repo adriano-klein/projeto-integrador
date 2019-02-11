@@ -234,8 +234,29 @@
 									</div>
 								</div>
 								<!-- /card -->
-								
-							<!-- /accordion -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSix">
+									    <h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+												<i class="indicator ti-plus"></i>SOCIAL ADS
+											</a>
+										</h5>
+									</div>
+									<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Facebook Ads</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Linkedin Ads</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Twitter Ads</a><span>00:59</span></li>
+
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+						<!-- /accordion -->
 						</section>
 						<!-- /section -->
 						
