@@ -40,84 +40,55 @@
 						
 						<section id="description">
 							<h2>Descrição</h2>
-							<p>No Curso de Desenvolvimento Web Full Stack você aprende a criar sites e sistemas web. Nossos professores especialistas ensinam você do zero, por isso, não é necessário ter conhecimento prévio de linguagem de programação.
-							Ao longo do curso, você conhecerá as linguagens, metodologias e as tecnologias mais atuais em uso no mercado. Aprenderá Laravel, HTML, PHP e tudo o que for necessário para dominar o Front End e o Back End de um site ou sistema web. Saberá também concretizar projetos do princípio ao fim, desenvolvendo programação orientada a objetos.
-							Em até 5 meses de curso, você será um desenvolvedor web full stack, profissional muito valorizado por ser versátil e ter a visão de todo o projeto de um site. Conte também com nosso apoio de mentoria que ajuda você a atingir seus objetivos profissionais, seja numa carreira em uma grande empresa, ou como freelancer ou como empreendedor na sua própria startup.</p>
+							<p>Este curso presencial e intensivo abordará tudo o que você precisa saber para desenvolver aplicativos mobile Android do princípio ao fim. Ensinamos você do zero, com aulas focadas na prática, então não é necessário ter conhecimento prévio de linguagens de programação.
+
+							Nossos professores e especialistas são protagonistas em suas áreas de atuação e vão ensinar você a criar aplicativos mobile funcionais e atraentes, incorporando os conhecimentos técnicos e as metodologias de trabalho mais atuais e usadas no mercado. Você sairá do curso com um app pronto e publicado na Play Store, como portfólio.
+
+							Em até 5 meses, você estará pronto para trabalhar como desenvolvedor mobile Android, com muitas possibilidades de carreira. Conte também com nosso suporte de mentoria para escolher qual o melhor caminho para atingir seu objetivo profissional, seja trabalhando numa grande empresa, ou como freelancer ou como empreendedor na sua própria startup.</p>
 							<h5>O que você vai aprender</h5>
 							<ul class="list_ok">
 								<li>
-									<h6>HTML + CSS</h6>
-									<p>Estrutura geral, boas práticas<br>
-									Classes, ids, seletores, herança e superposição <br>
-									Posicionamentos, alturas, responsividade <br>
-									Estrutura e padrão de uso <br>
-									Elementos semânticos (cont. textual / multimídia) <br>
-									Media Queries, Introdução a SASS.</p>
+									<h6>INTRODUÇÃO AO MOBILE</h6>
 								</li>
 								<li>
-									<h6>Trabalho colaborativo</h6>
-									<p>GIT <br>
-									Metodologias Ágeis e SCRUM</p>
+									<h6>PROGRAMAÇÃO ORIENTADA A OBJETOS JAVA</h6>
 								</li>
 								<li>
-									<h6>PHP</h6>
-									<p>
-									Sintaxe, variável e estruturas de controle. <br>
-									Funções, includes de arquivos escopes. <br>
-									Sessões, cookies e headers. <br>
-									Manipulação de erros e debug. <br>
-									Gerenciamento de arquivos JSON. </P>
-									</p>
+									<h6>SQL</h6>
 								</li>
 								<li>
-									<h6>BANCO DE DADOS</h6>
-									<p>
-									Sintaxe, variável e estruturas de controle.Modelo de dados.<br>
-									Introdução a bases de dados relacionais. <br>
-									Structured Query Language (SQL) básico.<br>
-									Interação php: PDO. <br>
-									SQL extendido: joins, groups, limits, keys e indexes.</P>
+									<h6>ANDROID CORE</h6>
 								</li>
 								<li>
-									<h6>PHP ORIENTADO A OBJETOS</h6>
-									<p>
-									Modelo de dados.<br>
-									Estrutura, construtor, destrutor, propriedades e métodos.<br>
-									Alcances, segurança, herança, extensão e reusabilidade.<br>
-									Interfaces e métodos estáticos. <br>
-									Classes abstratas. <br>
-									Design Patterns </P>
-									</p>
+									<h6>METODOLOGIAS ÁGEIS</h6>
 								</li>
 								<li>
-									<h6>LARAVEL</h6>
-									<p>
-									Princípios básicos, estrutura de um projeto. <br>
-									Manipulação avançada de composer e artisan. <br>
-									Routing, middleware, controladores. <br>
-									Request/ Response, views, templates. <br>
-									ORM, autenticação e sessão. <br> 
-									Gerenciamento de coleções. <br>
-									Manutenção das bases de dados mediante Migrations e Seeders. <br>
-									</P>
+									<h6>MATERIAL DESIGN</h6>
 								</li>
 								<li>
-									<h6>AJAX</h6>
-									<p>
-									Aceso ao DOM, seletores, adicionar/apagar, edição. <br>
-									Objetos, variáveis, scopes, etc. <br>
-									Gerenciamento estendido: storage, forms, embeds, etc. <br>
-									Requisições por AJAX. </p>	
+									<h6>BASE DE DADOS</h6>
 								</li>
 
 								<li>
-									<h6>REACT</h6>
-									<p> Introdução ao REACT</p>	
+									<h6>SERVIÇOS WEB</h6>
 								</li>
+								<li>
+									<h6>REDES SOCIAIS</h6>
+								</li>
+								<li>
+									<h6>FIREBASE</h6>
+								</li>
+								<li>
+									<h6>ANIMAÇÕES E GESTOS</h6>
+								</li>
+								<li>
+									<h6>PUBLICAÇÃO E DISTRIBUIÇÃO</h6>
+								</li>
+											
 							</ul>
 							<hr>
 
-							<p>Na Evolution, você pode estudar Desenvolvimento Web Full Stack no modelo presencial ou no modelo semipresencial. Ambas as modalidades têm conteúdo idêntico, ou seja você vai adquirir as mesmas habilidades. A diferença principal está na distribuição de tempo entre estudos em sala de aula e na sua casa.</p>
+							<p>Na Evolution, você pode estudar Desenvolvimento Mobile no modelo presencial ou no modelo semipresencial. Ambas as modalidades têm conteúdo idêntico, ou seja você vai adquirir as mesmas habilidades. A diferença principal está na distribuição de tempo entre estudos em sala de aula e na sua casa.</p>
 
 						<section id="lessons">
 							<div class="intro_title">
@@ -131,7 +102,7 @@
 								<div class="card">
 									<div class="card-header" role="tab" id="headingOne">
 										<h5 class="mb-0">
-											<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="indicator ti-minus"></i> HTML + CSS</a>
+											<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="indicator ti-minus"></i> INTRODUÇÃO AO MOBILE</a>
 										</h5>
 									</div>
 
@@ -139,11 +110,7 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura geral, boas práticas.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Classes, ids, seletores, herança e superposição.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Posicionamentos, alturas, responsividade.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura e padrão de uso.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Elementos semânticos (cont. textual / multimídia).</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">O que é mobile? Por que mobile?</a><span>00:59</span></li>
 													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
@@ -155,7 +122,7 @@
 									<div class="card-header" role="tab" id="headingTwo">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-												<i class="indicator ti-plus"></i>Generative Modeling Review
+												<i class="indicator ti-plus"></i>PROGRAMAÇÃO ORIENTADA A OBJETOS JAVA
 											</a>
 										</h5>
 									</div>
@@ -163,11 +130,13 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Princípios da programação orientada a objetos.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Classes e Interfaces.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Diagramas de classe.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Design Patterns.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Linguagem Java.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Coleções: List, HashMap.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
@@ -178,7 +147,7 @@
 									<div class="card-header" role="tab" id="headingThree">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-												<i class="indicator ti-plus"></i>Variational Autoencoders
+												<i class="indicator ti-plus"></i>SQL
 											</a>
 										</h5>
 									</div>
@@ -186,11 +155,10 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Modelo de Bases de Dados.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Criação de Bases de Dados com Linguagem SQL.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Consultas.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
@@ -202,7 +170,7 @@
 									<div class="card-header" role="tab" id="headingFourth">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
-												<i class="indicator ti-plus"></i>Gaussian Mixture Model Review
+												<i class="indicator ti-plus"></i>ANDROID CORE
 											</a>
 										</h5>
 									</div>
@@ -210,11 +178,186 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Instalação e configuração de Android Studio.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Android SDK.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Activities e Life cicle.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Layout e componentes.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">List View.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Fragments.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Debugging.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingFive">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+												<i class="indicator ti-plus"></i>METODOLOGIAS ÁGEIS
+											</a>
+										</h5>
+									</div>
+									<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Scrum, papéis e cerimônias.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSix">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+												<i class="indicator ti-plus"></i>MATERIAL DESIGN
+											</a>
+										</h5>
+									</div>
+									<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Intrudução ao material design</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Floating Action Button.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Navigation View.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Recycler View.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSeven">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+												<i class="indicator ti-plus"></i>BASE DE DADOS
+											</a>
+										</h5>
+									</div>
+									<div id="collapseFourth" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">DAO.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">JSON.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">SQLite.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingEigth">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseEigth" aria-expanded="false" aria-controls="collapseEigth">
+												<i class="indicator ti-plus"></i>SERVIÇOS WEB
+											</a>
+										</h5>
+									</div>
+									<div id="collapseEigth" class="collapse" role="tabpanel" aria-labelledby="headingEigth" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">MVC.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Async Tasks.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">APIs.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Retrofit.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingNine">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+												<i class="indicator ti-plus"></i>REDES SOCIAIS
+											</a>
+										</h5>
+									</div>
+									<div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Facebook API.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Google API.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingTen">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+												<i class="indicator ti-plus"></i>FIREBASE
+											</a>
+										</h5>
+									</div>
+									<div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Login.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Storage.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Database.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingEleven">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+												<i class="indicator ti-plus"></i>ANIMAÇÕES E GESTOS
+											</a>
+										</h5>
+									</div>
+									<div id="collapseEleven" class="collapse" role="tabpanel" aria-labelledby="headingEleven" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Animações.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Pull to refresh.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingTwelve">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+												<i class="indicator ti-plus"></i>PUBLICAÇÃO E DISTRIBUIÇÃO
+											</a>
+										</h5>
+									</div>
+									<div id="collapseTwelve" class="collapse" role="tabpanel" aria-labelledby="headingTwelve" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Google Play Store.</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>

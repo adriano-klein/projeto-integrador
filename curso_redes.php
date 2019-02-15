@@ -40,79 +40,36 @@
 						
 						<section id="description">
 							<h2>Descrição</h2>
-							<p>No Curso de Desenvolvimento Web Full Stack você aprende a criar sites e sistemas web. Nossos professores especialistas ensinam você do zero, por isso, não é necessário ter conhecimento prévio de linguagem de programação.
-							Ao longo do curso, você conhecerá as linguagens, metodologias e as tecnologias mais atuais em uso no mercado. Aprenderá Laravel, HTML, PHP e tudo o que for necessário para dominar o Front End e o Back End de um site ou sistema web. Saberá também concretizar projetos do princípio ao fim, desenvolvendo programação orientada a objetos.
-							Em até 5 meses de curso, você será um desenvolvedor web full stack, profissional muito valorizado por ser versátil e ter a visão de todo o projeto de um site. Conte também com nosso apoio de mentoria que ajuda você a atingir seus objetivos profissionais, seja numa carreira em uma grande empresa, ou como freelancer ou como empreendedor na sua própria startup.</p>
+							<p>Aprenda sobre a pilha de protocolos TCP/IP com um dos maiores especialistas brasileiros no assunto, Gabriel Torres, autor de 24 livros sobre tecnologia. Neste curso você aprenderá o embasamento teórico necessário para aprofundar seus estudos em cursos avançados. Você aprenderá, entre outros assuntos, sobre endereçamento IPv4 e IPv6, portas, tradução de endereços (NAT), protocolos de aplicação (HTTP, DNS, FTP, email, etc.), protocolos de transporte (TCP e UDP), protocolos de rede (IPv4, IPv6, IPsec e ICMP), protocolos de roteamento e muito mais!</p>
 							<h5>O que você vai aprender</h5>
 							<ul class="list_ok">
 								<li>
-									<h6>HTML + CSS</h6>
-									<p>Estrutura geral, boas práticas<br>
-									Classes, ids, seletores, herança e superposição <br>
-									Posicionamentos, alturas, responsividade <br>
-									Estrutura e padrão de uso <br>
-									Elementos semânticos (cont. textual / multimídia) <br>
-									Media Queries, Introdução a SASS.</p>
+									<h6>INTRODUÇÃO AO CURSO</h6>
 								</li>
 								<li>
 									<h6>Trabalho colaborativo</h6>
-									<p>GIT <br>
-									Metodologias Ágeis e SCRUM</p>
 								</li>
 								<li>
-									<h6>PHP</h6>
-									<p>
-									Sintaxe, variável e estruturas de controle. <br>
-									Funções, includes de arquivos escopes. <br>
-									Sessões, cookies e headers. <br>
-									Manipulação de erros e debug. <br>
-									Gerenciamento de arquivos JSON. </P>
-									</p>
+									<h6>INTRODUÇÃO À PILHA DE PROTOCOLOS TCP/IP</h6>
 								</li>
 								<li>
-									<h6>BANCO DE DADOS</h6>
-									<p>
-									Sintaxe, variável e estruturas de controle.Modelo de dados.<br>
-									Introdução a bases de dados relacionais. <br>
-									Structured Query Language (SQL) básico.<br>
-									Interação php: PDO. <br>
-									SQL extendido: joins, groups, limits, keys e indexes.</P>
+									<h6>ENDEREÇAMENTO IPv4</h6>
 								</li>
 								<li>
-									<h6>PHP ORIENTADO A OBJETOS</h6>
-									<p>
-									Modelo de dados.<br>
-									Estrutura, construtor, destrutor, propriedades e métodos.<br>
-									Alcances, segurança, herança, extensão e reusabilidade.<br>
-									Interfaces e métodos estáticos. <br>
-									Classes abstratas. <br>
-									Design Patterns </P>
-									</p>
+									<h6>ENDEREÇAMENTO IPv6</h6>
 								</li>
 								<li>
-									<h6>LARAVEL</h6>
-									<p>
-									Princípios básicos, estrutura de um projeto. <br>
-									Manipulação avançada de composer e artisan. <br>
-									Routing, middleware, controladores. <br>
-									Request/ Response, views, templates. <br>
-									ORM, autenticação e sessão. <br> 
-									Gerenciamento de coleções. <br>
-									Manutenção das bases de dados mediante Migrations e Seeders. <br>
-									</P>
+									<h6>UDP (User Datagram Protocol)</h6>
 								</li>
 								<li>
-									<h6>AJAX</h6>
-									<p>
-									Aceso ao DOM, seletores, adicionar/apagar, edição. <br>
-									Objetos, variáveis, scopes, etc. <br>
-									Gerenciamento estendido: storage, forms, embeds, etc. <br>
-									Requisições por AJAX. </p>	
+									<h6>TCP (Transmission Control Protocol)</h6>
 								</li>
 
 								<li>
-									<h6>REACT</h6>
-									<p> Introdução ao REACT</p>	
+									<h6>IPv4 (Internet Protocol, versão 4)</h6>
+								</li>
+								<li>
+									<h6>IPv6 (Internet Protocol, versão 6)</h6>
 								</li>
 							</ul>
 							<hr>
@@ -131,7 +88,7 @@
 								<div class="card">
 									<div class="card-header" role="tab" id="headingOne">
 										<h5 class="mb-0">
-											<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="indicator ti-minus"></i> HTML + CSS</a>
+											<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="indicator ti-minus"></i> INTRODUÇÃO AO CURSO</a>
 										</h5>
 									</div>
 
@@ -139,11 +96,7 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura geral, boas práticas.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Classes, ids, seletores, herança e superposição.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Posicionamentos, alturas, responsividade.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura e padrão de uso.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Elementos semânticos (cont. textual / multimídia).</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução ao curso</a><span>00:59</span></li>
 													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
@@ -155,7 +108,7 @@
 									<div class="card-header" role="tab" id="headingTwo">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-												<i class="indicator ti-plus"></i>Generative Modeling Review
+												<i class="indicator ti-plus"></i>INTRODUÇÃO À PILHA DE PROTOCOLOS TCP/IP
 											</a>
 										</h5>
 									</div>
@@ -163,11 +116,13 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução à pilha de protocolos TCP/IP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">A camada de Aplicação</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">A camada de Transporte</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">A camada de Rede</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">A camada de Interface com a Rede</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">O IETF e as RFCs</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Prova: Introdução à pilha de protocolos TCP/IP</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
@@ -178,7 +133,7 @@
 									<div class="card-header" role="tab" id="headingThree">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-												<i class="indicator ti-plus"></i>Variational Autoencoders
+												<i class="indicator ti-plus"></i>ENDEREÇAMENTO IPv4
 											</a>
 										</h5>
 									</div>
@@ -186,11 +141,20 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Endereçamento físico vs. endereçamento lógico</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Protocolos ARP e RARP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução ao endereçamento IPv4</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">CIDR e máscara de rede - parte 1</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Exemplos práticos</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">CIDR e máscara de rede - parte 2</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">CIDR e máscara de rede - parte 3</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Calculadora CIDR</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Classes</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Endereços IPv4 especiais</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Endereços públicos, privados e tradução de endereços (NAT)</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">DHCP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura das mensagens DHCP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Prova: Endereçamento IPv4 </a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
@@ -202,7 +166,7 @@
 									<div class="card-header" role="tab" id="headingFourth">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
-												<i class="indicator ti-plus"></i>Gaussian Mixture Model Review
+												<i class="indicator ti-plus"></i>ENDEREÇAMENTO IPv6
 											</a>
 										</h5>
 									</div>
@@ -210,11 +174,134 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução ao endereçamento IPv6</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Simplificação de endereços IPv6</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Formação do IID</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Tipos de endereço IPv6</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Endereços unicast e anycast</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Endereços multicast</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Comunicação entre IPv4 e IPv6</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Endereços IPv6 especiais</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Prova: Endereçamento IPv6</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingFive">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+												<i class="indicator ti-plus"></i>PORTAS
+											</a>
+										</h5>
+									</div>
+									<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução a portas</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Exemplo prático de uso de portas</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Organização das portas</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Tradução de endereços (NAT)</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Prova: Portas</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSix">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+												<i class="indicator ti-plus"></i>UDP (User Datagram Protocol)
+											</a>
+										</h5>
+									</div>
+									<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">O processo de encapsulamento</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">O UDP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura do datagrama UDP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Checksum UDP e TCP</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Prova: UDP (User Datagram Protocol)</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSeven">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+												<i class="indicator ti-plus"></i>TCP
+											</a>
+										</h5>
+									</div>
+									<div id="collapseFourth" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Conexão TCP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Transmissão e recepção de segmentos TCP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Janela TCP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura do segmento TCP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Bits de controle</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Prova: TCP (Transmission Control Protocol)</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingEigth">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseEigth" aria-expanded="false" aria-controls="collapseEigth">
+												<i class="indicator ti-plus"></i>IPv4
+											</a>
+										</h5>
+									</div>
+									<div id="collapseEigth" class="collapse" role="tabpanel" aria-labelledby="headingEigth" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução ao IP</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura do datagrama IPv4</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Fragmentação de datagramas</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Otimização da área de dados</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">TTL (Tempo de vida)</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Campo "Serviços diferenciados"</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">ECN (Explicit Congestion Notification)</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Checksum do cabeçalho IPv4.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Campo "Opções"</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Prova: IPv4 (Internet Protocol, versão 4)</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingNine">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+												<i class="indicator ti-plus"></i>IPv6
+											</a>
+										</h5>
+									</div>
+									<div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Principais diferenças entre IPv4 e IPv6</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura do datagrama IPv6.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Cabeçalhos extras</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
