@@ -87,7 +87,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="course-detail.php"><img src="img/datascience1.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$54</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -98,7 +98,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Enroll now</a></li>
+							<li><a href="course-detail.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -110,7 +110,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="course-detail.php"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -121,7 +121,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Enroll now</a></li>
+							<li><a href="course-detail.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -131,9 +131,9 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.php"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
-							<div class="price">$39</div>
-							<div class="preview"><span>Preview course</span></div>
+							<a href="curso_programacao.php"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
+							<div class="price">R$29</div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -144,7 +144,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Enroll now</a></li>
+							<li><a href="course-detail.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -156,7 +156,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="course-detail.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$60</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -167,7 +167,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Enroll now</a></li>
+							<li><a href="course-detail.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -179,7 +179,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="course-detail.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -190,7 +190,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Enroll now</a></li>
+							<li><a href="course-detail.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -202,7 +202,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="course-detail.html"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$39</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -213,7 +213,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Enroll now</a></li>
+							<li><a href="course-detail.php">Matricular-se</a></li>
 						</ul>
 					</div>
 					<!-- /box_grid -->
