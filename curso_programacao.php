@@ -155,7 +155,7 @@
 									<div class="card-header" role="tab" id="headingTwo">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-												<i class="indicator ti-plus"></i>Generative Modeling Review
+												<i class="indicator ti-plus"></i>Trabalho colaborativo
 											</a>
 										</h5>
 									</div>
@@ -163,11 +163,11 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">GIT</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Metodologias Ágeis e SCRUM</a><span>00:59</span></li>
+													<!-- <li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
 													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li> -->
 												</ul>
 											</div>
 										</div>
@@ -178,7 +178,7 @@
 									<div class="card-header" role="tab" id="headingThree">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-												<i class="indicator ti-plus"></i>Variational Autoencoders
+												<i class="indicator ti-plus"></i>PHP
 											</a>
 										</h5>
 									</div>
@@ -186,11 +186,11 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Sintaxe, variável e estruturas de controle</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Funções, includes de arquivos escopes</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Sessões, cookies e headers</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Manipulação de erros e debug</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Gerenciamento de arquivos JSON.</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
@@ -202,7 +202,7 @@
 									<div class="card-header" role="tab" id="headingFourth">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
-												<i class="indicator ti-plus"></i>Gaussian Mixture Model Review
+												<i class="indicator ti-plus"></i>Banco de Dados
 											</a>
 										</h5>
 									</div>
@@ -210,21 +210,113 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Sintaxe, variável e estruturas de controle.Modelo de dados</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução a bases de dados relacionais</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Structured Query Language (SQL) básico</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Interação php: PDO</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">SQL extendido: joins, groups, limits, keys e indexes</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
 									</div>
 								</div>
 								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingFive">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+												<i class="indicator ti-plus"></i>PHP Orientado a Objetos
+											</a>
+										</h5>
+									</div>
+									<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Modelo de dados</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura, construtor, destrutor, propriedades e métodos</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Alcances, segurança, herança, extensão e reusabilidade</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Interfaces e métodos estáticos</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Classes abstratas</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Design Patterns</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSix">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+												<i class="indicator ti-plus"></i>Laravel
+											</a>
+										</h5>
+									</div>
+									<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Princípios básicos, estrutura de um projeto</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Manipulação avançada de composer e artisan</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Routing, middleware, controladores</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Request/ Response, views, templates</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">ORM, autenticação e sessão</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Gerenciamento de coleções</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Manutenção das bases de dados mediante Migrations e Seeders</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSeven">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+												<i class="indicator ti-plus"></i>AJAX
+											</a>
+										</h5>
+									</div>
+									<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Aceso ao DOM, seletores, adicionar/apagar, edição</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Objetos, variáveis, scopes, etc.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Gerenciamento estendido: storage, forms, embeds, etc.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Requisições por AJAX</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+
+								<!-- /section -->
+						<div class="card">
+									<div class="card-header" role="tab" id="headingEight">
+										<h5 class="mb-0">
+											<a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+												<i class="indicator ti-plus"></i>REACT
+											</a>
+										</h5>
+									</div>
+									<div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion_lessons">
+										<div class="card-body">
+											<div class="list_lessons">
+												<ul>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução ao REACT</a><span>00:59</span></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /card -->
+
 							</div>
 							<!-- /accordion -->
 						</section>
-						<!-- /section -->
 						
 						<section id="reviews">
 							<h2>Avaliação</h2>
