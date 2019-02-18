@@ -77,9 +77,9 @@
 				<div class="item">
 					<div class="box_grid">
 						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html">
-								<div class="preview"><span>Preview course</span></div><img src="img/programer.jpg" class="img-fluid" alt=""></a>
+							<a href="#" class="wish_bt"></a>
+							<a href="curso_programacao.php">
+								<div class="preview"><span>Visualizar curso</span></div><img src="img/programer.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$39</div>
 
 						</figure>
@@ -103,7 +103,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="curso_data_science.php"><img src="img/datascientist.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -125,7 +125,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="curso_mentoria.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$54</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -147,7 +147,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="curso_redes.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$27</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -169,7 +169,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="curso_mobile.php"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$35</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -191,7 +191,7 @@
 							<a href="#0" class="wish_bt"></a>
 							<a href="curso_marketing.php"><img src="img/marketing.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$54</div>
-							<div class="preview"><span>Preview course</span></div>
+							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
