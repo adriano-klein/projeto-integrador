@@ -431,8 +431,8 @@
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/common_scripts.js"></script>
     <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
-	<script src="js/collapse.js" ></script>
+		<script src="assets/validate.js"></script>
+	
 	
   
 </body>

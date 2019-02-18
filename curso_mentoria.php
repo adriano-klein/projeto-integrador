@@ -40,84 +40,31 @@
 						
 						<section id="description">
 							<h2>Descrição</h2>
-							<p>No Curso de Desenvolvimento Web Full Stack você aprende a criar sites e sistemas web. Nossos professores especialistas ensinam você do zero, por isso, não é necessário ter conhecimento prévio de linguagem de programação.
-							Ao longo do curso, você conhecerá as linguagens, metodologias e as tecnologias mais atuais em uso no mercado. Aprenderá Laravel, HTML, PHP e tudo o que for necessário para dominar o Front End e o Back End de um site ou sistema web. Saberá também concretizar projetos do princípio ao fim, desenvolvendo programação orientada a objetos.
-							Em até 5 meses de curso, você será um desenvolvedor web full stack, profissional muito valorizado por ser versátil e ter a visão de todo o projeto de um site. Conte também com nosso apoio de mentoria que ajuda você a atingir seus objetivos profissionais, seja numa carreira em uma grande empresa, ou como freelancer ou como empreendedor na sua própria startup.</p>
+							<p>O curso de formação em mentoring da <strong>Evolution</strong>  traz metodologia inovadora e ferramentas comportamentais de alta performance que integram aspectos pessoais e profissionais para capacitar os alunos a atuar como mentores. Faça a diferença na jornada de outro profissional e/ou empreendedor: seja um mentor!</p>
 							<h5>O que você vai aprender</h5>
 							<ul class="list_ok">
 								<li>
-									<h6>HTML + CSS</h6>
-									<p>Estrutura geral, boas práticas<br>
-									Classes, ids, seletores, herança e superposição <br>
-									Posicionamentos, alturas, responsividade <br>
-									Estrutura e padrão de uso <br>
-									Elementos semânticos (cont. textual / multimídia) <br>
-									Media Queries, Introdução a SASS.</p>
+									<h6>Agilidade, aprendizagem e adaptação organizacional</h6>
 								</li>
 								<li>
-									<h6>Trabalho colaborativo</h6>
-									<p>GIT <br>
-									Metodologias Ágeis e SCRUM</p>
+									<h6>Networking</h6>
 								</li>
 								<li>
-									<h6>PHP</h6>
-									<p>
-									Sintaxe, variável e estruturas de controle. <br>
-									Funções, includes de arquivos escopes. <br>
-									Sessões, cookies e headers. <br>
-									Manipulação de erros e debug. <br>
-									Gerenciamento de arquivos JSON. </P>
-									</p>
+									<h6>Retenção do conhecimento tácito, seja ele técnico ou institucional</h6>
 								</li>
 								<li>
-									<h6>BANCO DE DADOS</h6>
-									<p>
-									Sintaxe, variável e estruturas de controle.Modelo de dados.<br>
-									Introdução a bases de dados relacionais. <br>
-									Structured Query Language (SQL) básico.<br>
-									Interação php: PDO. <br>
-									SQL extendido: joins, groups, limits, keys e indexes.</P>
+									<h6>Manutenção e melhor aproveitamento de talentos</h6>
 								</li>
 								<li>
-									<h6>PHP ORIENTADO A OBJETOS</h6>
-									<p>
-									Modelo de dados.<br>
-									Estrutura, construtor, destrutor, propriedades e métodos.<br>
-									Alcances, segurança, herança, extensão e reusabilidade.<br>
-									Interfaces e métodos estáticos. <br>
-									Classes abstratas. <br>
-									Design Patterns </P>
-									</p>
+									<h6>Desenvolvimento de lideranças</h6>
 								</li>
 								<li>
-									<h6>LARAVEL</h6>
-									<p>
-									Princípios básicos, estrutura de um projeto. <br>
-									Manipulação avançada de composer e artisan. <br>
-									Routing, middleware, controladores. <br>
-									Request/ Response, views, templates. <br>
-									ORM, autenticação e sessão. <br> 
-									Gerenciamento de coleções. <br>
-									Manutenção das bases de dados mediante Migrations e Seeders. <br>
-									</P>
-								</li>
-								<li>
-									<h6>AJAX</h6>
-									<p>
-									Aceso ao DOM, seletores, adicionar/apagar, edição. <br>
-									Objetos, variáveis, scopes, etc. <br>
-									Gerenciamento estendido: storage, forms, embeds, etc. <br>
-									Requisições por AJAX. </p>	
-								</li>
-
-								<li>
-									<h6>REACT</h6>
-									<p> Introdução ao REACT</p>	
+									<h6>Ganho de eficiência nos processos de ascensão funcional e de sucessão</h6>
 								</li>
 							</ul>
 							<hr>
 
-							<p>Na Evolution, você pode estudar Desenvolvimento Web Full Stack no modelo presencial ou no modelo semipresencial. Ambas as modalidades têm conteúdo idêntico, ou seja você vai adquirir as mesmas habilidades. A diferença principal está na distribuição de tempo entre estudos em sala de aula e na sua casa.</p>
+							<p>Na Evolution, você pode estudar Mentoria de Carreira no modelo presencial ou no modelo semipresencial. Ambas as modalidades têm conteúdo idêntico, ou seja você vai adquirir as mesmas habilidades. A diferença principal está na distribuição de tempo entre estudos em sala de aula e na sua casa.</p>
 
 						<section id="lessons">
 							<div class="intro_title">
@@ -131,7 +78,7 @@
 								<div class="card">
 									<div class="card-header" role="tab" id="headingOne">
 										<h5 class="mb-0">
-											<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="indicator ti-minus"></i> HTML + CSS</a>
+											<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="indicator ti-minus"></i> O que é Coaching?</a>
 										</h5>
 									</div>
 
@@ -139,11 +86,9 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura geral, boas práticas.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Classes, ids, seletores, herança e superposição.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Posicionamentos, alturas, responsividade.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura e padrão de uso.</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Elementos semânticos (cont. textual / multimídia).</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Autoconhecimento - Parte I</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Autoconhecimento - Parte II</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Talentos, competências e habilidades</a><span>00:59</span></li>
 													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
@@ -155,7 +100,7 @@
 									<div class="card-header" role="tab" id="headingTwo">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-												<i class="indicator ti-plus"></i>Generative Modeling Review
+												<i class="indicator ti-plus"></i>Imagem e comunicação - Parte I
 											</a>
 										</h5>
 									</div>
@@ -163,11 +108,8 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Imagem e comunicação - Parte I</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
@@ -178,7 +120,7 @@
 									<div class="card-header" role="tab" id="headingThree">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-												<i class="indicator ti-plus"></i>Variational Autoencoders
+												<i class="indicator ti-plus"></i>Imagem e comunicação - Parte II
 											</a>
 										</h5>
 									</div>
@@ -186,11 +128,8 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Imagem e comunicação - Parte II</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
@@ -202,7 +141,7 @@
 									<div class="card-header" role="tab" id="headingFourth">
 										<h5 class="mb-0">
 											<a class="collapsed" data-toggle="collapse" href="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
-												<i class="indicator ti-plus"></i>Gaussian Mixture Model Review
+												<i class="indicator ti-plus"></i>Administração do tempo
 											</a>
 										</h5>
 									</div>
@@ -210,11 +149,11 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health Science</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Health and Social Care</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Administração do tempo</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Valores e visão</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Missão de vida</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Metas</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
 												</ul>
 											</div>
 										</div>
