@@ -111,10 +111,6 @@
 							<a href="course-detail.php"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
 							<div class="preview"><span>Visualizar curso</span></div>
-							<a href="curso_marketing.php" class="wish_bt"></a>
-							<a href="curso_marketing.php"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$780</div>
-							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -138,10 +134,6 @@
 							<a href="curso_programacao.php"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
 							<div class="price">R$29</div>
 							<div class="preview"><span>Visualizar curso</span></div>
-							<a href="curso_programacao.php" class="wish_bt"></a>
-							<a href="curso_programacao.php"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$980</div>
-							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -165,10 +157,6 @@
 							<a href="course-detail.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$60</div>
 							<div class="preview"><span>Visualizar curso</span></div>
-							<a href="curso_redes.php" class="wish_bt"></a>
-							<a href="curso_redes.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$780</div>
-							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -192,10 +180,6 @@
 							<a href="course-detail.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
 							<div class="preview"><span>Visualizar curso</span></div>
-							<a href="curso_mentoria.php" class="wish_bt"></a>
-							<a href="curso_mentoria.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$950</div>
-							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -219,10 +203,6 @@
 							<a href="course-detail.html"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$39</div>
 							<div class="preview"><span>Visualizar curso</span></div>
-							<a href="curso_mobile.php" class="wish_bt"></a>
-							<a href="curso_mobile.php"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$1200</div>
-							<div class="preview"><span>Preview course</span></div>
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>

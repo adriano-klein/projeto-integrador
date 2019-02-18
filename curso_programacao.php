@@ -142,9 +142,9 @@
 													<li><a href="https://www.youtube.com/watch?v=wi9jZJZYSIY" class="video">Estrutura geral, boas práticas.</a><span>14:17</span></li>
 													<li><a href="https://www.youtube.com/watch?v=C6gZd3vCN1c" class="video">Classes, ids, seletores, herança e superposição.</a><span>05:41</span></li>
 													<li><a href="https://www.youtube.com/watch?v=aBNd31PhvEM" class="video">Posicionamentos, alturas, responsividade.</a><span>12:50</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura e padrão de uso.</a><span>00:59</span></li>
+													<!-- <li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Estrutura e padrão de uso.</a><span>00:59</span></li>
 													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Elementos semânticos (cont. textual / multimídia).</a><span>00:59</span></li>
-													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li>
+													<li><a href="#0" class="txt_doc">Exercícios de fixação</a><span>00:59</span></li> -->
 												</ul>
 											</div>
 										</div>
