@@ -107,8 +107,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.php"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_marketing.php" class="wish_bt"></a>
+							<a href="curso_marketing.php"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -121,7 +121,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Matricular-se</a></li>
+							<li><a href="curso_marketing.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -130,7 +130,7 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="#0" class="wish_bt"></a>
+							<a href="curso_programacao.php" class="wish_bt"></a>
 							<a href="curso_programacao.php"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
 							<div class="price">R$29</div>
 							<div class="preview"><span>Visualizar curso</span></div>
@@ -144,7 +144,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Matricular-se</a></li>
+							<li><a href="curso_programacao.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -153,8 +153,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_redes.php" class="wish_bt"></a>
+							<a href="curso_redes.php"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$60</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -167,7 +167,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Matricular-se</a></li>
+							<li><a href="curso_redes.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -176,8 +176,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_mentoria.php" class="wish_bt"></a>
+							<a href="curso_mentoria.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$45</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -190,7 +190,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Matricular-se</a></li>
+							<li><a href="curso_mentoria.php">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -199,8 +199,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_mobile.php" class="wish_bt"></a>
+							<a href="curso_mobile.php"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">$39</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -213,7 +213,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Matricular-se</a></li>
+							<li><a href="curso_mobile.php">Matricular-se</a></li>
 						</ul>
 					</div>
 					<!-- /box_grid -->
