@@ -1,0 +1,111 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+
+.call_section {
+    background: url(../img/bg1.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    padding: 10% 0;
+  }
+
+.main-menu ul li a{
+    font-size: 1rem !important;
+}
+/* header color */
+header.header.sticky{
+    background: -webkit-linear-gradient(left, rgb(50, 78, 190), #81C0E3);
+    background: linear-gradient(to right, rgb(50, 78, 190), #81C0E3);
+}
+
+header.header.sticky_menu_active{
+    background: -webkit-linear-gradient(left, rgb(50, 78, 190), #81C0E3);
+    background: linear-gradient(to right, rgb(50, 78, 190), #81C0E3);
+}
+
+/* Box Color */
+
+ul#grid_home li:nth-child(1) .short_info{
+    background-color: #6A86BA;
+}
+
+ul#grid_home li:nth-child(2) .short_info{
+    background-color: #81C0E3;
+}
+
+ul#grid_home li:nth-child(3) .short_info{
+    background-color: #81A8D8;
+}
+
+/* Tamanho da Fonte */
+
+ul#grid_home li a.img_container .short_info h3 strong {
+    font-size: 1.5rem;
+  }
+
+  /* Botões dos cursos */
+
+  .box_grid ul li:last-child a:hover {
+    background: #6A86BA;
+    
+  }
+
+  .box_grid ul li:last-child a {
+    border: 2px solid #6A86BA;
+    color: #6A86BA;
+  }
+
+  /* Botão Submit */
+  #newsletter input[type='submit'] {
+    background-color: rgb(27, 65, 136);
+  }
+
+  input[type='submit']:hover {
+    background-color: #6A86BA;
+
+}
+
+ul#grid_home li:last-child .img_container:hover .short_info .btn_1{
+    background-color: #3F9FFF;
+}
+
+a.btn_1:hover, .btn_1:hover{
+    background: #0054a6;
+}
+
+
+/*Background da home para dispositivos moveis*/
+
+@media (max-width: 1024px) {
+  #hero_video {
+    background: url("../img/imageCode.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  /* Custom Login */
+
+  #login figure, #register figure {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #6A86BA;
+    background: -webkit-linear-gradient(left, #6A86BA, #3F9FFF);
+    background: linear-gradient(to right, #6A86BA, #3F9FFF);
+    /* background: #480048;
+    background: -webkit-linear-gradient(left, #480048, #C04848);
+    background: linear-gradient(to right, #480048, #C04848); */
+    margin: -45px -60px 30px -60px;
+    padding: 20px 60px 25px 60px;
+  }
+
+  .card-header h5 a {
+    border: 0;
+    display: block;
+    color: #999;
+  }
