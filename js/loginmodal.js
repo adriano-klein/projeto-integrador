@@ -48,7 +48,7 @@ var btn = document.querySelector("#myBtnlogin, #mm-myBtnlogin");
 var span = document.getElementsByClassName("close-login")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+btn.onclick = function abreModal() {
 	modal.style.display = "block";
 }
 
