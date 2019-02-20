@@ -51,7 +51,7 @@
 			</a>
 			<nav id="menu" class="main-menu">
 				<ul>
-					<li><span><a href="index.php">Home</a></span></li>
+					<li><span><a href="/">Home</a></span></li>
 					<li><span><a href="/cursos">Cursos</a></span>
 						<!-- <ul>
 							<li><a href="courses-grid.html">Courses grid</a></li>
@@ -65,7 +65,7 @@
 						</ul> -->
 					</li>
 					<li><span><a href="#0">Sobre</a></span></li>
-					<li><span><a href="contato.php">Contato</a></span></li>
+					<li><span><a href="/contato">Contato</a></span></li>
 					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
 					<!-- <li><span><a href="#0">Paginas</a></span> -->
 						<!-- <ul>

@@ -64,7 +64,7 @@
 						</ul> -->
 					</li>
 					<li><span><a href="#0">Sobre</a></span></li>
-					<li><span><a href="contato.php">Contato</a></span></li>
+					<li><span><a href="/contato">Contato</a></span></li>
 					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
 					<!-- <li><span><a href="#0">Paginas</a></span> -->
 						<!-- <ul>
