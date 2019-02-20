@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>Evolution</title>
+    <title>Contato</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -25,11 +25,10 @@
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
-    <!--- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
 </head>
+
 <body>
+
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
@@ -51,7 +50,7 @@
 			</a>
 			<nav id="menu" class="main-menu">
 				<ul>
-					<li><span><a href="index.php">Home</a></span></li>
+					<li><span><a href="/">Home</a></span></li>
 					<li><span><a href="/cursos">Cursos</a></span>
 						<!-- <ul>
 							<li><a href="courses-grid.html">Courses grid</a></li>
@@ -199,10 +198,19 @@
 			</div>
 		</div>
 		<!-- Jquery -->
-		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<!-- <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script> -->
 		<!-- Login Modal -->
-		<script type="text/javascript" src="js/loginmodal.js"></script>
+		<!-- <script type="text/javascript" src="js/loginmodal.js"></script> -->
 	</footer>
+            <script src="js/jquery-2.2.4.min.js"></script>
+            <script src="js/common_scripts.js"></script>
+            <script src="js/main.js"></script>
+            <script src="assets/validate.js"></script>
+
+            	<!-- SPECIFIC SCRIPTS -->
+	        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+	        <script type="text/javascript" src="js/mapmarker.jquery.js"></script>
+	        <script type="text/javascript" src="js/mapmarker_func.jquery.js"></script>
     </body>
-</html>    
+</html> 
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>Evolution</title>
+    <title>ACADEMIA EVOLUTION</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
@@ -25,11 +25,8 @@
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
-    <!--- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
 </head>
-<body>
+
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
@@ -51,7 +48,7 @@
 			</a>
 			<nav id="menu" class="main-menu">
 				<ul>
-					<li><span><a href="index.php">Home</a></span></li>
+					<li><span><a href="/">Home</a></span></li>
 					<li><span><a href="/cursos">Cursos</a></span>
 						<!-- <ul>
 							<li><a href="courses-grid.html">Courses grid</a></li>
@@ -199,10 +196,14 @@
 			</div>
 		</div>
 		<!-- Jquery -->
-		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<!-- <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script> -->
 		<!-- Login Modal -->
-		<script type="text/javascript" src="js/loginmodal.js"></script>
+		<!-- <script type="text/javascript" src="js/loginmodal.js"></script> -->
 	</footer>
+            <script src="js/jquery-2.2.4.min.js"></script>
+            <script src="js/common_scripts.js"></script>
+            <script src="js/main.js"></script>
+            <script src="assets/validate.js"></script>
     </body>
-</html>    
+</html> 
 

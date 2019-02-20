@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Route::post('/valida-login', 'ControllerValidaLogin@validaLogin');
+Route::get('/cursos', 'ControllerMostraCursos@cursos');
+Route::get('/contato', 'ControllerContato@contato');
