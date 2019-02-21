@@ -94,8 +94,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="curso_programacao.php" class="wish_bt"></a>
-							<a href="curso_programacao.php"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_programacao" class="wish_bt"></a>
+							<a href="curso_programacao"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
 							<div class="price">R$29</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -108,7 +108,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_programacao.php">Matricular-se</a></li>
+							<li><a href="curso_programacao">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
