@@ -204,5 +204,4 @@
 		<script type="text/javascript" src="js/loginmodal.js"></script>
 	</footer>
     </body>
-</html>    
-
+</html>

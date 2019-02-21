@@ -93,7 +93,7 @@
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
-							<small>Category</small>
+							<small>Categoria</small>
 							<h3>Data Science</h3>
 							<p>Aprenda as técnicas que o mundo real exige e torne-se um profissional competitivo na área de Inteligência Artificial!</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i></i> <small>(300)</small></div>
@@ -115,7 +115,7 @@
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
-							<small>Category</small>
+							<small>Categoria</small>
 							<h3>Mentoria de Carreira</h3>
 							<p>Um programa individual, rápido e personalizado para quem busca acelerar a carreira, corrigir desvios e sabotadores comportamentais e conquistar excelentes</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
@@ -137,7 +137,7 @@
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
-							<small>Category</small>
+							<small>Categoria</small>
 							<h3>Redes de Computadores</h3>
 							<p>Redes de Computadores, Protocolos TCP/IP Aplicados à Comunicações Via Satélite, Multicast e Segurança Telecom</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
@@ -159,7 +159,7 @@
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
-							<small>Category</small>
+							<small>Categoria</small>
 							<h3>Desenvolvimento mobile</h3>
 							<p>Curso completo de desenvolvimento Android; Crie na prática apps como: Instagram, Flappy Bird, WhatsApp e muito mais.</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
@@ -181,7 +181,7 @@
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
-							<small>Category</small>
+							<small>Categoria</small>
 							<h3>Marketing Digital</h3>
 							<p>SEO, Google Ads, Facebook e Instagram Ads, LinkedIn Ads, Email Marketing e Análise. O máximo sobre Marketing Digital!</p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>

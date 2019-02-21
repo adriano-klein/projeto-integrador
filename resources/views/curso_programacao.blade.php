@@ -149,8 +149,8 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">GIT</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Metodologias Ágeis e SCRUM</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=WVLhm1AMeYE" class="video">GIT</a><span>08:24</span></li>
+													<li><a href="https://www.youtube.com/watch?v=XfvQWnRgxG0" class="video">Metodologias Ágeis e SCRUM</a><span>09:05</span></li>
 													<!-- <li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">History</a><span>00:59</span></li>
 													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Healthcare Science</a><span>00:59</span></li>
 													<li><a href="#0" class="txt_doc">Audiology</a><span>00:59</span></li> -->
@@ -172,11 +172,11 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Sintaxe, variável e estruturas de controle</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Funções, includes de arquivos escopes</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Sessões, cookies e headers</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Manipulação de erros e debug</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Gerenciamento de arquivos JSON.</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=ibv4ac8MEKo" class="video">Sintaxe, variável e estruturas de controle</a><span>06:21</span></li>
+													<li><a href="https://www.youtube.com/watch?v=xrH446BcYLo" class="video">Funções, includes de arquivos escopes</a><span>11:05</span></li>
+													<li><a href="https://www.youtube.com/watch?v=mFb4wzNMtDg" class="video">Sessões, cookies e headers</a><span>05:54</span></li>
+													<li><a href="https://www.youtube.com/watch?v=r2ekLsctaGs" class="video">Manipulação de erros e debug</a><span>11:20</span></li>
+													<li><a href="https://www.youtube.com/watch?v=B29S1_fkwMw" class="video">Gerenciamento de arquivos JSON.</a><span>14:31</span></li>
 												</ul>
 											</div>
 										</div>
@@ -196,11 +196,10 @@
 										<div class="card-body">
 											<div class="list_lessons">
 												<ul>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Sintaxe, variável e estruturas de controle.Modelo de dados</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Introdução a bases de dados relacionais</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Structured Query Language (SQL) básico</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">Interação php: PDO</a><span>00:59</span></li>
-													<li><a href="https://www.youtube.com/watch?v=LDgd_gUcqCw" class="video">SQL extendido: joins, groups, limits, keys e indexes</a><span>00:59</span></li>
+													<li><a href="https://www.youtube.com/watch?v=o0tsxeMrw10" class="video">Sintaxe, variável e estruturas de controle e Modelo de dados</a><span>05:28</span></li>
+													<li><a href="hhttps://www.youtube.com/watch?v=8fxKJWJcRTw" class="video">Introdução a bases de dados relacionais</a><span>40:24</span></li>
+													<li><a href="https://www.youtube.com/watch?v=etRFu_eJ3vU" class="video">Interação php: PDO</a><span>11:57</span></li>
+													<li><a href="https://www.youtube.com/watch?v=4nbECYDlAwc" class="video">SQL extendido: joins, groups, limits, keys e indexes</a><span>13:29</span></li>
 												</ul>
 											</div>
 										</div>
@@ -373,36 +372,36 @@
 							<div class="reviews-container">
 
 								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="http://via.placeholder.com/150x150/ccc/fff/avatar1.jpg" alt="">
+									<figure class="rev-thumb"><img src="img/fotoPerfilAvaliacao.jpg" alt="">
 									</figure>
 									<div class="rev-content">
 										<div class="rating">
 											<i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
 										</div>
 										<div class="rev-info">
-											Admin – April 03, 2016:
+											Cristina – 21 de fevereiro de 2019:
 										</div>
 										<div class="rev-text">
 											<p>
-												Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+												Curso sensacional, super completo e com professores plenamente capacitados no assunto
 											</p>
 										</div>
 									</div>
 								</div>
 								<!-- /review-box -->
 								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="http://via.placeholder.com/150x150/ccc/fff/avatar2.jpg" alt="">
+									<figure class="rev-thumb"><img src="img/fotoPerfilAvaliacao2.jpg" alt="">
 									</figure>
 									<div class="rev-content">
 										<div class="rating">
 											<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
 										</div>
 										<div class="rev-info">
-											Ahsan – April 01, 2016:
+											Angelina – 22 de fevereiro de 2019:
 										</div>
 										<div class="rev-text">
 											<p>
-												Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+												Recomento demais a plataforma desses garotos. Saí daqui muito melhor de quando iniciei esse curso.
 											</p>
 										</div>
 									</div>

@@ -140,7 +140,7 @@
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
 					<p><img src="img/logoEvolutionFooter-min.png" width="150" height="80" data-retina="true" alt=""></p>
-					<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
+					<p>Projeto integrado desenvolvido para o curso de Desenvolvimento Full Stack da Digital House com o intuito de aplicar todos os conhecimentos adquiridos em sala de aula, utilizando o framework Laravel</p>
 					<div class="follow_us">
 						<ul>
 							<li>Redes Socias</li>
@@ -153,14 +153,14 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
-					<h5>Useful links</h5>
+					<h5>links úteis</h5>
 					<ul class="links">
-						<li><a href="#0">Admission</a></li>
-						<li><a href="#0">About</a></li>
+						<li><a href="#0">Matricular-se</a></li>
+						<li><a href="#0">Sobre nós</a></li>
 						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Register</a></li>
-						<li><a href="#0">News &amp; Events</a></li>
-						<li><a href="#0">Contacts</a></li>
+						<li><a href="#0">Registrar</a></li>
+						<li><a href="#0">Notícias &amp; Events</a></li>
+						<li><a href="#0">Contato</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
