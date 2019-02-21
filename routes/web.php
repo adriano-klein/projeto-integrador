@@ -20,3 +20,8 @@ Route::post('/valida-login', 'ControllerValidaLogin@validaLogin');
 Route::get('/cursos', 'ControllerMostraCursos@cursos');
 Route::get('/contato', 'ControllerContato@contato');
 Route::get('curso_programacao','ControllerMostraCursos@programacao');
+Route::get('curso_marketing', 'ControllerMostraCursos@marketing');
+Route::get('curso_data_science', 'ControllerMostraCursos@data_science');
+Route::get('curso_mentoria', 'ControllerMostraCursos@mentoria');
+Route::get('curso_redes', 'ControllerMostraCursos@redes');
+Route::get('curso_mobile', 'ControllerMostraCursos@mobile');

@@ -48,8 +48,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="curso_data_science.php" class="wish_bt"></a>
-							<a href="curso_data_science.php"><img src="img/datascience1.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_data_science" class="wish_bt"></a>
+							<a href="curso_data_science"><img src="img/datascience1.jpg" class="img-fluid" alt=""></a>
 							<div class="price">R$2000</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -62,7 +62,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.php">Matricular-se</a></li>
+							<li><a href="curso_data_science">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -71,8 +71,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="curso_marketing.php" class="wish_bt"></a>
-							<a href="curso_marketing.php"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_marketing" class="wish_bt"></a>
+							<a href="curso_marketing"><img src="img/marketing_digital.jpg" class="img-fluid" alt=""></a>
 							<div class="price">R$45</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -85,7 +85,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_marketing.php">Matricular-se</a></li>
+							<li><a href="curso_marketing">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -140,8 +140,8 @@
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="curso_mentoria.php" class="wish_bt"></a>
-							<a href="curso_mentoria.php"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_mentoria" class="wish_bt"></a>
+							<a href="curso_mentoria"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
 							<div class="price">R$45</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -154,7 +154,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_mentoria.php">Matricular-se</a></li>
+							<li><a href="curso_mentoria">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
@@ -164,7 +164,7 @@
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
 							<a href="curso_mobile.php" class="wish_bt"></a>
-							<a href="curso_mobile.php"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
+							<a href="curso_mobile"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
 							<div class="price">R$39</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
@@ -177,7 +177,7 @@
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_mobile.php">Matricular-se</a></li>
+							<li><a href="curso_mobile">Matricular-se</a></li>
 						</ul>
 					</div>
 					<!-- /box_grid -->
