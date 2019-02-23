@@ -106,7 +106,7 @@
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
 					<p><img src="img/logoEvolutionFooter-min.png" width="150" height="80" data-retina="true" alt=""></p>
-					<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
+					<p>Projeto desenvolvido em Laravel com o intuito de trabalhar, utilizar e fixar todos o conhecimento adquirido em sala de aula.</p>
 					<div class="follow_us">
 						<ul>
 							<li>Redes Socias</li>
@@ -119,14 +119,14 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
-					<h5>Useful links</h5>
+					<h5>links úteis</h5>
 					<ul class="links">
-						<li><a href="#0">Admission</a></li>
-						<li><a href="#0">About</a></li>
+						<li><a href="#0">Matrícula</a></li>
+						<li><a href="#0">Sobre nós</a></li>
 						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Register</a></li>
-						<li><a href="#0">News &amp; Events</a></li>
-						<li><a href="#0">Contacts</a></li>
+						<li><a href="#0">Registrar-se</a></li>
+						<li><a href="#0">Notícias &amp; Eventos</a></li>
+						<li><a href="/contato">Contato</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -167,5 +167,4 @@
 		<script type="text/javascript" src="js/loginmodal.js"></script>
 	</footer>
     </body>
-</html>    
-
+</html>

@@ -18,7 +18,12 @@ Route::get('/', function () {
 
 Route::post('/valida-login', 'ControllerValidaLogin@validaLogin');
 Route::get('/cursos', 'ControllerMostraCursos@cursos');
-Route::get('/contato', 'ControllerContato@contato');
+
+//rotas para envio de emails via formulario de contato
+Route::get('contato', 'ControllerContato@contato');
+Route::post('contato', 'ControllerContato@enviarEmail');
+
+//rotas dos cursos
 Route::get('curso_programacao','ControllerMostraCursos@programacao');
 Route::get('curso_marketing', 'ControllerMostraCursos@marketing');
 Route::get('curso_data_science', 'ControllerMostraCursos@data_science');

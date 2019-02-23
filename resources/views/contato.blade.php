@@ -45,7 +45,8 @@
 						<h4>Envie a sua mensagem</h4>
 						<p>Retornaremos prontamente</p>
 						<div id="message-contact"></div>
-						<form method="post" action="assets/contact.php" id="contactform" autocomplete="off">
+						<form method="post" action="/contato" autocomplete="on" >
+							@csrf
 							<div class="row">
 								<div class="col-md-6">
 									<span class="input">
@@ -90,12 +91,6 @@
 										<span class="input__label-content">Escreva sua mensagem</span>
 									</label>
 							</span>
-							<span class="input">
-									<input class="input_field" type="text" id="verify_contact" name="verify_contact">
-									<label class="input_label">
-									<span class="input__label-content">Você é humano? 3 + 1 =</span>
-									</label>
-							</span>
 							<p class="add_top_30"><input type="submit" value="Enviar" class="btn_1 rounded" id="submit-contact"></p>
 						</form>
 					</div>
@@ -107,8 +102,5 @@
 		<!-- /bg_color_1 -->
 	</main>
 	<!--/main-->
-
-
-
 
 @endsection
