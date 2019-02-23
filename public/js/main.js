@@ -235,7 +235,7 @@
 			});
 		} else {
 			$('.sticky_horizontal').stick_in_parent({
-				offset_top: 73
+				offset_top: 100
 			});
 		}
 	});
