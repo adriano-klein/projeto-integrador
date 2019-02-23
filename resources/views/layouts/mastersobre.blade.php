@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 
 <head>
     <meta charset="utf-8">
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>ACADEMIA EVOLUTION</title>
+    <title>Evolution</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
@@ -25,8 +25,11 @@
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
-</head>
+    <!--- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+</head>
+<body>
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
@@ -50,11 +53,48 @@
 				<ul>
 					<li><span><a href="/">Home</a></span></li>
 					<li><span><a href="/cursos">Cursos</a></span>
+						<!-- <ul>
+							<li><a href="courses-grid.html">Courses grid</a></li>
+							<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>
+							<li><a href="courses-list.html">Courses list</a></li>
+							<li><a href="courses-list-sidebar.html">Courses list sidebar</a></li>
+							<li><a href="course-detail.html">Course detail</a></li>
+							<li><a href="course-detail-2.html">Course detail working form</a></li>
+							<li><a href="admission.html">Admission wizard</a></li>
+							<li><a href="teacher-detail.html">Teacher detail</a></li>
+						</ul> -->
 					</li>
-					<li><span><a href="/sobre">Sobre</a></span></li>
+					<li><span><a href="#0">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
 					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
+					<!-- <li><span><a href="#0">Paginas</a></span> -->
+						<!-- <ul>
+							<li><a href="#0">Menu 2</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="register.html">Register</a></li>
+							<li><a href="contacts.html">Contacts</a></li>
+							<li><a href="404.html">404 page</a></li>
+							<li><a href="agenda-calendar.html">Agenda Calendar</a></li>
+							<li><a href="faq.html">Faq</a></li>
+							<li><a href="help.html">Help</a></li>
+						</ul> -->
 					</li>
+					<!-- <li><span><a href="#0">Extra Pages</a></span>
+						<ul>
+							<li><a href="media-gallery.html">Media gallery</a></li>
+							<li><a href="cart-1.html">Cart page 1</a></li>
+							<li><a href="cart-2.html">Cart page 2</a></li>
+							<li><a href="cart-3.html">Cart page 3</a></li>
+							<li><a href="pricing-tables.html">Responsive pricing tables</a></li>
+							<li><a href="coming_soon/index.html">Coming soon</a></li>
+							<li><a href="icon-pack-1.html">Icon pack 1</a></li>
+							<li><a href="icon-pack-2.html">Icon pack 2</a></li>
+							<li><a href="icon-pack-3.html">Icon pack 3</a></li>
+							<li><a href="icon-pack-4.html">Icon pack 4</a></li>
+						</ul>
+					</li> -->
 				</ul>
 			</nav>
 		</div>
@@ -159,14 +199,15 @@
 			</div>
 		</div>
 		<!-- Jquery -->
-		<!-- <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script> -->
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
 		<!-- Login Modal -->
-		<!-- <script type="text/javascript" src="js/loginmodal.js"></script> -->
+		<script type="text/javascript" src="js/loginmodal.js"></script>
 	</footer>
-            <script src="js/jquery-2.2.4.min.js"></script>
-            <script src="js/common_scripts.js"></script>
-            <script src="js/main.js"></script>
-            <script src="assets/validate.js"></script>
+    	
+	<!-- COMMON SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.js"></script>
+    <script src="js/main.js"></script>
+	<script src="assets/validate.js"></script>
     </body>
 </html> 
-

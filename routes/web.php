@@ -25,3 +25,5 @@ Route::get('curso_data_science', 'ControllerMostraCursos@data_science');
 Route::get('curso_mentoria', 'ControllerMostraCursos@mentoria');
 Route::get('curso_redes', 'ControllerMostraCursos@redes');
 Route::get('curso_mobile', 'ControllerMostraCursos@mobile');
+Route::get('sobre', 'ControllerSobre@sobre');
+Route::get('carrinho', 'ControllerCarrinho@carrinho');
