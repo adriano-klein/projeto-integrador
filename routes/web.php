@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('login', 'ControllerValidaLogin@login');
+
 Route::get('/', function () {
     return view('index');
 });
@@ -31,4 +33,17 @@ Route::get('curso_mentoria', 'ControllerMostraCursos@mentoria');
 Route::get('curso_redes', 'ControllerMostraCursos@redes');
 Route::get('curso_mobile', 'ControllerMostraCursos@mobile');
 Route::get('sobre', 'ControllerSobre@sobre');
+
+//Carrinho
 Route::get('carrinho', 'ControllerCarrinho@carrinho');
+Route::get('carrinho/adicionar',function(){
+    return redirect('/');
+});
+Route::post('carrinho/adicionar','ControllerCarrinho@adicionar');
+Route::delete('carrinho/remover','ControllerCarrinho@remover');
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
