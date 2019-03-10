@@ -34,7 +34,7 @@
 			</div>
 		</section>
 		<!--/hero_in-->
-
+		
 		<div class="bg_color_1">
 			<div class="container margin_60_35">
 				<div class="row">
@@ -47,13 +47,13 @@
 										Item
 									</th>
 									<th>
-										Discount
+										Descrição
 									</th>
 									<th>
-										Price
+										Preço
 									</th>
 									<th>
-										Actions
+										Ação
 									</th>
 								</tr>
 							</thead>
