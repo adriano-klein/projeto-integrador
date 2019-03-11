@@ -19,4 +19,9 @@ class ControllerValidaLogin extends Controller
 
         return 'login_failed';
     }
+
+    public function login()
+    {
+        return view('login');
+    }
 }

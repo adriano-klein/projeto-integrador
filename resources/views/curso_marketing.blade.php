@@ -383,7 +383,13 @@
 							<div class="price">
 								R$29<span class="original_price"><em>R$49</em>60% Desconto</span>
 							</div>
-							<a href="#0" class="btn_1 full-width">Comprar</a>
+
+							<form method="POST" action= "carrinho/adicionar">
+								{{ csrf_field() }}
+								<input type="hidden" name="id" value="2">
+								<button class="btn_1 full-width">Comprar</button>
+							</form>
+
 							<a href="#0" class="btn_1 full-width outline"><i class="icon_heart"></i> Adicionar a minha lista de desejos</a>
 							<div id="list_feat">
 								<h3>O que está incluso</h3>

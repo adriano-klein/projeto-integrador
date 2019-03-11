@@ -1,12 +1,14 @@
 @extends('layouts.mastercarrinho')
 @section('content')
 <main>
+
+
 		<section id="hero_in" class="cart_section">
 			<div class="wrapper">
 				<div class="container">
 					<div class="bs-wizard clearfix">
 						<div class="bs-wizard-step active">
-							<div class="text-center bs-wizard-stepnum">Your cart</div>
+							<div class="text-center bs-wizard-stepnum">Seu Carrinho</div>
 							<div class="progress">
 								<div class="progress-bar"></div>
 							</div>
@@ -14,7 +16,7 @@
 						</div>
 
 						<div class="bs-wizard-step disabled">
-							<div class="text-center bs-wizard-stepnum">Payment</div>
+							<div class="text-center bs-wizard-stepnum">Pagamento</div>
 							<div class="progress">
 								<div class="progress-bar"></div>
 							</div>
@@ -22,7 +24,7 @@
 						</div>
 
 						<div class="bs-wizard-step disabled">
-							<div class="text-center bs-wizard-stepnum">Finish!</div>
+							<div class="text-center bs-wizard-stepnum">Pronto!</div>
 							<div class="progress">
 								<div class="progress-bar"></div>
 							</div>
@@ -37,128 +39,100 @@
 		
 		<div class="bg_color_1">
 			<div class="container margin_60_35">
+				
+				@if(Session::has('mensagem-sucesso'))
+				<div class="alert alert-success">
+					<strong> {{ Session::get('mensagem-sucesso') }} </strong>
+				</div>
+				@endif
+
+				@if(Session::has('mensagem-falha'))
+				<div class="alert alert-warning">
+					<strong> {{ Session::get('mensagem-falha') }} </strong>
+				</div>
+				@endif
+
+				@forelse ($pedidos as $pedido)
+				<h3>Pedido numero: {{ $pedido->id }} </h3>
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="box_cart">
+								
 						<table class="table table-striped cart-list">
 							<thead>
 								<tr>
-									<th>
-										Item
-									</th>
-									<th>
-										Descrição
-									</th>
-									<th>
-										Preço
-									</th>
-									<th>
-										Ação
-									</th>
+									<th>Qtd</th>
+									<th>Produto</th>
+									<th>Valor Unit</th>
+									<th>Desconto</th>
+									<th>Total</th>
 								</tr>
 							</thead>
 							<tbody>
+								@php
+									$total_pedido = 0;
+								@endphp
+								@foreach ($pedido->pedido_produtos as $pedido_produto)	
 								<tr>
 									<td>
-										<div class="thumb_cart">
-											<img src="http://via.placeholder.com/150x150/ccc/fff/thumb_cart_1.jpg" alt="Image">
-										</div>
-										<span class="item_cart">Persius delenit has cu</span>
+										<span> {{ $pedido_produto->qtd }} </span>
 									</td>
 									<td>
-										0%
+										<span> {{ $pedido_produto->produto->nome }} </span>
 									</td>
 									<td>
-										<strong>24,71$</strong>
+										<strong> R$ {{ number_format($pedido_produto->produto->valor, 2, ',', '.') }} </strong>
 									</td>
+									<td>
+										<strong> {{ number_format($pedido_produto->descontos,2,',','.') }} </strong> 
+									</td>
+									@php
+										$total_produto = $pedido_produto->valores - $pedido_produto->descontos; 
+										$total_pedido += $total_produto;
+									@endphp
+									<td> R$ {{ number_format($total_produto, 2,',','.') }} </td>
+
 									<td class="options" style="width:5%; text-align:center;">
-										<a href="#"><i class="icon-trash"></i></a>
+										<a href="#" onclick="carrinhoRemoverProduto( {{ $pedido->id }}, {{ $pedido_produto->produto_id }}, 0)"><i class="icon-trash"></i></a>
 									</td>
 								</tr>
-								<tr>
-									<td>
-										<div class="thumb_cart">
-											<img src="http://via.placeholder.com/150x150/ccc/fff/thumb_cart_2.jpg" alt="Image">
-										</div>
-										<span class="item_cart">At deseruisse scriptorem</span>
-									</td>
-									<td>
-										0%
-									</td>
-									<td>
-										<strong>15,50$</strong>
-									</td>
-									<td class="options" style="width:5%; text-align:center;">
-										<a href="#"><i class="icon-trash"></i></a>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div class="thumb_cart">
-											<img src="http://via.placeholder.com/150x150/ccc/fff/thumb_cart_3.jpg" alt="Image">
-										</div>
-										<span class="item_cart">Ea vel semper quaerendum</span>
-									</td>
-									<td>
-										0%
-									</td>
-									<td>
-										<strong>24,71$</strong>
-									</td>
-									<td class="options" style="width:5%; text-align:center;">
-										<a href="#"><i class="icon-trash"></i></a>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div class="thumb_cart">
-											<img src="http://via.placeholder.com/150x150/ccc/fff/thumb_cart_4.jpg" alt="Image">
-										</div>
-										<span class="item_cart">Ei has exerci graecis</span>
-									</td>
-									<td>
-										0%
-									</td>
-									<td>
-										<strong>24,71$</strong>
-									</td>
-									<td class="options" style="width:5%; text-align:center;">
-										<a href="#"><i class="icon-trash"></i></a>
-									</td>
-								</tr>
+								@endforeach
 							</tbody>
 						</table>
 						<div class="cart-options clearfix">
 							<div class="float-left">
 								<div class="apply-coupon">
 									<div class="form-group">
-										<input type="text" name="coupon-code" value="" placeholder="Your Coupon Code" class="form-control">
+										<input type="text" name="coupon-code" value="" placeholder="Insira o seu cupom" class="form-control">
 									</div>
 									<div class="form-group">
-										<button type="button" class="btn_1 outline">Apply Coupon</button>
+										<button type="button" class="btn_1 outline">Validar Cupom</button>
 									</div>
 								</div>
 							</div>
 							<div class="float-right fix_mobile">
-								<button type="button" class="btn_1 outline">Update Cart</button>
+								<button type="button" class="btn_1 outline">Atuaizar carrinho</button>
 							</div>
 						</div>
 						<!-- /cart-options -->
 					</div>
 					</div>
-					<!-- /col -->
 					
+					<!-- /col -->
 					<aside class="col-lg-4" id="sidebar">
 						<div class="box_detail">
 							<div id="total_cart">
-								Total <span class="float-right">69.00$</span>
+								Total <span class="float-right"> {{ number_format($total_pedido, 2,',','.') }}</span>
 							</div>
 							<div class="add_bottom_30">Lorem ipsum dolor sit amet, sed vide <strong>moderatius</strong> ad. Ex eius soleat sanctus pro, enim conceptam in quo, <a href="#0">brute convenire</a> appellantur an mei.</div>
-							<a href="cart-2.html" class="btn_1 full-width">Checkout</a>
-							<a href="courses-grid-sidebar.html" class="btn_1 full-width outline"><i class="icon-right"></i> Continue Shopping</a>
+							<a href="cart-2.html" class="btn_1 full-width">Finalizar compra</a>
+							<a href="/cursos" class="btn_1 full-width outline"><i class="icon-right"></i> Continue compando</a>
 						</div>
 					</aside>
 				</div>
+				@empty
+					<h5>Não existem pedidos no seu carrinho</h5>
+				@endforelse
 				<!-- /row -->
 			</div>
 			<!-- /container -->
@@ -166,5 +140,21 @@
 		<!-- /bg_color_1 -->
 	</main>
 	<!--/main-->
+
+	<form id="form-remover-produto" method="POST" action="carrinho/remover">
+			{{ csrf_field() }}
+			{{ method_field('DELETE') }}
+			<input type="hidden" name="pedido_id">
+			<input type="hidden" name="produto_id">
+			<input type="hidden" name="item">
+		</form>
+		<form id="form-adicionar-produto" method="POST" action="carrinho/adicionar">
+			{{ csrf_field() }}
+			<input type="hidden" name="id">
+		</form>
+
+	@push('scripts')
+    	<script type="text/javascript" src="/js/carrinho.js"></script>
+	@endpush
 
 @endsection

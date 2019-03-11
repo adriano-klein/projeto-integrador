@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CriaATabelaDePedidos extends Migration
+class CreatePedidosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class CriaATabelaDePedidos extends Migration
      */
     public function up()
     {
-        Schema::create('pedidos', function(Blueprint $table){
+        Schema::create('pedidos', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('produto_id');
-            $table->integer('categoria_id');
-            $table->integer('usuario_id');
-            $table->float('valor');
-            $table->string('status');
+            $table->integer('user_id')->unsigned();
+            $table->enum('status',['RE','PA','CA']);
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->timestamps();
         });
     }
 
@@ -30,6 +29,6 @@ class CriaATabelaDePedidos extends Migration
      */
     public function down()
     {
-       Schema::drop('pedidos');
+        Schema::dropIfExists('pedidos');
     }
 }

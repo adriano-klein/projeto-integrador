@@ -170,7 +170,15 @@
             <script src="js/jquery-2.2.4.min.js"></script>
             <script src="js/common_scripts.js"></script>
             <script src="js/main.js"></script>
-            <script src="assets/validate.js"></script>
+			<script src="assets/validate.js"></script>
+			
+    @stack('scripts')
+    <script type="text/javascript">
+        $( document ).ready(function(){
+            $(".button-collapse").sideNav();
+            $('select').material_select();
+        });
+    </script>
     </body>
 </html>    
 
