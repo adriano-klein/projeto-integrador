@@ -36,7 +36,7 @@
 			</div>
 		</section>
 		<!--/hero_in-->
-
+		
 		<div class="bg_color_1">
 			<div class="container margin_60_35">
 				

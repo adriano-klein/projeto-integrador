@@ -49,5 +49,5 @@ class ProdutosSeeder extends Seeder
             'categoria_id' => 2,
         ]);
     
-}
+    }
 }

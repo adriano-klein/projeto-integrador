@@ -1,73 +1,70 @@
-@extends('layouts.app')
-
+@extends('layouts.masterlogin')
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div>
+	<!-- End Preload -->
+	
+	<div id="login">
+		<aside>
+			<figure>
+				<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
+			</figure>
+			  <form action="{{ route('login') }}" method="POST">
+              @csrf
+				<div class="access_social">
+					<a href="#0" class="social_bt facebook"> Entrar com Facebook</a>
+					<a href="#0" class="social_bt google">Entrar com Google</a>
+					<a href="#0" class="social_bt linkedin">Entrar com Linkedin</a>
+				</div>
+				<div class="divider"><span>Ou</span></div>
+				<br>
+				<div class="form-group">
+					<span class="input">
+					<input id="email" placeholder="email" type="email" class="input_field{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
+						<label class="input_label">
+						
+					</label>
+					<div>
+                        @if ($errors->has('email'))
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $errors->first('email') }}</strong>
+                            </span>
+                        @endif
+					</div>
+					</span>
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
-
-                                @if ($errors->has('email'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
-
-                                @if ($errors->has('password'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                   	<span class="input">
+					<input id="password" placeholder="senha" type="password" class="input_field{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" place required>
+						<label class="input_label">
+					
+					</label>
+					<div>
+                        @if ($errors->has('password'))
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $errors->first('password') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+					</span>
+                    @if (Route::has('password.request'))
+					<small><a href="{{ route('password.request') }}">Esqueceu a senha?</a></small>
+                    @endif
+				</div>
+                <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
+				<!-- <input type="submit" name="" class="btn_1 rounded full-width add_top_60" value="Entrar"> -->
+				<!-- <a href="#0" class="btn_1 rounded full-width add_top_60">Login to Evolution</a> -->
+                <!-- Authentication Links -->
+                @if (Route::has('register'))
+                    <div class="text-center add_top_10">Novo na Evolution? 
+                        <strong><a href="{{ route('register') }}">Registre-se!</a></strong>
+                    </div>
+                @endif
+			</form>
+			<div class="copy">© <?php echo date("Y"); ?> Evolution</div>
+		</aside>
+	</div>
 
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endsection
+    @endsection

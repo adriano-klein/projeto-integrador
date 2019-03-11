@@ -11,14 +11,14 @@
 |
 */
 
-Route::get('login', 'ControllerValidaLogin@login');
+// Route::get('login', 'LoginController@login');
 
 Route::get('/', function () {
     return view('index');
 });
 
 
-Route::post('/valida-login', 'ControllerValidaLogin@validaLogin');
+// Route::post('/valida-login', 'ControllerValidaLogin@validaLogin');
 Route::get('/cursos', 'ControllerMostraCursos@cursos');
 
 //rotas para envio de emails via formulario de contato
