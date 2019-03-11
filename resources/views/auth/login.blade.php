@@ -20,6 +20,11 @@
 				<div class="divider"><span>Ou</span></div>
 				<br>
 				<div class="form-group">
+					<span class="input">
+					<input id="email" placeholder="email" type="email" class="input_field{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
+						<label class="input_label">
+						
+					</label>
 					<div>
                         @if ($errors->has('email'))
                             <span class="invalid-feedback" role="alert">
@@ -27,25 +32,20 @@
                             </span>
                         @endif
 					</div>
-					<span class="input">
-					<input id="email" placeholder="email" type="email" class="input_field{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
-						<label class="input_label">
-						
-					</label>
 					</span>
-                    <div>
+
+                   	<span class="input">
+					<input id="password" placeholder="senha" type="password" class="input_field{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" place required>
+						<label class="input_label">
+					
+					</label>
+					<div>
                         @if ($errors->has('password'))
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $errors->first('password') }}</strong>
                             </span>
                         @endif
                     </div>
-
-					<span class="input">
-					<input id="password" placeholder="senha" type="password" class="input_field{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" place required>
-						<label class="input_label">
-					
-					</label>
 					</span>
                     @if (Route::has('password.request'))
 					<small><a href="{{ route('password.request') }}">Esqueceu a senha?</a></small>
