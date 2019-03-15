@@ -28,6 +28,8 @@
     <!--- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+	<script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
+
 </head>
 <body>
 <header class="header menu_2">
@@ -171,6 +173,7 @@
             <script src="js/common_scripts.js"></script>
             <script src="js/main.js"></script>
 			<script src="assets/validate.js"></script>
+			<script src="js/cart.js"></script>
 			
     @stack('scripts')
     <script type="text/javascript">

@@ -125,7 +125,8 @@
 								Total <span class="float-right"> {{ number_format($total_pedido, 2,',','.') }}</span>
 							</div>
 							<div class="add_bottom_30">Lorem ipsum dolor sit amet, sed vide <strong>moderatius</strong> ad. Ex eius soleat sanctus pro, enim conceptam in quo, <a href="#0">brute convenire</a> appellantur an mei.</div>
-							<a href="cart-2.html" class="btn_1 full-width">Finalizar compra</a>
+							<!-- <a href="cart-2.html" class="btn_1 full-width teste">Finalizar compra</a> -->
+							<button id="botaoFinalizar" class="btn_1 full-width">Finalizar compra</button>
 							<a href="/cursos" class="btn_1 full-width outline"><i class="icon-right"></i> Continue compando</a>
 						</div>
 					</aside>
