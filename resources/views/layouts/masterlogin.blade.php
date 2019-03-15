@@ -25,6 +25,13 @@
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- JS -->
+
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    
 
 </head>
 
