@@ -7,6 +7,11 @@ $(document).ready(function(){
         var senha=$('#senha').val();
         $.post("/api/login-ajax",
         {
+
+        headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                'Content-Type': 'application/json'
+            },
         email: login,
         password: senha
         },
@@ -14,7 +19,7 @@ $(document).ready(function(){
             if(data){
             erro = false;
             $('#errolog').hide();						
-            location.href='usuario/cursos.php'
+            location.href='/home'
             $('#loading-login').show();
         } else {
             $('#errolog').show();

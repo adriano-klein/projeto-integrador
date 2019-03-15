@@ -79,7 +79,8 @@
 	<div style="text-align:center;"><img class="logo-form" src="img/logoEvolutionHeader-min.png"></div>
 	<h4>Acesse sua conta na Evolution</h4>
 	<div class="chamaerro" id="errolog"><span>Email e senha não conferem</span></div>
-    <form id="formlogin" method="post">    
+    <form id="formlogin" method="post">
+		<meta name="csrf-token" content="{{ csrf_token() }}">
         <label for="email">Email:</label><br>
 		<div class="input-login">
 		<i style="color: black; padding: 3px;" class="fas fa-at"></i>

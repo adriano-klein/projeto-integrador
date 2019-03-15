@@ -8,7 +8,7 @@
 	<div id="login">
 		<aside>
 			<figure>
-				<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
+				<a href="index"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
 			</figure>
 			  <form action="{{ route('login') }}" method="POST">
               @csrf

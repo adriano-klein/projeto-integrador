@@ -9,7 +9,7 @@
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
       <li class="nav-item" data-toggle="tooltip" data-placement="right">
       <i class="icone fa fa-user-circle-o" aria-hidden="true"></i>
-        <span class="user">Bem vindo(a) {{ config('app.name', 'Laravel') }}</span>
+        <span class="user">Bem vindo(a) {{ Auth::user()->name }}</span>
       </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
           <a class="nav-link" href="mensagens.php">
