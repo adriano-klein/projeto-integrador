@@ -3,6 +3,7 @@
 <main>
 
 
+
 		<section id="hero_in" class="cart_section">
 			<div class="wrapper">
 				<div class="container">
@@ -93,9 +94,33 @@
 									<td> R$ {{ number_format($total_produto, 2,',','.') }} </td>
 
 									<td class="options" style="width:5%; text-align:center;">
-										<a href="#" onclick="carrinhoRemoverProduto( {{ $pedido->id }}, {{ $pedido_produto->produto_id }}, 0)"><i class="icon-trash"></i></a>
+										<a href="#" data-backdrop="false" data-toggle="modal" data-target="#modaltrash"><i class="icon-trash"></i></a>
 									</td>
 								</tr>
+									<!-- Modal para confirmação de exclusão de curso -->
+
+									<div class="modal" id="modaltrash" tabindex="-1" role="dialog">
+												<div style="margin-top: 120px;" class="modal-dialog" role="document">
+													<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title">Deseja realmente excluir?</h5>
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+														</button>
+													</div>
+													<div class="modal-body">
+														<p>Por favor, confirme se deseja remover este curso do carrinho</p>
+													</div>
+													<div class="modal-footer">
+														<button type="button" onclick="carrinhoRemoverProduto( {{ $pedido->id }}, {{ $pedido_produto->produto_id }}, 0)" class="btn btn-primary">Excluir</button>
+														<button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+													</div>
+													</div>
+												</div>
+											</div>
+
+							<!-- fim do modal -->
+
 								@endforeach
 							</tbody>
 						</table>

@@ -56,7 +56,15 @@
 					</li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
+					@if($user = Auth::user())
+
+					<li><span class="user-access">Olá, {{ Auth::user()->name }}</span></li>
+						
+							
+					
+					@else
 					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
+					@endif
 					</li>
 					</ul>
 			</nav>
