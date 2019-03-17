@@ -8,6 +8,10 @@
 			</figure>
 			<form id="myform" method="POST" action="{{ route('register') }}">
 			@csrf
+			<div>
+				<a href="{{ url('/auth/facebook') }}" class="social_bt facebook"> Registrar com Facebook</a>
+				<a href="{{ url('/auth/google') }}" class="social_bt google"> Registrar com Google</a>
+			</div>
 				<div class="form-group">
 					<span class="input">
 					<input id="name" type="text" class="input_field{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
@@ -120,8 +124,8 @@
 					<div id="pass-info" class="clearfix"></div>
 				</div>
 				<button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                </button>
+                                    {{ __('Registrar') }}
+				</button>
 				<!-- <input type="submit" name="registro_efetuado" class="btn_1 rounded full-width add_top_30" value="Registre-se na Evolution"> -->
 				<!-- <a href="login.php" class="btn_1 rounded full-width add_top_30">Registrar-se na Evolution</a> -->
 				<div class="text-center add_top_10">Já possui uma conta? <strong><a href="login">Faça o seu login</a></strong></div>
