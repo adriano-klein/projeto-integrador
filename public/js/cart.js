@@ -5,7 +5,7 @@ var button = document.querySelector('#botaoFinalizar');
             
             // inicia a instância do checkout
             var checkout = new PagarMeCheckout.Checkout({
-                encryption_key: 'ek_test_ZRWD2wzKzWUOsuG4AYN0Se0hl3AhHH',
+                encryption_key: 'insira sua key',
                 success: function(data) {
                     console.log(data);
                 },
