@@ -30,10 +30,9 @@
 
 					<span class="input">
 					<input id="email" type="email" class="input_field{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
-						<label class="input_label">
+					<label class="input_label">
 						<span class="input__label-content">Email</span>
 					</label>
-					</span>
 					<div>
 					@if ($errors->has('email'))
                         <span class="invalid-feedback" role="alert">
@@ -41,19 +40,20 @@
                         </span>
                     @endif
 					</div>
+					</span>
 					<span class="input">
 					<input id="password" type="password" class="input_field{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
-						<label class="input_label">
+					<label class="input_label">
 						<span class="input__label-content">Senha</span>
 					</label>
-					</span>
 					<div>
-					@if ($errors->has('password'))
-                        <span class="invalid-feedback" role="alert">
-                            <strong>{{ $errors->first('password') }}</strong>
-                        </span>
-                    @endif
-					</div>
+                        @if ($errors->has('password'))
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $errors->first('password') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+					</span>
 					<span class="input">
 					<input id="password-confirm" type="password" class="input_field" name="password_confirmation" required>
 						<label class="input_label">
