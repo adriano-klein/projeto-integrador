@@ -42,8 +42,13 @@ Route::get('carrinho/adicionar',function(){
 Route::post('carrinho/adicionar','ControllerCarrinho@adicionar');
 Route::delete('carrinho/remover','ControllerCarrinho@remover');
 
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider');
+Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');

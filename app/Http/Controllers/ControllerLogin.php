@@ -10,4 +10,10 @@ class login extends Controller
     {
         return view('login');
     }
+
+
+    
 }
+
+
+

@@ -56,7 +56,15 @@
 					</li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
+					@if($user = Auth::user())
+
+					<li><span class="user-access">Olá, {{ Auth::user()->name }}</span></li>
+						
+							
+					
+					@else
 					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
+					@endif
 					</li>
 					</ul>
 			</nav>
@@ -79,7 +87,8 @@
 	<div style="text-align:center;"><img class="logo-form" src="img/logoEvolutionHeader-min.png"></div>
 	<h4>Acesse sua conta na Evolution</h4>
 	<div class="chamaerro" id="errolog"><span>Email e senha não conferem</span></div>
-    <form id="formlogin" method="post">    
+    <form id="formlogin" method="post">
+		<meta name="csrf-token" content="{{ csrf_token() }}">
         <label for="email">Email:</label><br>
 		<div class="input-login">
 		<i style="color: black; padding: 3px;" class="fas fa-at"></i>
@@ -162,9 +171,9 @@
 			</div>
 		</div>
 		<!-- Jquery -->
-		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="{{ asset('js/js/jquery-2.2.4.min.js') }}"></script>
 		<!-- Login Modal -->
-		<script type="text/javascript" src="js/loginmodal.js"></script>
+		<script type="text/javascript" src="{{ asset('js/login-ajax.js') }}" defer></script>
 	</footer>
     </body>
 </html>

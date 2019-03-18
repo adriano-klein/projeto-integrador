@@ -8,14 +8,14 @@
 	<div id="login">
 		<aside>
 			<figure>
-				<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
+				<a href="index"><img src="img/logoEvolutionHeader-min.png" width="149" height="60" data-retina="true" alt=""></a>
 			</figure>
 			  <form action="{{ route('login') }}" method="POST">
               @csrf
 				<div class="access_social">
-					<a href="#0" class="social_bt facebook"> Entrar com Facebook</a>
-					<a href="#0" class="social_bt google">Entrar com Google</a>
-					<a href="#0" class="social_bt linkedin">Entrar com Linkedin</a>
+					<a href="{{ url('/auth/facebook') }}" class="social_bt facebook"> Entrar com Facebook</a>
+					<a href="{{ url('/auth/google') }}" class="social_bt google">Entrar com Google</a>
+					{{-- <a href="#0" class="social_bt linkedin">Entrar com Linkedin</a> --}}
 				</div>
 				<div class="divider"><span>Ou</span></div>
 				<br>
