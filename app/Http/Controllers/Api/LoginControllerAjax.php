@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Api;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Contracts\Auth\Authenticatable;
 use App\User;
 
 class LoginControllerAjax extends Controller
@@ -12,8 +14,12 @@ class LoginControllerAjax extends Controller
     public function authenticate(Request $request)
     {
         $credentials = $request->only('email', 'password');
+        $this->validate($request,[
+            'email' => 'required|email',
+            'password' => 'required|min:6',
+        ]);
 
-        if (Auth::attempt($credentials)) {
+        if (Auth::attempt($credentials, true)) {
             // Authentication passed...
             $autenticado = true;
             return response()->json($autenticado, 200);
@@ -22,4 +28,6 @@ class LoginControllerAjax extends Controller
             return response()->json($autenticado, 200);
         }
     } 
+    
+    
 }
