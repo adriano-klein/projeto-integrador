@@ -1,7 +1,7 @@
 
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top" id="mainNav">
-    <a class="navbar-brand" href="cursos.php"><img src="img/logo1.png" data-retina="true" alt="" width="163" height="36"></a>
+    <a class="navbar-brand" href="cursos"><img src="img/logo1.png" data-retina="true" alt="" width="163" height="36"></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,13 +12,13 @@
         <span class="user">Bem vindo(a) {{ Auth::user()->name }}</span>
       </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
-          <a class="nav-link" href="mensagens.php">
+          <a class="nav-link" href="mensagens">
             <i class="fa fa-fw fa-envelope-open"></i>
             <span class="nav-link-text">Mensagens</span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bookings">
-          <a class="nav-link" href="cursos.php">
+          <a class="nav-link" href="cursos">
             <i class="fa fa-fw fa-archive"></i>
             <span class="nav-link-text">Cursos <span class="badge badge-pill badge-primary">6 New</span></span>
           </a>
