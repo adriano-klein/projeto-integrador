@@ -1,4 +1,10 @@
 var button = document.querySelector('#botaoFinalizar');
+var total = document.getElementById('teste').innerText;
+var total_formt = total.replace(/[^\d]+/g,'');
+
+console.log(total_formt);
+
+
         
         // Abrir o modal ao clicar no botão
         button.addEventListener('click', function() {
@@ -19,7 +25,7 @@ var button = document.querySelector('#botaoFinalizar');
             
             // Obs.: é necessário passar os valores boolean como string
             checkout.open({
-                amount: 8000,
+                amount: total_formt,
                 buttonText: 'Pagar',
                 buttonClass: 'botao-pagamento',
                 customerData: 'false',
