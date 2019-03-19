@@ -23,8 +23,8 @@
 					<span class="input">
 					<input id="email" placeholder="email" type="email" class="input_field{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
 						<label class="input_label">
-						
 					</label>
+					</span>
 					<div>
                         @if ($errors->has('email'))
                             <span class="invalid-feedback" role="alert">
@@ -32,8 +32,6 @@
                             </span>
                         @endif
 					</div>
-					</span>
-
                    	<span class="input">
 					<input id="password" placeholder="senha" type="password" class="input_field{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" place required>
 						<label class="input_label">
