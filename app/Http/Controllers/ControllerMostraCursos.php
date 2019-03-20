@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Produtos;
 
 class ControllerMostraCursos extends Controller
 {
@@ -11,27 +12,58 @@ class ControllerMostraCursos extends Controller
     }
 
     public function programacao(){
-        return view('curso_programacao');
+        $produtos = Produtos::find(1);
+        $valorDesconto = $produtos->valor*0.8;
+        return view('curso_programacao')
+        ->with('produtos', $produtos)
+        ->with('valorDesconto', $valorDesconto);
+        
     }
 
     public function marketing(){
-        return view('curso_marketing');
+        $produtos = Produtos::find(2);
+        $valorDesconto = $produtos->valor*0.8;
+        return view('curso_marketing')
+        ->with('produtos', $produtos)
+        ->with('valorDesconto', $valorDesconto);
     }
 
     public function data_science(){
-        return view('curso_data_science');
+        $produtos = Produtos::find(3);
+        $valorDesconto = $produtos->valor*0.8;
+        return view('curso_data_science')
+        ->with('produtos', $produtos)
+        ->with('valorDesconto', $valorDesconto);
     }
 
     public function mentoria(){
-        return view('curso_mentoria');
+        $produtos = Produtos::find(5);
+        $valorDesconto = $produtos->valor*0.8;
+        return view('curso_mentoria')
+        ->with('produtos', $produtos)
+        ->with('valorDesconto', $valorDesconto);
     }
 
     public function redes(){
-        return view('curso_redes');
+        $produtos = Produtos::find(4);
+        $valorDesconto = $produtos->valor*0.8;
+        return view('curso_redes')
+        ->with('produtos', $produtos)
+        ->with('valorDesconto', $valorDesconto);
     }
 
     public function mobile(){
-        return view('curso_mobile');
+        $produtos = Produtos::find(6);
+        $valorDesconto = $produtos->valor*0.8;
+        return view('curso_mobile')
+        ->with('produtos', $produtos)
+        ->with('valorDesconto', $valorDesconto);
+    }
+
+    public function todosCursos(){
+        $todosCursos = Produtos::all();
+        return view('cursos')
+        ->with('cursos', $todosCursos);
     }
 
 
