@@ -18,7 +18,8 @@ class LoginControllerAjax extends Controller
         if (Auth::attempt($credentials, true)) {
             // Authentication passed...
             $autenticado = true;
-            return response()->json($autenticado, 200);
+            $test = Auth::user();
+            return response()->json($test, 200);
         } else {
             $autenticado = false;
             return response()->json($autenticado, 200);

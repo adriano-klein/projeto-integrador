@@ -9,3 +9,8 @@ function carrinhoAdicionarProduto( idproduto ) {
     $('#form-adicionar-produto input[name="id"]').val(idproduto);
     $('#form-adicionar-produto').submit();
 }
+
+$('#botaoFinalizar').click( function(){
+    // $( "#progresso" ).removeClass( "active" ).addClass( "disabled" );
+    $( "#progressonext" ).removeClass( "disabled" ).addClass( "active" );
+})
