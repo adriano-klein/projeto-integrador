@@ -1,7 +1,4 @@
 @extends('layouts.masterhome')
-
-<!-- @extends('layouts.app') -->
-
 @section('content')
 
     <div id="preloader"><div data-loader="circle-side"></div></div>
@@ -161,7 +158,24 @@
                  <h2 class="d-inline-block">Meus Cursos</h2>
             </div>
              <div class="list_general">
-                 <ul>
+
+                  @forelse($cursosAp as $curso)
+
+                    @foreach ($curso->pedido_produtos as $pedido_produto)
+                    
+                  <div class="curso_ap_box">
+                    <h3>{{ $pedido_produto->produto->nome }}</h3>
+                    <h3>{{ $pedido_produto->produto->descricao }}</h3>
+                    <button class="btn">Acesse as aulas agora</button>
+                  </div>
+                    @endforeach
+
+                  @empty
+                  <div>Você ainda não possui cursos comprados</div>
+                  @endforelse
+                  
+
+                 <!-- <ul>
                      <li>
                          <figure><img src="img/course_1.jpg" alt=""></figure>
                          <h4>Course title <i class="pending">Pending</i></h4>
@@ -210,11 +224,11 @@
                              <li><a href="#0" class="btn_1 gray delete"><i class="fa fa-fw fa-times-circle-o"></i> Cancel</a></li>
                          </ul>
                      </li>
-                 </ul>
+                 </ul> -->
              </div>
          </div>
          <!-- /box_general-->
-         <nav aria-label="...">
+         <!-- <nav aria-label="...">
              <ul class="pagination pagination-sm add_bottom_30">
                  <li class="page-item disabled">
                      <a class="page-link" href="#" tabindex="-1">Previous</a>
@@ -226,7 +240,7 @@
                      <a class="page-link" href="#">Next</a>
                  </li>
              </ul>
-         </nav>
+         </nav> -->
          <!-- /pagination-->
        </div>
        <!-- /container-fluid-->

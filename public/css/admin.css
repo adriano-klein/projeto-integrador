@@ -673,9 +673,15 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 /*-------- 3.3 Misc --------*/
+
+.curso_ap_box {
+  padding: 30px;
+}
+
+
 .box_general {
   background-color: #fff;
-  padding: 15px 30px 0 30px;
+  padding: 15px 30px 30px 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
