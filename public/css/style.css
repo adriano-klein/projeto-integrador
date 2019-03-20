@@ -636,7 +636,7 @@ ul#top_menu li a.btn_1:hover {
   border-bottom: 5px solid #FFC107;
 }
 #hero_in.general:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_general.jpg) center center no-repeat;
+  background: url(../img/sobre.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -127,16 +127,16 @@
 						<div class="cart-options clearfix">
 							<div class="float-left">
 								<div class="apply-coupon">
-									<div class="form-group">
+									<!-- <div class="form-group">
 										<input type="text" name="coupon-code" value="" placeholder="Insira o seu cupom" class="form-control">
-									</div>
-									<div class="form-group">
+									</div> -->
+									<!-- <div class="form-group">
 										<button type="button" class="btn_1 outline">Validar Cupom</button>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<div class="float-right fix_mobile">
-								<button type="button" class="btn_1 outline">Atuaizar carrinho</button>
+								<button type="button" class="btn_1 outline">Atualizar carrinho</button>
 							</div>
 						</div>
 						<!-- /cart-options -->
@@ -147,12 +147,12 @@
 					<aside class="col-lg-4" id="sidebar">
 						<div class="box_detail">
 							<div id="total_cart">
-								Total <span class="float-right"> {{ number_format($total_pedido, 2,',','.') }}</span>
+								Total <span id="teste" class="float-right"> {{ number_format($total_pedido, 2,',','.') }}</span>
 							</div>
 							<div class="add_bottom_30">Lorem ipsum dolor sit amet, sed vide <strong>moderatius</strong> ad. Ex eius soleat sanctus pro, enim conceptam in quo, <a href="#0">brute convenire</a> appellantur an mei.</div>
 							<!-- <a href="cart-2.html" class="btn_1 full-width teste">Finalizar compra</a> -->
 							<button id="botaoFinalizar" class="btn_1 full-width">Finalizar compra</button>
-							<a href="/cursos" class="btn_1 full-width outline"><i class="icon-right"></i> Continue compando</a>
+							<a href="/cursos" class="btn_1 full-width outline"><i class="icon-right"></i> Continuar comprando</a>
 						</div>
 					</aside>
 				</div>

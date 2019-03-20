@@ -13,9 +13,7 @@
 
 // Route::get('login', 'LoginController@login');
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'IndexController@index');
 
 
 // Route::post('/valida-login', 'ControllerValidaLogin@validaLogin');

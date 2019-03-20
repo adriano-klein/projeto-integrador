@@ -31,7 +31,7 @@
 </head>
 <body>
 <header class="header menu_2">
-		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
+		<div id="preloader"><div data-loader="circle-side"></div></div>
 		<div id="logo">
 			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
@@ -118,7 +118,7 @@
 		<button type="submit" id="send-login" name="enviar">Enviar</button>
 		</div>
 	</form>
-	<span class="chama"><a href="register.php">Não possui conta? Crie a sua agora!</a></span>
+	<span class="chama"><a href="register">Não possui conta? Crie a sua agora!</a></span>
 	<div style="display: none;" class="redireciona" id="loading-login"><i class="fas fa-spinner fa-spin fa-1x"></i>Redirecionando...</div>
   </div>
 
@@ -162,7 +162,7 @@
 					<div id="newsletter">
 					<h6>Newsletter</h6>
 					<div id="message-newsletter"></div>
-					<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+					<form method="post" action="assets/newsletter" name="newsletter_form" id="newsletter_form">
 						<div class="form-group">
 							<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Email">
 							<input type="submit" value="Enviar" id="submit-newsletter">

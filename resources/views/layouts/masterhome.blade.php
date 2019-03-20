@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <meta name="description" content="">
    <meta name="author" content="Ansonika">
-   <title>UDEMA - Admin dashboard</title>
+   <title>EVOLUTION - Perfil</title>
      
    <!-- Favicons-->
    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
@@ -34,9 +34,11 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
      
  </head>
+ 
+ 
 
  <body class="fixed-nav sticky-footer" id="page-top">
-
+ 
  @yield('content')
 
  <!-- /container-wrapper-->
@@ -56,12 +58,12 @@
        <div class="modal-dialog" role="document">
          <div class="modal-content">
            <div class="modal-header">
-             <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+             <h5 class="modal-title" id="exampleModalLabel">Tem certeza que deseja sair?</h5>
              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                <span aria-hidden="true">×</span>
              </button>
            </div>
-           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+           <div class="modal-body">Selecione "Logout" abaixo, se você estiver pronto para encerrar sua sessão atual.</div>
            <div class="modal-footer">
            <a class="btn btn-primary" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
@@ -72,7 +74,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
-             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
                         </div>
          </div>
        </div>

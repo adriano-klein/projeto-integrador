@@ -4,7 +4,7 @@
 		<section id="hero_in" class="general">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>About Udema</h1>
+					<h1 class="fadeInUp"><span></span>SOBRE NÓS</h1>
 				</div>
 			</div>
 		</section>
@@ -13,49 +13,49 @@
 		<div class="container margin_120_95">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Why choose Udema</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				<h2>Porque escolher a Evolution</h2>
+				<p>Nossa proposta é desenvolver uma nova geração de profissionais.</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-diamond"></i>
-						<h3>Qualified teachers</h3>
+						<h3>Professores Qualificados</h3>
 						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-display2"></i>
-						<h3>Equiped class rooms</h3>
+						<h3>Salas de Aula Equipadas</h3>
 						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-science"></i>
-						<h3>Advanced teaching</h3>
+						<h3>Tecnicas Avançadas</h3>
 						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-rocket"></i>
-						<h3>Adavanced study plans</h3>
+						<h3>Planos de Estudo Avançado</h3>
 						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-target"></i>
-						<h3>Focus on target</h3>
+						<h3>Foco no Objetivo</h3>
 						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-graph1"></i>
-						<h3>focus on success</h3>
+						<h3>Foco no Sucesso</h3>
 						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
 					</a>
 				</div>
@@ -68,7 +68,7 @@
 			<div class="container margin_120_95">
 				<div class="main_title_2">
 					<span><em></em></span>
-					<h2>Our Origins and Story</h2>
+					<h2>Nossas origens e história</h2>
 					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
 				</div>
 				<div class="row justify-content-between">
@@ -93,7 +93,7 @@
 		<div class="container margin_120_95">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Our founders</h2>
+				<h2>Nossos Fundadores</h2>
 				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
 			</div>
 			<div id="carousel" class="owl-carousel owl-theme">
