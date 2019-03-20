@@ -308,6 +308,26 @@ a:hover, a:focus {
   outline: none;
 }
 
+.controlca {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  margin-bottom: -55px;
+}
+
+.prevy, .nexty {
+  padding: 0px 60px;
+  color: #3f9fff !important;
+}
+
+.prevy:hover {
+  cursor: pointer;
+}
+
+.nexty:hover {
+  cursor: pointer;
+}
+
 /*-------- 1.2 Buttons --------*/
 a.btn_1,
 .btn_1 {

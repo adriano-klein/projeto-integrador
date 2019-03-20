@@ -85,6 +85,16 @@ body.fixed-nav {
   z-index: 0;
 }
 
+.nav-title {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.card-name {
+  padding: 30px;
+}
+
 .z-1 {
   z-index: 1;
 }
@@ -216,7 +226,7 @@ body.fixed-nav {
 }
 @media (min-width: 992px) {
   #mainNav.fixed-top .navbar-sidenav {
-    height: calc(100vh - 111px);
+    height: 100vh;
   }
   #mainNav.fixed-top .sidenav-toggler {
     position: absolute;

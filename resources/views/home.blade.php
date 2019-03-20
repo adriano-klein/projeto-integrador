@@ -13,7 +13,7 @@
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
       <li class="nav-item" data-toggle="tooltip" data-placement="right">
       <i class="icone fa fa-user-circle-o" aria-hidden="true"></i>
-        <span class="user">Bem vindo(a) {{ Auth::user()->name }}</span>
+        <span class="user card-name">Bem vindo(a) {{ Auth::user()->name }}</span>
       </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
           <a class="nav-link" href="mensagens">
@@ -47,10 +47,11 @@
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
+        <span class="nav-title">Mensagens</span>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-fw fa-envelope"></i>
-            <span class="d-lg-none">Messages
+            <span class="d-lg-none">Mensagens
               <span class="badge badge-pill badge-primary">12 New</span>
             </span>
             <span class="indicator text-primary d-none d-lg-block">
@@ -58,14 +59,14 @@
             </span>
           </a>
           <div class="dropdown-menu" aria-labelledby="messagesDropdown">
-            <h6 class="dropdown-header">New Messages:</h6>
+            <h6 class="dropdown-header">Novas Mensagens:</h6>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
-              <strong>David Miller</strong>
+              <strong>Você ainda não possui mensagens</strong>
               <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">Hey there! This new version of SB Admin is pretty awesome! These messages clip off when they reach the end of the box so they don't overflow over to the sides!</div>
+              <div class="dropdown-message small">Não há mensagens novas</div>
             </a>
-            <div class="dropdown-divider"></div>
+            <!-- <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
               <strong>Jane Smith</strong>
               <span class="small float-right text-muted">11:21 AM</span>
@@ -79,12 +80,13 @@
             </a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item small" href="#">View all messages</a>
-          </div>
+          </div> -->
         </li>
+        <span class="nav-title">Alertas</span>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle mr-lg-2" id="alertsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-fw fa-bell"></i>
-            <span class="d-lg-none">Alerts
+            <span class="d-lg-none">Alertas
               <span class="badge badge-pill badge-warning">6 New</span>
             </span>
             <span class="indicator text-warning d-none d-lg-block">
@@ -92,17 +94,17 @@
             </span>
           </a>
           <div class="dropdown-menu" aria-labelledby="alertsDropdown">
-            <h6 class="dropdown-header">New Alerts:</h6>
+            <h6 class="dropdown-header">Novos Alertas:</h6>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
               <span class="text-success">
                 <strong>
-                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+                  <i class="fa fa-long-arrow-up fa-fw"></i>Sem alertas</strong>
               </span>
               <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+              <div class="dropdown-message small">Obrigado por se cadastrar na Evolution</div>
             </a>
-            <div class="dropdown-divider"></div>
+            <!-- <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
               <span class="text-danger">
                 <strong>
@@ -121,19 +123,8 @@
               <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
             </a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item small" href="#">View all alerts</a>
+            <a class="dropdown-item small" href="#">View all alerts</a> -->
           </div>
-        </li>
-        <li class="nav-item">
-          <form class="form-inline my-2 my-lg-0 mr-lg-2">
-            <div class="input-group">
-              <span class="input-group-btn">
-                <button class="btn btn-primary" type="button">
-                  <i class="fa fa-search"></i>
-                </button>
-              </span>
-            </div>
-          </form>
         </li>
         <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#exampleModal">

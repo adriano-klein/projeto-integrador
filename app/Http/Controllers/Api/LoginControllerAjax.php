@@ -14,10 +14,6 @@ class LoginControllerAjax extends Controller
     public function authenticate(Request $request)
     {
         $credentials = $request->only('email', 'password');
-        $this->validate($request,[
-            'email' => 'required|email',
-            'password' => 'required|min:6',
-        ]);
 
         if (Auth::attempt($credentials, true)) {
             // Authentication passed...

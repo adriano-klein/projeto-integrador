@@ -58,6 +58,13 @@
 				<span><em></em></span>
 				<h2>Evolution Cursos Populares</h2>
 				<p>Confira os cursos mais populares na Evolution.</p>
+				<div class="vejacursos">
+					<h5><a href="http://localhost:8000/cursos">Veja todos os cursos</a></h5>
+				</div>
+				<div class="controlca">
+					<div class="prevy"><</div>
+					<div class="nexty">></div>
+				</div>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
 				<div class="item">
