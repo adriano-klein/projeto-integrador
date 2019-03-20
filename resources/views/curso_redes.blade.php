@@ -435,7 +435,7 @@
 								<a href="https://www.youtube.com/watch?v=m4PiYmflgYI" class="video"><i class="arrow_triangle-right"></i><img src="img/cursoProgramacao.jpg" alt="" class="img-fluid"><span>Assistir apresentação do curso</span></a>
 							</figure>
 							<div class="price">
-								R$29<span class="original_price"><em>R$49</em>60% Desconto</span>
+								{{$valorDesconto.',00'}} <span class="original_price"><em> {{$produtos->valor.',00'}} </em><?php echo (($valorDesconto/$produtos->valor)-1)*-100 . '%' . ' ' . 'desconto'?> </span>
 							</div>
 							<form method="POST" action= "carrinho/adicionar">
 								{{ csrf_field() }}

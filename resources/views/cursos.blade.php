@@ -31,9 +31,10 @@
 					<li>
 						<select name="orderby" class="selectbox">
 							<option value="category">Categoria</option>
-							<option value="category 2">Literature</option>
-							<option value="category 3">Architecture</option>
-							<option value="category 4">Economy</option>
+							<option value="category 2">Data Science</option>
+							<option value="category 3">Marketing</option>
+							<option value="category 4">Mentoria</option>
+							<option value="category 5">Programação</option>
 							</select>
 					</li>
 				</ul>
@@ -50,7 +51,7 @@
 							<div class="block-horizzontal"></div>
 							<a href="curso_data_science" class="wish_bt"></a>
 							<a href="curso_data_science"><img src="img/datascience1.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$2000</div>
+							<div class="price">R$29.00</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
@@ -96,7 +97,7 @@
 							<div class="block-horizzontal"></div>
 							<a href="curso_programacao" class="wish_bt"></a>
 							<a href="curso_programacao"><img src="img/programer.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$29</div>
+							<div class="price">R$47.20</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
@@ -165,7 +166,7 @@
 							<div class="block-horizzontal"></div>
 							<a href="curso_mobile.php" class="wish_bt"></a>
 							<a href="curso_mobile"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$39</div>
+							<div class="price">R$29.00</div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">

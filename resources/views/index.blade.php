@@ -66,7 +66,7 @@
 							<a href="curso_programacao" class="wish_bt"></a>
 							<a href="curso_programacao">
 								<div class="preview"><span>Visualizar curso</span></div><img src="img/programer.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$39</div>
+							{{-- <div class="price">Confira</div> --}}
 
 						</figure>
 						<div class="wrapper">
@@ -88,7 +88,7 @@
 						<figure>
 							<a href="curso_data_science" class="wish_bt"></a>
 							<a href="curso_data_science"><img src="img/datascientist.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$45</div>
+							{{-- <div class="price">R$45</div> --}}
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
@@ -110,7 +110,7 @@
 						<figure>
 							<a href="curso_mentoria" class="wish_bt"></a>
 							<a href="curso_mentoria"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$54</div>
+							{{-- <div class="price">R$54</div> --}}
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
@@ -132,7 +132,7 @@
 						<figure>
 							<a href="curso_redes" class="wish_bt"></a>
 							<a href="curso_redes"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$27</div>
+							{{-- <div class="price">R$27</div> --}}
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
@@ -154,7 +154,7 @@
 						<figure>
 							<a href="curso_mobile" class="wish_bt"></a>
 							<a href="curso_mobile"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$35</div>
+							{{-- <div class="price">R$35</div> --}}
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
@@ -176,7 +176,7 @@
 						<figure>
 							<a href="curso_marketing" class="wish_bt"></a>
 							<a href="curso_marketing"><img src="img/marketing.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$54</div>
+							{{-- <div class="price">R$54</div> --}}
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
