@@ -66,7 +66,7 @@ class ControllerCarrinho extends Controller
         ]);
 
         $req->session()->flash('mensagem-sucesso', 'Produto adicionado ao carrinho com sucesso!');
-        return redirect('/carrinho');
+        return redirect('carrinho');
     }
 
     public function remover()

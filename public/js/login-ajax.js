@@ -19,7 +19,7 @@ $(document).ready(function(){
             if(data){
             erro = false;
             $('#errolog').hide();						
-            location.href='/home'
+        location.href='/home'
             $('#loading-login').show();
         } else {
             $('#errolog').show();
