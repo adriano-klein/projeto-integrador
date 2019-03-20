@@ -5,7 +5,6 @@
 			<div id="hero_video">
 				<div>
 					<h3><strong>Academia Evolution</strong><br>Cursos Online</h3>
-					<!-- <p>Eam fastidii erroribus corrumpit cu, in quo epicuri recusabo, <strong>est vocent eleifend</strong> inimicus at.</p> -->
 				</div>
 				<a href="#first_section" class="btn_explore hidden_tablet"><i class="ti-arrow-down"></i></a>
 			</div>

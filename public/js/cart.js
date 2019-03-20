@@ -2,7 +2,7 @@ var button = document.querySelector('#botaoFinalizar');
 var total = document.getElementById('teste').innerText;
 var total_formt = total.replace(/[^\d]+/g,'');
 
-console.log(total_formt);
+
 
 
         

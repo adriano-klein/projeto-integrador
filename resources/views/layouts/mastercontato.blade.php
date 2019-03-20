@@ -15,7 +15,7 @@
 
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -37,11 +37,11 @@
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
-			<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
-				<li><a href="login.php" class="login">Login</a></li>
+				<li><a href="login" class="login">Login</a></li>
 				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
 			</ul>
 			<!-- /top_menu -->
@@ -97,7 +97,7 @@
 		<button type="submit" id="send-login" name="enviar">Enviar</button>
 		</div>
 	</form>
-	<span class="chama"><a href="register.php">Não possui conta? Crie a sua agora!</a></span>
+	<span class="chama"><a href="register">Não possui conta? Crie a sua agora!</a></span>
 	<div style="display: none;" class="redireciona" id="loading-login"><i class="fas fa-spinner fa-spin fa-1x"></i>Redirecionando...</div>
   </div>
 
@@ -141,7 +141,7 @@
 					<div id="newsletter">
 					<h6>Newsletter</h6>
 					<div id="message-newsletter"></div>
-					<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+					<form method="post" action="assets/newsletter" name="newsletter_form" id="newsletter_form">
 						<div class="form-group">
 							<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Email">
 							<input type="submit" value="Enviar" id="submit-newsletter">
