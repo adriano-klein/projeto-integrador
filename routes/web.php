@@ -31,6 +31,7 @@ Route::get('curso_mentoria', 'ControllerMostraCursos@mentoria');
 Route::get('curso_redes', 'ControllerMostraCursos@redes');
 Route::get('curso_mobile', 'ControllerMostraCursos@mobile');
 Route::get('sobre', 'ControllerSobre@sobre');
+Route::post('pagamento', 'ControllerPagamento@pagamento');
 
 //Carrinho
 Route::get('carrinho', 'ControllerCarrinho@carrinho');
@@ -44,7 +45,22 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+{
+      // Authentication Routes...
+      $this->get('login', 'Auth\LoginController@showLoginForm')->name('login');
+      $this->post('login/{carrinho?}', 'Auth\LoginController@login');
+      $this->post('logout', 'Auth\LoginController@logout')->name('logout');
+
+      // Registration Routes...
+      $this->get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+      $this->post('register', 'Auth\RegisterController@register');
+
+      // Password Reset Routes...
+      $this->get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm');
+      $this->post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail');
+      $this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm');
+      $this->post('password/reset', 'Auth\ResetPasswordController@reset');
+}
 
 Route::get('/home', 'HomeController@index')->name('home');
 
