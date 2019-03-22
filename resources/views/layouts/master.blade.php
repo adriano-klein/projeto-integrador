@@ -31,9 +31,9 @@
 </head>
 <body>
 <header class="header menu_2">
-		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
+		<div id="preloader"><div data-loader="circle-side"></div></div>
 		<div id="logo">
-			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="/"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
@@ -118,7 +118,7 @@
 		<button type="submit" id="send-login" name="enviar">Enviar</button>
 		</div>
 	</form>
-	<span class="chama"><a href="register.php">Não possui conta? Crie a sua agora!</a></span>
+	<span class="chama"><a href="register">Não possui conta? Crie a sua agora!</a></span>
 	<div style="display: none;" class="redireciona" id="loading-login"><i class="fas fa-spinner fa-spin fa-1x"></i>Redirecionando...</div>
   </div>
 
@@ -130,10 +130,10 @@
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
 					<p><img src="img/logoEvolutionFooter-min.png" width="150" height="80" data-retina="true" alt=""></p>
-					<p>Projeto desenvolvido em Laravel com o intuito de trabalhar, utilizar e fixar todos o conhecimento adquirido em sala de aula.</p>
+					<p>Projeto integrado desenvolvido para o curso de Desenvolvimento Full Stack da Digital House com o intuito de aplicar todos os conhecimentos adquiridos em sala de aula.</p>
 					<div class="follow_us">
 						<ul>
-							<li>Redes Socias</li>
+							<li>Redes Sociais</li>
 							<li><a href="#0"><i class="ti-facebook"></i></a></li>
 							<li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
 							<li><a href="#0"><i class="ti-google"></i></a></li>
@@ -143,12 +143,12 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
-					<h5>links úteis</h5>
+					<h5>Links úteis</h5>
 					<ul class="links">
 						<li><a href="#0">Matrícula</a></li>
 						<li><a href="#0">Sobre nós</a></li>
 						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Registrar-se</a></li>
+						<li><a href="#0">Registre-se</a></li>
 						<li><a href="#0">Notícias &amp; Eventos</a></li>
 						<li><a href="/contato">Contato</a></li>
 					</ul>
@@ -162,7 +162,7 @@
 					<div id="newsletter">
 					<h6>Newsletter</h6>
 					<div id="message-newsletter"></div>
-					<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+					<form method="post" action="assets/newsletter" name="newsletter_form" id="newsletter_form">
 						<div class="form-group">
 							<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Email">
 							<input type="submit" value="Enviar" id="submit-newsletter">

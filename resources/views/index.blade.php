@@ -5,7 +5,6 @@
 			<div id="hero_video">
 				<div>
 					<h3><strong>Academia Evolution</strong><br>Cursos Online</h3>
-					<!-- <p>Eam fastidii erroribus corrumpit cu, in quo epicuri recusabo, <strong>est vocent eleifend</strong> inimicus at.</p> -->
 				</div>
 				<a href="#first_section" class="btn_explore hidden_tablet"><i class="ti-arrow-down"></i></a>
 			</div>
@@ -59,6 +58,13 @@
 				<span><em></em></span>
 				<h2>Evolution Cursos Populares</h2>
 				<p>Confira os cursos mais populares na Evolution.</p>
+				<div class="vejacursos">
+					<h5><a href="http://localhost:8000/cursos">Veja todos os cursos</a></h5>
+				</div>
+				<div class="controlca">
+					<div class="prevy"><</div>
+					<div class="nexty">></div>
+				</div>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
 				<div class="item">

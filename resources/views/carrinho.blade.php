@@ -8,7 +8,7 @@
 			<div class="wrapper">
 				<div class="container">
 					<div class="bs-wizard clearfix">
-						<div class="bs-wizard-step active">
+						<div id="progresso" class="bs-wizard-step active">
 							<div class="text-center bs-wizard-stepnum">Seu Carrinho</div>
 							<div class="progress">
 								<div class="progress-bar"></div>
@@ -16,7 +16,7 @@
 							<a href="#0" class="bs-wizard-dot"></a>
 						</div>
 
-						<div class="bs-wizard-step disabled">
+						<div id="progressonext" class="bs-wizard-step disabled">
 							<div class="text-center bs-wizard-stepnum">Pagamento</div>
 							<div class="progress">
 								<div class="progress-bar"></div>

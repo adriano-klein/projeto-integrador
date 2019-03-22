@@ -2,18 +2,33 @@ var button = document.querySelector('#botaoFinalizar');
 var total = document.getElementById('teste').innerText;
 var total_formt = total.replace(/[^\d]+/g,'');
 
-console.log(total_formt);
-
-
-        
+       
         // Abrir o modal ao clicar no botão
         button.addEventListener('click', function() {
             
             // inicia a instância do checkout
             var checkout = new PagarMeCheckout.Checkout({
-                encryption_key: 'ek_test_ZRWD2wzKzWUOsuG4AYN0Se0hl3AhHH',
+                encryption_key:'colocar chave da API',
                 success: function(data) {
+<<<<<<< HEAD
                     console.log('olha aqui cara', data);
+=======
+                    fetch(`https://api.pagar.me/1/transactions/${data.token}/capture`,{
+                        method: 'POST',
+                        headers:{
+                            'Accept': 'application/jason',
+                            'Content-Type': 'application/jason',
+                        },
+                        body:{
+                            'api_key': 'colocar chave da API',
+                            'amount': total_formt
+                        }
+                        
+                    }).then((res) => {res.json()}).yhen((data) => {console.log(data)});
+
+                    
+
+>>>>>>> 8e30c42d26b09a7355065c0b9cc0941bb037f2af
                 },
                 error: function(err) {
                     console.log(err);

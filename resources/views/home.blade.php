@@ -1,16 +1,140 @@
 @extends('layouts.masterhome')
-
-<!-- @extends('layouts.app') -->
-
 @section('content')
 
     <div id="preloader"><div data-loader="circle-side"></div></div>
      
      <!-- Navigation-->
-     @extends('layouts.navuser')
-     <!-- /Navigation-->
-     <h3></h3>
-     
+     <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top" id="mainNav">
+    <a class="navbar-brand" href="cursos"><img src="img/logo1.png" data-retina="true" alt="" width="163" height="36"></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+      <li class="nav-item" data-toggle="tooltip" data-placement="right">
+      <i class="icone fa fa-user-circle-o" aria-hidden="true"></i>
+        <span class="user card-name">Bem vindo(a) {{ Auth::user()->name }}</span>
+      </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
+          <a class="nav-link" href="mensagens">
+            <i class="fa fa-fw fa-envelope-open"></i>
+            <span class="nav-link-text">Mensagens</span>
+          </a>
+        </li>
+		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bookings">
+          <a class="nav-link" href="cursos">
+            <i class="fa fa-fw fa-archive"></i>
+            <span class="nav-link-text">Cursos <span class="badge badge-pill badge-primary">6 New</span></span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="My profile">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseProfile" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="nav-link-text">Perfil do usuário</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="collapseProfile">
+            <li>
+              <a href="user-profile">Meu perfil</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <span class="nav-title">Mensagens</span>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-fw fa-envelope"></i>
+            <span class="d-lg-none">Mensagens
+              <span class="badge badge-pill badge-primary">12 New</span>
+            </span>
+            <span class="indicator text-primary d-none d-lg-block">
+              <i class="fa fa-fw fa-circle"></i>
+            </span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+            <h6 class="dropdown-header">Novas Mensagens:</h6>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <strong>Você ainda não possui mensagens</strong>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">Não há mensagens novas</div>
+            </a>
+            <!-- <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <strong>Jane Smith</strong>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <strong>John Doe</strong>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item small" href="#">View all messages</a>
+          </div> -->
+        </li>
+        <span class="nav-title">Alertas</span>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mr-lg-2" id="alertsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-fw fa-bell"></i>
+            <span class="d-lg-none">Alertas
+              <span class="badge badge-pill badge-warning">6 New</span>
+            </span>
+            <span class="indicator text-warning d-none d-lg-block">
+              <i class="fa fa-fw fa-circle"></i>
+            </span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="alertsDropdown">
+            <h6 class="dropdown-header">Novos Alertas:</h6>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <span class="text-success">
+                <strong>
+                  <i class="fa fa-long-arrow-up fa-fw"></i>Sem alertas</strong>
+              </span>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">Obrigado por se cadastrar na Evolution</div>
+            </a>
+            <!-- <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <span class="text-danger">
+                <strong>
+                  <i class="fa fa-long-arrow-down fa-fw"></i>Status Update</strong>
+              </span>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <span class="text-success">
+                <strong>
+                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+              </span>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item small" href="#">View all alerts</a> -->
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /Navigation-->
+ 
    <div class="content-wrapper">
      <div class="container-fluid">
        <!-- Breadcrumbs-->
@@ -23,17 +147,26 @@
          <div class="box_general">
              <div class="header_box">
                  <h2 class="d-inline-block">Meus Cursos</h2>
-                 <div class="filter">
-                     <select name="orderby" class="selectbox">
-                         <option value="Any status">Any status</option>
-                         <option value="Approved">Started</option>
-                         <option value="Pending">Pending</option>
-                         <option value="Cancelled">Cancelled</option>
-                     </select>
-                 </div>
-             </div>
+            </div>
              <div class="list_general">
-                 <ul>
+
+                  @forelse($cursosAp as $curso)
+
+                    @foreach ($curso->pedido_produtos as $pedido_produto)
+                    
+                  <div class="curso_ap_box">
+                    <h3>{{ $pedido_produto->produto->nome }}</h3>
+                    <h3>{{ $pedido_produto->produto->descricao }}</h3>
+                    <button class="btn">Acesse as aulas agora</button>
+                  </div>
+                    @endforeach
+
+                  @empty
+                  <div>Você ainda não possui cursos comprados</div>
+                  @endforelse
+                  
+
+                 <!-- <ul>
                      <li>
                          <figure><img src="img/course_1.jpg" alt=""></figure>
                          <h4>Course title <i class="pending">Pending</i></h4>
@@ -82,11 +215,11 @@
                              <li><a href="#0" class="btn_1 gray delete"><i class="fa fa-fw fa-times-circle-o"></i> Cancel</a></li>
                          </ul>
                      </li>
-                 </ul>
+                 </ul> -->
              </div>
          </div>
          <!-- /box_general-->
-         <nav aria-label="...">
+         <!-- <nav aria-label="...">
              <ul class="pagination pagination-sm add_bottom_30">
                  <li class="page-item disabled">
                      <a class="page-link" href="#" tabindex="-1">Previous</a>
@@ -98,9 +231,10 @@
                      <a class="page-link" href="#">Next</a>
                  </li>
              </ul>
-         </nav>
+         </nav> -->
          <!-- /pagination-->
        </div>
        <!-- /container-fluid-->
         </div>
+
 @endsection

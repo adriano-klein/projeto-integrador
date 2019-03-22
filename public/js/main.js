@@ -273,5 +273,20 @@
 		$('ul#cat_nav li a.active').removeClass('active');
 		$(this).addClass('active');
 	});
+
+	// Botões para controlar carrossel de cursos
+
+	var owl = $('.owl-carousel');
+owl.owlCarousel();
+// Go to the next item
+$('.nexty').click(function() {
+    owl.trigger('next.owl.carousel');
+})
+// Go to the previous item
+$('.prevy').click(function() {
+    // With optional speed parameter
+    // Parameters has to be in square bracket '[]'
+    owl.trigger('prev.owl.carousel', [300]);
+})
 	
 })(window.jQuery); 

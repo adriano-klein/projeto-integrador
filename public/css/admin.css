@@ -85,6 +85,16 @@ body.fixed-nav {
   z-index: 0;
 }
 
+.nav-title {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.card-name {
+  padding: 30px;
+}
+
 .z-1 {
   z-index: 1;
 }
@@ -216,7 +226,7 @@ body.fixed-nav {
 }
 @media (min-width: 992px) {
   #mainNav.fixed-top .navbar-sidenav {
-    height: calc(100vh - 111px);
+    height: 100vh;
   }
   #mainNav.fixed-top .sidenav-toggler {
     position: absolute;
@@ -673,9 +683,15 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 /*-------- 3.3 Misc --------*/
+
+.curso_ap_box {
+  padding: 30px;
+}
+
+
 .box_general {
   background-color: #fff;
-  padding: 15px 30px 0 30px;
+  padding: 15px 30px 30px 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;

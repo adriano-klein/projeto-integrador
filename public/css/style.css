@@ -308,6 +308,26 @@ a:hover, a:focus {
   outline: none;
 }
 
+.controlca {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  margin-bottom: -55px;
+}
+
+.prevy, .nexty {
+  padding: 0px 60px;
+  color: #3f9fff !important;
+}
+
+.prevy:hover {
+  cursor: pointer;
+}
+
+.nexty:hover {
+  cursor: pointer;
+}
+
 /*-------- 1.2 Buttons --------*/
 a.btn_1,
 .btn_1 {
@@ -636,7 +656,7 @@ ul#top_menu li a.btn_1:hover {
   border-bottom: 5px solid #FFC107;
 }
 #hero_in.general:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_general.jpg) center center no-repeat;
+  background: url(../img/sobre.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
