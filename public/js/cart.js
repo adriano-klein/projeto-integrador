@@ -13,7 +13,7 @@ console.log(total_formt);
             var checkout = new PagarMeCheckout.Checkout({
                 encryption_key: 'ek_test_ZRWD2wzKzWUOsuG4AYN0Se0hl3AhHH',
                 success: function(data) {
-                    console.log(data);
+                    console.log('olha aqui cara', data);
                 },
                 error: function(err) {
                     console.log(err);
