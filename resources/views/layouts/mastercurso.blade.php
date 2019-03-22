@@ -30,7 +30,7 @@
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
-			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="/"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
@@ -121,7 +121,7 @@
 						<li><a href="#0">Matricular-se</a></li>
 						<li><a href="#0">Sobre nós</a></li>
 						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Registrar</a></li>
+						<li><a href="#0">Registre-se</a></li>
 						<li><a href="#0">Notícias &amp; Events</a></li>
 						<li><a href="#0">Contato</a></li>
 					</ul>

@@ -37,7 +37,7 @@
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
-			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="/"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
@@ -112,7 +112,7 @@
 					<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
 					<div class="follow_us">
 						<ul>
-							<li>Redes Socias</li>
+							<li>Redes Sociais</li>
 							<li><a href="#0"><i class="ti-facebook"></i></a></li>
 							<li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
 							<li><a href="#0"><i class="ti-google"></i></a></li>
@@ -124,10 +124,10 @@
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="#0">Admission</a></li>
-						<li><a href="#0">About</a></li>
+						<li><a href="#0">Matrícula</a></li>
+						<li><a href="#0">Sobre nós</a></li>
 						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Register</a></li>
+						<li><a href="#0">Registre-se</a></li>
 						<li><a href="#0">News &amp; Events</a></li>
 						<li><a href="#0">Contacts</a></li>
 					</ul>

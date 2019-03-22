@@ -33,7 +33,7 @@
 <header class="header menu_2">
 		<div id="preloader"><div data-loader="circle-side"></div></div>
 		<div id="logo">
-			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="/"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
@@ -130,10 +130,10 @@
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
 					<p><img src="img/logoEvolutionFooter-min.png" width="150" height="80" data-retina="true" alt=""></p>
-					<p>Projeto desenvolvido em Laravel com o intuito de trabalhar, utilizar e fixar todos o conhecimento adquirido em sala de aula.</p>
+					<p>Projeto integrado desenvolvido para o curso de Desenvolvimento Full Stack da Digital House com o intuito de aplicar todos os conhecimentos adquiridos em sala de aula.</p>
 					<div class="follow_us">
 						<ul>
-							<li>Redes Socias</li>
+							<li>Redes Sociais</li>
 							<li><a href="#0"><i class="ti-facebook"></i></a></li>
 							<li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
 							<li><a href="#0"><i class="ti-google"></i></a></li>
@@ -143,12 +143,12 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
-					<h5>links úteis</h5>
+					<h5>Links úteis</h5>
 					<ul class="links">
 						<li><a href="#0">Matrícula</a></li>
 						<li><a href="#0">Sobre nós</a></li>
 						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Registrar-se</a></li>
+						<li><a href="#0">Registre-se</a></li>
 						<li><a href="#0">Notícias &amp; Eventos</a></li>
 						<li><a href="/contato">Contato</a></li>
 					</ul>
