@@ -10,9 +10,6 @@ var total_formt = total.replace(/[^\d]+/g,'');
             var checkout = new PagarMeCheckout.Checkout({
                 encryption_key:'colocar chave da API',
                 success: function(data) {
-<<<<<<< HEAD
-                    console.log('olha aqui cara', data);
-=======
                     fetch(`https://api.pagar.me/1/transactions/${data.token}/capture`,{
                         method: 'POST',
                         headers:{
@@ -28,7 +25,6 @@ var total_formt = total.replace(/[^\d]+/g,'');
 
                     
 
->>>>>>> 8e30c42d26b09a7355065c0b9cc0941bb037f2af
                 },
                 error: function(err) {
                     console.log(err);
