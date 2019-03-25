@@ -66,197 +66,37 @@
 					<div class="nexty">></div>
 				</div>
 			</div>
-			<div id="reccomended" class="owl-carousel owl-theme">
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="curso_programacao" class="wish_bt"></a>
-							<a href="curso_programacao">
-								<div class="preview"><span>Visualizar curso</span></div><img src="img/programer.jpg" class="img-fluid" alt=""></a>
-							{{-- <div class="price">Confira</div> --}}
+{{-- ---------------------------------------- --}}
+<div id="reccomended" class="owl-carousel owl-theme">
+	@foreach($cursos as $curso)
+	<div class="item">
+		<div class="box_grid">
+			<figure>
+				<a href="{{ $curso->link_produto }}" class="wish_bt"></a>
+				<a href="{{ $curso->link_produto }}">
+					<div class="preview"><span> {{ $curso->nome }} </span></div><img src=" {{ $curso->url_imagem }} " class="img-fluid" alt=""></a>
+				<div class="price">{{'R$'.$curso->valor.'.00'}}</div>
 
-						</figure>
-						<div class="wrapper">
-							<small>Categoria</small>
-							<h3>Programação</h3>
-							<p>Aprenda html, jsp, tomcat, postgresql e criar sistemas completos desde o login até os cadastros, consultas e relatórios.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
-						</div>
-						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_programacao">Matricular-se</a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="curso_data_science" class="wish_bt"></a>
-							<a href="curso_data_science"><img src="img/datascientist.jpg" class="img-fluid" alt=""></a>
-							{{-- <div class="price">R$45</div> --}}
-							<div class="preview"><span>Visualizar curso</span></div>
-						</figure>
-						<div class="wrapper">
-							<small>Categoria</small>
-							<h3>Data Science</h3>
-							<p>Aprenda as técnicas que o mundo real exige e torne-se um profissional competitivo na área de Inteligência Artificial!</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i></i> <small>(300)</small></div>
-						</div>
-						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_data_science">Matricular-se</a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="curso_mentoria" class="wish_bt"></a>
-							<a href="curso_mentoria"><img src="img/mentoria_carreira.jpg" class="img-fluid" alt=""></a>
-							{{-- <div class="price">R$54</div> --}}
-							<div class="preview"><span>Visualizar curso</span></div>
-						</figure>
-						<div class="wrapper">
-							<small>Categoria</small>
-							<h3>Mentoria de Carreira</h3>
-							<p>Um programa individual, rápido e personalizado para quem busca acelerar a carreira, corrigir desvios e sabotadores comportamentais e conquistar excelentes</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
-						</div>
-						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_mentoria">Matricular-se</a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="curso_redes" class="wish_bt"></a>
-							<a href="curso_redes"><img src="img/redes.jpg" class="img-fluid" alt=""></a>
-							{{-- <div class="price">R$27</div> --}}
-							<div class="preview"><span>Visualizar curso</span></div>
-						</figure>
-						<div class="wrapper">
-							<small>Categoria</small>
-							<h3>Redes de Computadores</h3>
-							<p>Redes de Computadores, Protocolos TCP/IP Aplicados à Comunicações Via Satélite, Multicast e Segurança Telecom</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
-						</div>
-						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_redes">Matricular-se</a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="curso_mobile" class="wish_bt"></a>
-							<a href="curso_mobile"><img src="img/mobile.jpg" class="img-fluid" alt=""></a>
-							{{-- <div class="price">R$35</div> --}}
-							<div class="preview"><span>Visualizar curso</span></div>
-						</figure>
-						<div class="wrapper">
-							<small>Categoria</small>
-							<h3>Desenvolvimento mobile</h3>
-							<p>Curso completo de desenvolvimento Android; Crie na prática apps como: Instagram, Flappy Bird, WhatsApp e muito mais.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
-						</div>
-						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_mobile">Matricular-se</a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
-				<div class="item">
-					<div class="box_grid">
-						<figure>
-							<a href="curso_marketing" class="wish_bt"></a>
-							<a href="curso_marketing"><img src="img/marketing.jpg" class="img-fluid" alt=""></a>
-							{{-- <div class="price">R$54</div> --}}
-							<div class="preview"><span>Visualizar curso</span></div>
-						</figure>
-						<div class="wrapper">
-							<small>Categoria</small>
-							<h3>Marketing Digital</h3>
-							<p>SEO, Google Ads, Facebook e Instagram Ads, LinkedIn Ads, Email Marketing e Análise. O máximo sobre Marketing Digital!</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
-						</div>
-						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_marketing">Matricular-se</a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /item -->
+			</figure>
+			<div class="wrapper">
+				<small> {{$curso->categorias->nome}} </small>  {{--colocar o nome de cada categoria--}}
+				<h3> {{$curso->nome}} </h3>
+				<p> {{$curso->descricao}} </p>
+				<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 			</div>
-			<!-- /carousel -->
-			
-			<!-- /container -->
-			<hr>
+			<ul>
+				<li><i class="icon_clock_alt"></i> 1h 30min</li>
+				<li><i class="icon_like"></i> 890</li>
+				<li><a href="{{ $curso->link_produto }}">Matricular-se</a></li>
+			</ul>
 		</div>
-		<!-- /container -->
+	</div>
+	@endforeach
+</div>
 
-		<!-- <div class="container margin_30_95">
-			<div class="main_title_2">
-				<span><em></em></span>
-				<h2>Evolution Categoria de Cursos</h2>
-				<p>Conheça nossos Cursos</p>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 wow" data-wow-offset="150">
-					<a href="#0" class="grid_item">
-						<figure class="block-reveal">
-							<div class="block-horizzontal"></div>
-							<img src="img/programer_one.jpg" class="img-fluid" alt="">
-							<div class="info">
-								<small><i class="ti-layers"></i>15 Programas</small>
-								<h3>Programação</h3>
-							</div>
-						</figure>
-					</a>
-				</div> -->
-				<!-- /grid_item -->
-				<!-- <div class="col-lg-4 col-md-6 wow" data-wow-offset="150">
-					<a href="#0" class="grid_item">
-						<figure class="block-reveal">
-							<div class="block-horizzontal"></div>
-							<img src="img/datascience1.jpg" class="img-fluid" alt="">
-							<div class="info">
-								<small><i class="ti-layers"></i>23 Programas</small>
-								<h3>Data Science</h3>
-							</div>
-						</figure>
-					</a>
-				</div> -->
-				<!-- /grid_item -->
-				<!-- <div class="col-lg-4 col-md-6 wow" data-wow-offset="150">
-					<a href="#0" class="grid_item">
-						<figure class="block-reveal">
-							<div class="block-horizzontal"></div>
-							<img src="img/marketing_digital.jpg" class="img-fluid" alt="">
-							<div class="info">
-								<small><i class="ti-layers"></i>23 Programas</small>
-								<h3>Marketing Digital</h3>
-							</div>
-						</figure>
-					</a>
-				</div> -->
-				<!-- /grid_item -->
-			</div>
-			<!-- /row -->
-		</div>
+{{-- ---------------------------------------- --}}
+
+				
 		<!-- /container -->
 		<div class="call_section">
 			<div class="container clearfix">

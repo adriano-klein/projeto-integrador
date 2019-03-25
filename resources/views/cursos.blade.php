@@ -8,32 +8,75 @@
 				</div>
 			</div>
 		</section>
+<<<<<<< HEAD
+=======
+		<!--/hero_in-->
+		<div class="filters_listing sticky_horizontal">
+			<div class="container">
+				<ul class="clearfix">
+					<li>
+						<div class="switch-field">
+							<input type="radio" id="all" name="listing_filter" value="all" checked>
+							<label for="all">All</label>
+							<input type="radio" id="popular" name="listing_filter" value="popular">
+							<label for="popular">Popular</label>
+							<input type="radio" id="latest" name="listing_filter" value="latest">
+							<label for="latest">Latest</label>
+						</div>
+					</li>
+					<li>
+						<div class="layout_view">
+							<a href="#0" class="active"><i class="icon-th"></i></a>
+							<a href="courses-list.html"><i class="icon-th-list"></i></a>
+						</div>
+					</li>
+					<li>
+						<select name="orderby" class="selectbox">
+							<option value="category">Categoria</option>
+							<option value="category 2">Data Science</option>
+							<option value="category 3">Marketing</option>
+							<option value="category 4">Mentoria</option>
+							<option value="category 5">Programação</option>
+							</select>
+					</li>
+				</ul>
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /filters -->
+
+		
+>>>>>>> 86698b1340454fae3146b5d6e98aaa1f191983de
 		<div class="container margin_60_35">
 			<div class="row">
+				@foreach ($cursos as $curso)
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<a href="curso_data_science" class="wish_bt"></a>
-							<a href="curso_data_science"><img src="img/datascience1.jpg" class="img-fluid" alt=""></a>
-							<div class="price">R$29.00</div>
+							<a href="{{$curso->link_produto}}" class="wish_bt"></a>
+							<a href="{{$curso->link_produto}}"><img src=" {{ $curso->url_imagem }} " class="img-fluid" alt=""></a>
+							<div class="price"> {{$curso->valor . '.00'}} </div>
 							<div class="preview"><span>Visualizar curso</span></div>
 						</figure>
 						<div class="wrapper">
-							<small>Categoria</small>
-							<h3>Data Science</h3>
-							<p>Aprenda as técnicas que o mundo real exige e torne-se um profissional competitivo na área de Inteligência Artificial!</p>
+							<small>{{$curso->categorias->nome}}</small>
+							<h3> {{ $curso->nome }} </h3>
+							<p> {{ $curso->descricao }} </p>
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="curso_data_science">Matricular-se</a></li>
+							<li><a href="{{$curso->link_produto}}">Matricular-se</a></li>
 						</ul>
 					</div>
 				</div>
+				@endforeach
+			</div>
+		</div>
 				<!-- /box_grid -->
-				<div class="col-xl-4 col-lg-6 col-md-6">
+				{{-- <div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
@@ -148,10 +191,11 @@
 					</div>
 					<!-- /box_grid -->
 				</div>
-			</div>
+			</div> --}}
 			<!-- /row -->
 			<!-- <p class="text-center"><a href="#0" class="btn_1 rounded add_top_30">Veja mais</a></p> -->
-		</div>
+		
+	
 		
 	</main>
 	<!--/main-->
