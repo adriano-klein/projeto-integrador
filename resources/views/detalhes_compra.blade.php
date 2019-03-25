@@ -7,7 +7,7 @@
 				<div class="container">
 					<div class="bs-wizard clearfix">
 						<div class="bs-wizard-step">
-							<div class="text-center bs-wizard-stepnum">Your cart</div>
+							<div class="text-center bs-wizard-stepnum">Seu carrinho</div>
 							<div class="progress">
 								<div class="progress-bar"></div>
 							</div>
@@ -15,7 +15,7 @@
 						</div>
 
 						<div class="bs-wizard-step">
-							<div class="text-center bs-wizard-stepnum">Payment</div>
+							<div class="text-center bs-wizard-stepnum">Pagamento</div>
 							<div class="progress">
 								<div class="progress-bar"></div>
 							</div>
@@ -23,7 +23,7 @@
 						</div>
 
 						<div class="bs-wizard-step active">
-							<div class="text-center bs-wizard-stepnum">Finish!</div>
+							<div class="text-center bs-wizard-stepnum">Pronto!</div>
 							<div class="progress">
 								<div class="progress-bar"></div>
 							</div>
