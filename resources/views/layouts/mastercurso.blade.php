@@ -53,7 +53,33 @@
 					</li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
+					@if($user = Auth::user())
+
+					<li class="nav-item dropdown show">
+						<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Olá, {{Auth::user()->name}} 
+							<span class="caret userbutton"></span>
+						</a> 
+						<div aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-right">
+						<a class="btn btn-primary" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+							<a href="http://localhost:8000/home">Acesse sua conta</a>
+						</div>
+					</li>							
+						
+							
+					
+					@else
 					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
+					@endif
+					</li>
 					</li>
 				</ul>
 			</nav>

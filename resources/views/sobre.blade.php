@@ -21,42 +21,42 @@
 					<a class="box_feat" href="#">
 						<i class="pe-7s-diamond"></i>
 						<h3>Professores Qualificados</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
+						<p>Professores qualificados e ativos no mercado proporcionando a melhor experiência para o aluno.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-display2"></i>
 						<h3>Salas de Aula Equipadas</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
+						<p>Equipamentos de ultima geração, para agilizar o processo de aula. </p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-science"></i>
 						<h3>Tecnicas Avançadas</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
+						<p>Conteúdo atualizando seguindo os requisitos do mercado.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-rocket"></i>
 						<h3>Planos de Estudo Avançado</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
+						<p>Todas as aulas são ministradas com um conteúdo inovador deixando o aluno pronto para o mercado de trabalho. </p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-target"></i>
 						<h3>Foco no Objetivo</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
+						<p>A Escola Evolution preza pela qualidade do desenvolvimento de seus alunos com o objetivo de deixa-los pronto para o mercado.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#">
 						<i class="pe-7s-graph1"></i>
 						<h3>Foco no Sucesso</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
+						<p>A Escola Evolution preza pela evolução dos seus alunos tendo como principal frase de motivação "O seu Sucesso é o meu Sucesso". </p>
 					</a>
 				</div>
 			</div>
@@ -69,18 +69,17 @@
 				<div class="main_title_2">
 					<span><em></em></span>
 					<h2>Nossas origens e história</h2>
-					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+					<!-- <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p> -->
 				</div>
 				<div class="row justify-content-between">
 					<div class="col-lg-6 wow" data-wow-offset="150">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_1.jpg" class="img-fluid" alt="">
+							<img src="img/empresa.jpg" class="img-fluid" alt="">
 						</figure>
 					</div>
 					<div class="col-lg-5">
-						<p>Lorem ipsum dolor sit amet, homero erroribus in cum. Cu eos <strong>scaevola probatus</strong>. Nam atqui intellegat ei, sed ex graece essent delectus. Autem consul eum ea. Duo cu fabulas nonumes contentiones, nihil voluptaria pro id. Has graeci deterruisset ad, est no primis detracto pertinax, at cum malis vitae facilisis.</p>
-						<p>Dicam diceret ut ius, no epicuri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore <strong>percipitur definitiones</strong> ex, nihil utinam recusabo mel no. Dolores reprehendunt no sit, quo cu viris theophrastus. Sit unum efficiendi cu.</p>
+						<p>A <strong>Evolution</strong>  ajuda alunos de todos os lugares a se prepararem para o futuro do trabalho em constante evolução. Nossa coleção selecionada de cursos conceituados técnicos e de negócios oferece a os alunos o poder de desenvolver conhecimento e satisfazer o desejo de aprendizado e desenvolvimento.</p>
 						<p><em>CEO Marc Schumaker</em></p>
 					</div>
 				</div>
@@ -90,7 +89,7 @@
 		</div>
 		<!--/bg_color_1-->
 
-		<div class="container margin_120_95">
+		<!-- <div class="container margin_120_95">
 			<div class="main_title_2">
 				<span><em></em></span>
 				<h2>Nossos Fundadores</h2>
@@ -132,9 +131,9 @@
 						</div><img src="http://via.placeholder.com/350x500/ccc/fff/5_carousel.jpg" alt="">
 					</a>
 				</div>
-			</div>
+			</div> -->
 			<!-- /carousel -->
-		</div>
+		<!-- </div> -->
 		<!--/container-->
 	</main>
 

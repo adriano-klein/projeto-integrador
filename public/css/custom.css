@@ -15,6 +15,7 @@
 
 .main-menu ul li a{
     font-size: 1rem !important;
+    
 }
 /* header color */
 header.header.sticky{
@@ -109,3 +110,7 @@ a.btn_1:hover, .btn_1:hover{
     display: block;
     color: #999;
   }
+
+.teste{
+  background-color: blue;
+}

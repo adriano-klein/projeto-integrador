@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -25,19 +25,15 @@
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
-    <!--- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
 </head>
-<body>
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
-			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
-				<li><a href="login" class="login">Login</a></li>
+				<li><a href="login.php" class="login">Login</a></li>
 				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
 				<!-- <li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li> -->
 			</ul>
@@ -51,17 +47,27 @@
 			</a>
 			<nav id="menu" class="main-menu">
 				<ul>
-					<li><span><a href="/">Home</a></span></li>
-					<li><span><a href="/cursos">Cursos</a></span>
+					<li><span><a href="index.php">Home</a></span></li>
+					<li><span><a href="cursos.php">Cursos</a></span>
+						<!-- <ul>
+							<li><a href="courses-grid.html">Courses grid</a></li>
+							<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>
+							<li><a href="courses-list.html">Courses list</a></li>
+							<li><a href="courses-list-sidebar.html">Courses list sidebar</a></li>
+							<li><a href="course-detail.html">Course detail</a></li>
+							<li><a href="course-detail-2.html">Course detail working form</a></li>
+							<li><a href="admission.html">Admission wizard</a></li>
+							<li><a href="teacher-detail.html">Teacher detail</a></li>
+						</ul> -->
 					</li>
 					<li><span><a href="#0">Sobre</a></span></li>
-					<li><span><a href="/contato">Contato</a></span></li>
+					<li><span><a href="contato.php">Contato</a></span></li>
 					@if($user = Auth::user())
 
-					<li class="nav-item dropdown show teste">
+					<li class="nav-item dropdown show">
 						<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 							Olá, {{Auth::user()->name}} 
-							<span class="caret userbutton"></span>
+							<span class="caret"></span>
 						</a> 
 						<div aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-right">
 						<a class="btn btn-primary" href="{{ route('logout') }}"
@@ -73,7 +79,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
-							<a  href="http://localhost:8000/home">Acesse sua conta</a>
+							<a href="http://localhost:8000/home">Acesse sua conta</a>
 						</div>
 					</li>							
 						
@@ -83,7 +89,6 @@
 					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
 					@endif
 					</li>
-					
 				</ul>
 			</nav>
 		</div>
@@ -120,13 +125,16 @@
 		<button type="submit" id="send-login" name="enviar">Enviar</button>
 		</div>
 	</form>
-	<span class="chama"><a href="register">Não possui conta? Crie a sua agora!</a></span>
+	<span class="chama"><a href="register.php">Não possui conta? Crie a sua agora!</a></span>
 	<div style="display: none;" class="redireciona" id="loading-login"><i class="fas fa-spinner fa-spin fa-1x"></i>Redirecionando...</div>
   </div>
 
 </div>
 </header>
+<body>
+
 @yield('content')
+
 <footer>
 		<div class="container margin_120_95">
 			<div class="row">
@@ -164,7 +172,7 @@
 					<div id="newsletter">
 					<h6>Newsletter</h6>
 					<div id="message-newsletter"></div>
-					<form method="post" action="assets/newsletter" name="newsletter_form" id="newsletter_form">
+					<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
 						<div class="form-group">
 							<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Email">
 							<input type="submit" value="Enviar" id="submit-newsletter">
@@ -191,12 +199,10 @@
 		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
 		<!-- Login Modal -->
 		<script type="text/javascript" src="js/loginmodal.js"></script>
+        <script src="js/common_scripts.js"></script>
+        <script src="js/main.js"></script>
+	     <script src="assets/validate.js"></script>
 	</footer>
-    	
-	<!-- COMMON SCRIPTS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+
     </body>
-</html> 
+</html>

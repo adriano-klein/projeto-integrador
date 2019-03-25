@@ -14,8 +14,8 @@ class AdicionarProvidersEmUsers extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('provider');
-            $table->string('provider_id');
+            $table->string('provider')->nullable();
+            $table->string('provider_id')->nullable();
         });
     }
 
@@ -27,8 +27,8 @@ class AdicionarProvidersEmUsers extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('provider');
-            $table->dropColumn('provider_id');
+            $table->dropColumn('provider')->nullable();
+            $table->dropColumn('provider_id')->nullable();
         });
     }
 }
