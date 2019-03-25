@@ -27,7 +27,7 @@ class ProdutosSeeder extends Seeder
         $produtos = Produtos::insert([
             'nome' => 'Data Science',
             'descricao' => 'Curso de Data Science',
-            'valor' => 2.000,
+            'valor' => 45.00,
             'categoria_id' => 2,
         ]);
         $produtos = Produtos::insert([
