@@ -3,19 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+require('vendor\autoload.php');
 
 class ControllerPagamento extends Controller
 {
-    public function pagamento(){
-    
-        require("pagarme-php/Pagarme.php");
+    public function pagamento(Request $request){
 
-        Pagarme::setApiKey("ak_test_3LymLK2iDuhUeY617dbMbZ3mnSiMPr");
+        $dados = $request->only('amount', 'token');
+        
+        PagarMe::setApiKey("ak_test_grXijQ4GicOa2BLGZrDRTR5qNQxJW0");
 
-        $total_formt = $total_pedido_replace(',', '', $total_pedido);
+        $transaction = PagarMe_Transaction::findById($dados->token);
+        $transaction->capture($dados->amount);
 
-        $transaction = PagarMe_Transaction::findById(data);
-        $transaction->capture($total_formt);
+        return response()->json($dados, 200);
 
     }
 }

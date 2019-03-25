@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('login-ajax', 'Api\LoginControllerAjax@authenticate');
+Route::post('pagamento', 'Api\ControllerPagamento@pagamento');
