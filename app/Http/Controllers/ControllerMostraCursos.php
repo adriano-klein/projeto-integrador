@@ -1,15 +1,18 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Produtos;
+use App\Categorias;
 
 class ControllerMostraCursos extends Controller
 {
     public function cursos (){
-       return view('cursos');
-    }
+       return view('cursos')
+       ->with('cursos', Produtos::all())
+        ->with('categorias', Categorias::all());
+        }
+
 
     public function programacao(){
         $produtos = Produtos::find(1);
@@ -65,6 +68,4 @@ class ControllerMostraCursos extends Controller
         return view('cursos')
         ->with('cursos', $todosCursos);
     }
-
-
 }
