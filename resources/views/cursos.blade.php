@@ -8,45 +8,6 @@
 				</div>
 			</div>
 		</section>
-<<<<<<< HEAD
-=======
-		<!--/hero_in-->
-		<div class="filters_listing sticky_horizontal">
-			<div class="container">
-				<ul class="clearfix">
-					<li>
-						<div class="switch-field">
-							<input type="radio" id="all" name="listing_filter" value="all" checked>
-							<label for="all">All</label>
-							<input type="radio" id="popular" name="listing_filter" value="popular">
-							<label for="popular">Popular</label>
-							<input type="radio" id="latest" name="listing_filter" value="latest">
-							<label for="latest">Latest</label>
-						</div>
-					</li>
-					<li>
-						<div class="layout_view">
-							<a href="#0" class="active"><i class="icon-th"></i></a>
-							<a href="courses-list.html"><i class="icon-th-list"></i></a>
-						</div>
-					</li>
-					<li>
-						<select name="orderby" class="selectbox">
-							<option value="category">Categoria</option>
-							<option value="category 2">Data Science</option>
-							<option value="category 3">Marketing</option>
-							<option value="category 4">Mentoria</option>
-							<option value="category 5">Programação</option>
-							</select>
-					</li>
-				</ul>
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /filters -->
-
-		
->>>>>>> 86698b1340454fae3146b5d6e98aaa1f191983de
 		<div class="container margin_60_35">
 			<div class="row">
 				@foreach ($cursos as $curso)

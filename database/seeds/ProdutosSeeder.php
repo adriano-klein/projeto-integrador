@@ -43,16 +43,11 @@ class ProdutosSeeder extends Seeder
         $produtos = Produtos::insert([
             'nome' => 'Data Science',
             'descricao' => 'Curso de Data Science',
-<<<<<<< HEAD
-            'valor' => 45.00,
-            'categoria_id' => 2,
-=======
             'valor' => 60.00,
             'categoria_id' => 1,
             'url_imagem' => 'img/datascientist.jpg',
             'descricao_longa' => 'Neste curso presencial e intensivo em até 5 meses, você aprenderá tudo que é preciso para realizar projetos de Data Science do início ao fim. Ao concluir o curso, estará apto para atuar como cientista de dados. Você desenvolverá as habilidades necessárias para atuar em projetos de coleta, análise e estruturação de dados. Dominará os conceitos teóricos e as metodologias mais utilizadas no mundo todo. Para coleta, limpeza, análise e visualização de dados, você utilizará o Python e bibliotecas SciPy, entre outras fontes. Além disso, aplicará técnicas de estatística inferencial e algoritmos de Machine Learning usando NumPy, Pandas e Scikit-learn.',
             'link_produto' => 'curso_data_science',
->>>>>>> 86698b1340454fae3146b5d6e98aaa1f191983de
         ]);
         $produtos = Produtos::insert([
             'nome' => 'Redes de Computadores',
