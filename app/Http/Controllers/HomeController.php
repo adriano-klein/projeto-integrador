@@ -28,7 +28,7 @@ class HomeController extends Controller
 
     // Retorna os cursos comprados pelo cliente
     $cursosAp = Pedido::where([
-        'status' => 'RE',
+        'status' => 'PA',
         'user_id' => Auth::id()
     ])->get();
 

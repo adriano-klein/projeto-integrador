@@ -54,7 +54,7 @@
 				@endif
 
 				@forelse ($pedidos as $pedido)
-				<h3>Pedido numero: {{ $pedido->id }} </h3>
+				<h3 id="idpedido">Pedido numero: {{ $pedido->id }} </h3>
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="box_cart">

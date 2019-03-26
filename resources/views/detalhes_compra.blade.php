@@ -32,8 +32,22 @@
 					</div>
 					<!-- End bs-wizard -->
 					<div id="confirm">
-						<h4>Order completed!</h4>
-						<p>You'll receive a confirmation email at mail@example.com</p>
+						<h2>Sua ordem foi concluída</h2>
+						<h3>Confira o resumo do seu pedido</h3>
+						@forelse($cursosAp as $curso)
+
+							@foreach ($curso->pedido_produtos as $pedido_produto)
+
+							<div class="curso_ap_box">
+							<h4>{{ $pedido_produto->produto->nome }}</h4>
+							<p>{{ $pedido_produto->produto->descricao }}</p>
+							<button class="btn">Acesse as aulas agora</button>
+							</div>
+							@endforeach
+
+							@empty
+							<div>Ops.. houve um erro :(</div>
+						@endforelse
 					</div>
 				</div>
 			</div>

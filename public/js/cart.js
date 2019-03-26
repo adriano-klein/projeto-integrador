@@ -1,6 +1,10 @@
 var button = document.querySelector('#botaoFinalizar');
 var total = document.getElementById('teste').innerText;
 var total_formt = total.replace(/[^\d]+/g,'');
+var id = document.querySelector('#idpedido').innerText;
+var id_formt = id.replace(/[^\d]+/g,'');
+
+console.log(id_formt)
 
        
         // Abrir o modal ao clicar no botão
@@ -8,38 +12,24 @@ var total_formt = total.replace(/[^\d]+/g,'');
             
             // inicia a instância do checkout
             var checkout = new PagarMeCheckout.Checkout({
-<<<<<<< HEAD
-                encryption_key:'ek_test_ZRWD2wzKzWUOsuG4AYN0Se0hl3AhHH',
-                success: function(data) {
-                    console.log(data)
-                    fetch("api/pagamento",{
-=======
                 encryption_key:'ek_test_CNJ8Kzl0aJUuYScfKwMgvYfyAaXQry',
                 success: function(data) {
                    
-                    fetch(`https://api.pagar.me/1/transactions/${data.token}/capture`,{
->>>>>>> d4b1eed0a1469c917683e5cb7c55d0a1f1ef4ae7
+                    fetch('api/validacao',{
                         method: 'POST',
                         headers:{
-                            'Accept': 'application/jason',
-                            'Content-Type': 'application/jason',
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json',
                         },
-                        body:{
-<<<<<<< HEAD
-                            'amount': total_formt,
-                            'token' : data.token
-                        }
-                        
-                }).then((res) => {res.json()}).then((data) => {console.log(data)});
-=======
-                            'api_key': 'ak_test_3LymLK2iDuhUeY617dbMbZ3mnSiMPr',
-                            'amount': total_formt
-                        }
+                        body: JSON.stringify({
+                            'id': id_formt
+                        })
                         
                     }).then((res) => {res.json()}).then((data) => {console.log(data)});
->>>>>>> d4b1eed0a1469c917683e5cb7c55d0a1f1ef4ae7
 
-                    location.href="detalhes_compra";
+                    
+                    
+                    window.location.href = `detalhes_compra/${id_formt}`
 
                 },
                 error: function(err) {
