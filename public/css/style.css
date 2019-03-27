@@ -310,14 +310,30 @@ a:hover, a:focus {
 
 .controlca {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 60px;
   margin-bottom: -55px;
 }
 
 .prevy, .nexty {
-  padding: 0px 60px;
+  padding: 0px;
   color: #3f9fff !important;
+  font-size: 60px;
+  
+}
+
+.owl-theme .owl-nav [class*=owl-]{
+  padding: 0;
+  background: transparent !important;
+}
+
+.owl-theme .owl-nav{
+  position: absolute;
+  width: 100%; 
+  top: 140px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 410px;
 }
 
 .prevy:hover {
