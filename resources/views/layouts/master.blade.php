@@ -17,13 +17,13 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
-	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+	<link href="{{asset('css/vendors.css')}}" rel="stylesheet">
+	<link href="{{asset('css/icon_fonts/css/all_icons.min.css')}}" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
 
     <!--- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -189,6 +189,7 @@
 		<script type="text/javascript" src="{{ asset('js/js/jquery-2.2.4.min.js') }}"></script>
 		<!-- Login Modal -->
 		<script type="text/javascript" src="{{ asset('js/login-ajax.js') }}" defer></script>
+		<!-- <script src="{{asset('js/jquery.mmenu.js')}}"></script> -->
 	</footer>
     </body>
 </html>
