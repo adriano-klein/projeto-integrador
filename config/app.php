@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        FlyingLuscas\PagarMeLaravel\PagarMeServiceProvider::class,
         
 
         /*
@@ -227,6 +228,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'PagarMe' => FlyingLuscas\PagarMeLaravel\PagarMeFacade::class,
         
     ],
 

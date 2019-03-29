@@ -16,7 +16,7 @@ class ControllerPagamento extends Controller
 
         // $pagarme = new PagarMe\Client('ak_test_ONjLYjXZBwQ2h6juQ9M8nBULDEQjrG');
 
-        $capturedTransaction = $pagarme->transactions()->capture([
+        $capturedTransaction = $pagarme->transaction()->capture([
             'id' => $dados->amount,
             'amount' => $dados->amount
         ]);
