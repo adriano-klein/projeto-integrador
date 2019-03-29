@@ -61,13 +61,14 @@
 				<div class="vejacursos">
 					<h5><a href="http://localhost:8000/cursos">Veja todos os cursos</a></h5>
 				</div>
-				<div class="controlca">
+				{{-- <div class="controlca">
 					<div class="prevy"><</div>
 					<div class="nexty">></div>
-				</div>
+				</div> --}}
 			</div>
 {{-- ---------------------------------------- --}}
 <div id="reccomended" class="owl-carousel owl-theme">
+	
 	@foreach($cursos as $curso)
 	<div class="item">
 		<div class="box_grid">

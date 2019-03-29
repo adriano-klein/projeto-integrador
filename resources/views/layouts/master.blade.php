@@ -17,6 +17,7 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 
     <!-- BASE CSS -->
+<<<<<<< HEAD
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 	<link href="{{asset('css/vendors.css')}}" rel="stylesheet">
@@ -25,6 +26,16 @@
     <!-- YOUR CUSTOM CSS -->
     <link href="{{asset('css/custom.css')}}" rel="stylesheet">
 
+=======
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+	
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+	
+>>>>>>> 556dd79b2760a9e81e7d68b46a027abe13994a2d
     <!--- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
