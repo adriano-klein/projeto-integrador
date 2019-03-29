@@ -29,7 +29,7 @@ console.log(id_formt)
 
                     
                     
-                    window.location.href = `detalhes_compra/${id_formt}`
+                    location.href = `detalhes_compra/${id_formt}`
 
                 },
                 error: function(err) {

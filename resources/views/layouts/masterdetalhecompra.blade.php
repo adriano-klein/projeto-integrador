@@ -29,11 +29,11 @@
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
-			<a href="index.php"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
-				<li><a href="login.php" class="login">Login</a></li>
+				<li><a href="login" class="login">Login</a></li>
 				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
 				<!-- <li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li> -->
 			</ul>
@@ -47,21 +47,10 @@
 			</a>
 			<nav id="menu" class="main-menu">
 				<ul>
-					<li><span><a href="index.php">Home</a></span></li>
-					<li><span><a href="cursos.php">Cursos</a></span>
-						<!-- <ul>
-							<li><a href="courses-grid.html">Courses grid</a></li>
-							<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>
-							<li><a href="courses-list.html">Courses list</a></li>
-							<li><a href="courses-list-sidebar.html">Courses list sidebar</a></li>
-							<li><a href="course-detail.html">Course detail</a></li>
-							<li><a href="course-detail-2.html">Course detail working form</a></li>
-							<li><a href="admission.html">Admission wizard</a></li>
-							<li><a href="teacher-detail.html">Teacher detail</a></li>
-						</ul> -->
-					</li>
-					<li><span><a href="#0">Sobre</a></span></li>
-					<li><span><a href="contato.php">Contato</a></span></li>
+					<li><span><a href="/">Home</a></span></li>
+					<li><span><a href="/cursos">Cursos</a></span></li>
+					<li><span><a href="/sobre">Sobre</a></span></li>
+					<li><span><a href="/contato">Contato</a></span></li>
 					@if($user = Auth::user())
 
 					<li class="nav-item dropdown show">
@@ -139,11 +128,11 @@
 		<div class="container margin_120_95">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
-					<p><img src="img/logoEvolutionFooter-min.png" width="150" height="80" data-retina="true" alt=""></p>
-					<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
+					<img src="img/logoEvolutionFooter-min.png" width="150" height="80" data-retina="true" alt=""></p>
+					<p>Projeto integrado desenvolvido para o curso de Desenvolvimento Full Stack da Digital House com o intuito de aplicar todos os conhecimentos adquiridos em sala de aula.</p>
 					<div class="follow_us">
 						<ul>
-							<li>Redes Socias</li>
+							<li>Redes Sociais</li>
 							<li><a href="#0"><i class="ti-facebook"></i></a></li>
 							<li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
 							<li><a href="#0"><i class="ti-google"></i></a></li>
@@ -153,14 +142,14 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
-					<h5>Useful links</h5>
+					<h5>Links úteis</h5>
 					<ul class="links">
-						<li><a href="#0">Admission</a></li>
-						<li><a href="#0">About</a></li>
-						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Register</a></li>
-						<li><a href="#0">News &amp; Events</a></li>
-						<li><a href="#0">Contacts</a></li>
+						<li><a href="/cursos">Matrícula</a></li>
+						<li><a href="/sobre">Sobre nós</a></li>
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Registre-se</a></li>
+						<li><a href="#0">Notícias &amp; Eventos</a></li>
+						<li><a href="/contato">Contato</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -172,7 +161,7 @@
 					<div id="newsletter">
 					<h6>Newsletter</h6>
 					<div id="message-newsletter"></div>
-					<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+					<form method="post" action="assets/newsletter" name="newsletter_form" id="newsletter_form">
 						<div class="form-group">
 							<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Email">
 							<input type="submit" value="Enviar" id="submit-newsletter">
@@ -196,13 +185,9 @@
 			</div>
 		</div>
 		<!-- Jquery -->
-		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="js/js/jquery-2.2.4.min.js"></script>
 		<!-- Login Modal -->
-		<script type="text/javascript" src="js/loginmodal.js"></script>
-        <script src="js/common_scripts.js"></script>
-        <script src="js/main.js"></script>
-	     <script src="assets/validate.js"></script>
+		<script type="text/javascript" src="js/login-ajax.js" defer></script>
 	</footer>
-
     </body>
 </html>

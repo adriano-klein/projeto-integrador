@@ -93,6 +93,8 @@ body.fixed-nav {
 
 .card-name {
   padding: 30px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .z-1 {
@@ -107,14 +109,14 @@ body.fixed-nav {
 #mainNav .navbar-collapse .navbar-nav .nav-item .nav-link {
   cursor: pointer;
 }
-#mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
+/* #mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
   float: right;
   content: '\f107';
   font-family: 'FontAwesome';
-}
-#mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse.collapsed:after {
+} */
+/* #mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse.collapsed:after {
   content: '\f105';
-}
+} */
 #mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level,
 #mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level {
   padding-left: 0;
@@ -142,13 +144,13 @@ body.fixed-nav {
   position: relative;
   min-width: 45px;
 }
-#mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
+/* #mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
   float: right;
   width: auto;
   content: '\f105';
   border: none;
   font-family: 'FontAwesome';
-}
+} */
 #mainNav .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link .indicator {
   position: absolute;
   top: 5px;

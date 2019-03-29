@@ -35,6 +35,9 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+
+    <!--- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
      
  </head>
  
@@ -68,7 +71,7 @@
            </div>
            <div class="modal-body">Selecione "Logout" abaixo, se você estiver pronto para encerrar sua sessão atual.</div>
            <div class="modal-footer">
-           <a class="btn btn-primary" href="{{ route('logout') }}"
+           <a class="btn btn-primary teste1" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}

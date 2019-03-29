@@ -147,12 +147,12 @@
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="#0">Admission</a></li>
-						<li><a href="#0">About</a></li>
-						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Register</a></li>
-						<li><a href="#0">News &amp; Events</a></li>
-						<li><a href="#0">Contacts</a></li>
+						<li><a href="/cursos">Matrícula</a></li>
+						<li><a href="/sobre">Sobre nós</a></li>
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Registre-se</a></li>
+						<li><a href="#0">Notícias &amp; Eventos</a></li>
+						<li><a href="/contato">Contato</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">

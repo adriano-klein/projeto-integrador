@@ -18,15 +18,14 @@
 
     <!-- BASE CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 	<link href="css/vendors.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
-
+	
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
-
-    <!--- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+    
 
 </head>
 <body>
@@ -145,10 +144,10 @@
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
 					<h5>Links úteis</h5>
 					<ul class="links">
-						<li><a href="#0">Matrícula</a></li>
-						<li><a href="#0">Sobre nós</a></li>
-						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Registre-se</a></li>
+					    <li><a href="/cursos">Matrícula</a></li>
+						<li><a href="/sobre">Sobre nós</a></li>
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Registre-se</a></li>
 						<li><a href="#0">Notícias &amp; Eventos</a></li>
 						<li><a href="/contato">Contato</a></li>
 					</ul>
@@ -189,6 +188,7 @@
 		<script type="text/javascript" src="{{ asset('js/js/jquery-2.2.4.min.js') }}"></script>
 		<!-- Login Modal -->
 		<script type="text/javascript" src="{{ asset('js/login-ajax.js') }}" defer></script>
+		<!-- <script src="{{asset('js/jquery.mmenu.js')}}"></script> -->
 	</footer>
     </body>
 </html>

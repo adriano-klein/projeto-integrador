@@ -13,7 +13,7 @@
 		<div class="container margin_120_95">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Porque escolher a Evolution</h2>
+				<h2 class="titulos">Porque escolher a Evolution</h2>
 				<p>Nossa proposta é desenvolver uma nova geração de profissionais.</p>
 			</div>
 			<div class="row">
@@ -68,7 +68,7 @@
 			<div class="container margin_120_95">
 				<div class="main_title_2">
 					<span><em></em></span>
-					<h2>Nossas origens e história</h2>
+					<h2 class="titulos">Nossas origens e história</h2>
 					<!-- <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p> -->
 				</div>
 				<div class="row justify-content-between">
