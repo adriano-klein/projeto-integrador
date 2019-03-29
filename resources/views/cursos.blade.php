@@ -37,7 +37,7 @@
 			</div>
 		</div>
 				<!-- /box_grid -->
-				{{-- <div class="col-xl-4 col-lg-6 col-md-6">
+				<!-- {{-- <div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
@@ -58,9 +58,9 @@
 							<li><a href="curso_marketing">Matricular-se</a></li>
 						</ul>
 					</div>
-				</div>
+				</div> -->
 				<!-- /box_grid -->
-				<div class="col-xl-4 col-lg-6 col-md-6">
+				<!-- <div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
@@ -149,7 +149,7 @@
 							<li><i class="icon_like"></i> 890</li>
 							<li><a href="curso_mobile">Matricular-se</a></li>
 						</ul>
-					</div>
+					</div> -->
 					<!-- /box_grid -->
 				</div>
 			</div> --}}

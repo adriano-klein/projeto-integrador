@@ -15,11 +15,11 @@
 
 		<ul id="grid_home" class="clearfix">
 			<li>
-				<a href="#0" class="img_container">
+				<a href="cursos" class="img_container">
 					<img src="http://via.placeholder.com/600x400/ccc/fff/grid_home_1.jpg" alt="">
 					<div class="short_info">
 						<h3><strong>Evolution</strong>Cursos</h3>
-						<div><span class="btn_1 rounded">Read more</span></div>
+						<div><span class="btn_1 rounded">Veja mais</span></div>
 					</div>
 				</a>
 			</li>

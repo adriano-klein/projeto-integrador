@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>ACADEMIA EVOLUTION</title>
+    <title>EVOLUTION</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
@@ -24,6 +24,9 @@
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
+
+	<!--- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 
@@ -144,12 +147,12 @@
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
 					<h5>links úteis</h5>
 					<ul class="links">
-						<li><a href="#0">Matricular-se</a></li>
-						<li><a href="#0">Sobre nós</a></li>
-						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Registre-se</a></li>
-						<li><a href="#0">Notícias &amp; Events</a></li>
-						<li><a href="#0">Contato</a></li>
+						<li><a href="/cursos">Matrícula</a></li>
+						<li><a href="/sobre">Sobre nós</a></li>
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Registre-se</a></li>
+						<li><a href="#0">Notícias &amp; Eventos</a></li>
+						<li><a href="/contato">Contato</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">

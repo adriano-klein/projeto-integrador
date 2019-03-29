@@ -47,21 +47,10 @@
 			</a>
 			<nav id="menu" class="main-menu">
 				<ul>
-					<li><span><a href="index.php">Home</a></span></li>
-					<li><span><a href="cursos.php">Cursos</a></span>
-						<!-- <ul>
-							<li><a href="courses-grid.html">Courses grid</a></li>
-							<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>
-							<li><a href="courses-list.html">Courses list</a></li>
-							<li><a href="courses-list-sidebar.html">Courses list sidebar</a></li>
-							<li><a href="course-detail.html">Course detail</a></li>
-							<li><a href="course-detail-2.html">Course detail working form</a></li>
-							<li><a href="admission.html">Admission wizard</a></li>
-							<li><a href="teacher-detail.html">Teacher detail</a></li>
-						</ul> -->
-					</li>
-					<li><span><a href="#0">Sobre</a></span></li>
-					<li><span><a href="contato.php">Contato</a></span></li>
+					<li><span><a href="/">Home</a></span></li>
+					<li><span><a href="/cursos">Cursos</a></span></li>
+					<li><span><a href="/sobre">Sobre</a></span></li>
+					<li><span><a href="/contato">Contato</a></span></li>
 					@if($user = Auth::user())
 
 					<li class="nav-item dropdown show">
@@ -155,10 +144,10 @@
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
 					<h5>Links úteis</h5>
 					<ul class="links">
-						<li><a href="#0">Matrícula</a></li>
-						<li><a href="#0">Sobre nós</a></li>
-						<li><a href="#0">Login</a></li>
-						<li><a href="#0">Registre-se</a></li>
+						<li><a href="/cursos">Matrícula</a></li>
+						<li><a href="/sobre">Sobre nós</a></li>
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Registre-se</a></li>
 						<li><a href="#0">Notícias &amp; Eventos</a></li>
 						<li><a href="/contato">Contato</a></li>
 					</ul>
@@ -196,9 +185,9 @@
 			</div>
 		</div>
 		<!-- Jquery -->
-		<script type="text/javascript" src="{{ asset('js/js/jquery-2.2.4.min.js') }}"></script>
+		<script type="text/javascript" src="js/js/jquery-2.2.4.min.js"></script>
 		<!-- Login Modal -->
-		<script type="text/javascript" src="{{ asset('js/login-ajax.js') }}" defer></script>
+		<script type="text/javascript" src="js/login-ajax.js" defer></script>
 	</footer>
     </body>
 </html>

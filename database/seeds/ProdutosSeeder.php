@@ -42,7 +42,7 @@ class ProdutosSeeder extends Seeder
         ]);
         $produtos = Produtos::insert([
             'nome' => 'Data Science',
-            'descricao' => 'Curso de Data Science',
+            'descricao' => 'Aprenda as técnicas que o mundo real exige e torne-se um profissional competitivo na área de Inteligência Artificial!',
             'valor' => 60.00,
             'categoria_id' => 1,
             'url_imagem' => 'img/datascientist.jpg',

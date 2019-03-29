@@ -182,7 +182,11 @@ h6 {
 }
 
 #confirm, h2, h3{
-  color: #fff !important;
+  color: #fff ;
+}
+
+.titulos{
+  color: black
 }
 
 .box-cursos{
