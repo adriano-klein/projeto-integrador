@@ -56,7 +56,7 @@
 		<div class="container-fluid margin_120_0" id="first_section">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Evolution Cursos Populares</h2>
+				<h2 class="titulos">Evolution Cursos Populares</h2>
 				<p>Confira os cursos mais populares na Evolution.</p>
 				<div class="vejacursos">
 					<h5><a href="http://localhost:8000/cursos">Veja todos os cursos</a></h5>
@@ -81,7 +81,7 @@
 			</figure>
 			<div class="wrapper">
 				<small> {{$curso->categorias->nome}} </small>  {{--colocar o nome de cada categoria--}}
-				<h3> {{$curso->nome}} </h3>
+				<h3 class="titulos"> {{$curso->nome}} </h3>
 				<p> {{$curso->descricao}} </p>
 				<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 			</div>
