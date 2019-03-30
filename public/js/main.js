@@ -208,8 +208,8 @@
 	$('#reccomended').owlCarousel({
 		center: true,
 		items: 2,
-		nav: true,
-		navText: ['<div class="prevy"><</div>', '<div class="nexty">></div>'],
+		nav: false,
+		navText: [],
 		loop: true,
 		margin: 0,
 		responsive: {

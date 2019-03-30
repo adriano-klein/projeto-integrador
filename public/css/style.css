@@ -322,42 +322,6 @@ a:hover, a:focus {
   outline: none;
 }
 
-.controlca {
-  display: flex;
-  justify-content: space-between;
-  font-size: 60px;
-  margin-bottom: -55px;
-}
-
-.prevy, .nexty {
-  padding: 0px;
-  color: #3f9fff !important;
-  font-size: 60px;
-  
-}
-
-.owl-theme .owl-nav [class*=owl-]{
-  padding: 0;
-  background: transparent !important;
-}
-
-.owl-theme .owl-nav{
-  position: absolute;
-  width: 100%; 
-  top: 140px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 410px;
-}
-
-.prevy:hover {
-  cursor: pointer;
-}
-
-.nexty:hover {
-  cursor: pointer;
-}
-
 /*-------- 1.2 Buttons --------*/
 a.btn_1,
 .btn_1 {

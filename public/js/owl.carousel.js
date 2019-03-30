@@ -2812,7 +2812,7 @@
 	 * @todo Rename `slideBy` to `navBy`
 	 */
 	Navigation.Defaults = {
-		nav: false,
+		nav: true,
 		navText: [ 'prev', 'next' ],
 		navSpeed: false,
 		navElement: 'div',
