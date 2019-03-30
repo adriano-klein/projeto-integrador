@@ -56,6 +56,7 @@
 					</li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
+					<li id="mostra_carrinho"><span><i class="fas fa-shopping-cart"></i></span></li>
 					@if($user = Auth::user())
 
 					<li class="nav-item dropdown show teste">

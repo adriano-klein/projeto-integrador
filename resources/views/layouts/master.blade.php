@@ -25,6 +25,8 @@
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
 	
+	 <!--- Font Awesome -->
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     
 
 </head>
@@ -55,6 +57,7 @@
 					</li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
+					<li id="mostra_carrinho"><span><i class="fas fa-shopping-cart"></i></span></li>
 					@if($user = Auth::user())
 
 					<li class="nav-item dropdown show">

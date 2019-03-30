@@ -56,6 +56,7 @@
 					</li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
+					<li id="mostra_carrinho"><span><i class="fas fa-shopping-cart"></i></span></li>
 					@if($user = Auth::user())
 
 					<li class="nav-item dropdown show">
@@ -193,7 +194,8 @@
             <script src="js/jquery-2.2.4.min.js"></script>
             <script src="js/common_scripts.js"></script>
             <script src="js/main.js"></script>
-            <script src="assets/validate.js"></script>
+			<script src="assets/validate.js"></script>
+			<script src="js/mostracarrinho.js"></script>
     </body>
 </html> 
 

@@ -337,7 +337,7 @@
 							<form method="POST" action= "carrinho/adicionar">
 								{{ csrf_field() }}
 								<input type="hidden" name="id" value="3">
-								<button class="btn_1 full-width">Comprar</button>
+								<button id="carrinho" class="btn_1 full-width">Comprar</button>
 							</form>
 							<a href="#0" class="btn_1 full-width outline"><i class="icon_heart"></i> Adicionar a minha lista de desejos</a>
 							<div id="list_feat">
