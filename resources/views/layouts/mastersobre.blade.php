@@ -37,8 +37,8 @@
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
-				<li><a href="login" class="login">Login</a></li>
-				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
+				<!-- <li><a href="login" class="login">Login</a></li>
+				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li> -->
 				<!-- <li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li> -->
 			</ul>
 			<!-- /top_menu -->
@@ -54,12 +54,12 @@
 					<li><span><a href="/">Home</a></span></li>
 					<li><span><a href="/cursos">Cursos</a></span>
 					</li>
-					<li><span><a href="#0">Sobre</a></span></li>
+					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
 					@if($user = Auth::user())
 
 					<li class="nav-item dropdown show teste">
-						<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<a id="navbarDropdown" class="nav-link dropdown-toggle link_acesso" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 							Olá, {{Auth::user()->name}} 
 							<span class="caret userbutton"></span>
 						</a> 
@@ -80,7 +80,7 @@
 							
 					
 					@else
-					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
+					<li><a href="login" class="button-access myBtnlogin link_acesso">Acesse sua conta</a></li>
 					@endif
 					</li>
 					
