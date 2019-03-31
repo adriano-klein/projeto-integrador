@@ -56,7 +56,7 @@
 		<div class="container-fluid margin_120_0" id="first_section">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Evolution Cursos Populares</h2>
+				<h2 class="titulos">Evolution Cursos Populares</h2>
 				<p>Confira os cursos mais populares na Evolution.</p>
 				<div class="vejacursos">
 					<h5><a href="http://localhost:8000/cursos">Veja todos os cursos</a></h5>

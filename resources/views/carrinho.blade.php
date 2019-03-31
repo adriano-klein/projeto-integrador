@@ -56,6 +56,7 @@
 				@forelse ($pedidos as $pedido)
 				<h3 id="idpedido">Pedido numero: {{ $pedido->id }} </h3>
 				<div class="row">
+				<a href="/detalhes_compra/33">teste</a>
 					<div class="col-lg-8">
 						<div class="box_cart">
 								
