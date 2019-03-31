@@ -28,7 +28,10 @@
 	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	
+	<!--- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 </head>
 
@@ -37,12 +40,13 @@
 <header class="header menu_2">
 		<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
 		<div id="logo">
-			<a href="/"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
+			<a href="index"><img src="img/logoEvolutionHeader-min.png" width="150" height="70" data-retina="true" alt=""></a>
 		</div>
 		<div class="aside-menu">
 			<ul id="top_menu">
-				<li><a href="login" class="login">Login</a></li>
-				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
+				<!-- <li><a href="login" class="login">Login</a></li>
+				<li><a href="#0" class="search-overlay-menu-btn">Search</a></li> -->
+				<!-- <li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li> -->
 			</ul>
 			<!-- /top_menu -->
 			<a href="#menu" class="btn_mobile">
@@ -59,9 +63,36 @@
 					</li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
-					<li><a id="myBtnlogin" class="button-access myBtnlogin">Acesse sua conta</a></li>
+					<li id="mostra_carrinho"><span><i class="fas fa-shopping-cart"></i></span></li>
+					@if($user = Auth::user())
+
+					<li class="nav-item dropdown show teste">
+						<a id="navbarDropdown" class="nav-link dropdown-toggle link_acesso" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Olá, {{Auth::user()->name}} 
+							<span class="caret userbutton"></span>
+						</a> 
+						<div aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-right">
+						<a class="btn btn-primary" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+							<a  href="http://localhost:8000/home">Acesse sua conta</a>
+						</div>
+					</li>							
+						
+							
+					
+					@else
+					<li><a href="login" class="button-access myBtnlogin link_acesso">Acesse sua conta</a></li>
+					@endif
 					</li>
-					</ul>
+					
+				</ul>
 			</nav>
 		</div>
 		<!-- Search Menu -->
@@ -165,14 +196,16 @@
 			</div>
 		</div>
 		<!-- Jquery -->
-		<!-- <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script> -->
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
 		<!-- Login Modal -->
-		<!-- <script type="text/javascript" src="js/loginmodal.js"></script> -->
+		<script type="text/javascript" src="js/loginmodal.js"></script>
 	</footer>
-            <script src="js/jquery-2.2.4.min.js"></script>
-            <script src="js/common_scripts.js"></script>
-            <script src="js/main.js"></script>
-            <script src="assets/validate.js"></script>
+    	
+			<!-- COMMON SCRIPTS -->
+			<script src="js/jquery-2.2.4.min.js"></script>
+			<script src="js/common_scripts.js"></script>
+			<script src="js/main.js"></script>
+			<script src="assets/validate.js"></script>
 
             	<!-- SPECIFIC SCRIPTS -->
 	        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>

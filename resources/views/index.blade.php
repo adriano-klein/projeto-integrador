@@ -81,7 +81,7 @@
 			</figure>
 			<div class="wrapper">
 				<small> {{$curso->categorias->nome}} </small>  {{--colocar o nome de cada categoria--}}
-				<h3> {{$curso->nome}} </h3>
+				<h3 class="titulos"> {{$curso->nome}} </h3>
 				<p> {{$curso->descricao}} </p>
 				<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i> <small>(145)</small></div>
 			</div>

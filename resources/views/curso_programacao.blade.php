@@ -406,18 +406,18 @@
 								</div>
 								<!-- /review-box -->
 								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="http://via.placeholder.com/150x150/ccc/fff/avatar3.jpg" alt="">
+									<figure class="rev-thumb"><img src="img/perfil.jpg" alt="">
 									</figure>
 									<div class="rev-content">
 										<div class="rating">
 											<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
 										</div>
 										<div class="rev-info">
-											Sara – March 31, 2016:
+											Robert – 31 de Agosto de 2018:
 										</div>
 										<div class="rev-text">
 											<p>
-												Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
+											O professor tem uma otíma didática, o que me fez ter um desenvolvimento muito rápido no curso, estou bem satisfeito com o curso.
 											</p>
 										</div>
 									</div>
@@ -441,7 +441,7 @@
 							<form method="POST" action= "carrinho/adicionar">
 								{{ csrf_field() }}
 								<input type="hidden" name="id" value="1">
-								<button class="btn_1 full-width">Comprar</button>
+								<button id="carrinho" class="btn_1 full-width">Comprar</button>
 							</form>
 							<a href="/carrinho" class="btn_1 full-width outline"><i class="icon_heart"></i> Adicionar a minha lista de desejos</a>
 							<div id="list_feat">

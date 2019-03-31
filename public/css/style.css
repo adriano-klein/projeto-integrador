@@ -189,6 +189,34 @@ h6 {
   color: black
 }
 
+.link_acesso{
+  color: white;
+}
+
+/* #mostra_carrinho{
+  display: none;
+} */
+
+.carrinho{
+  font-size: 30px;
+  
+}
+
+.carrinho::after{
+  content: '1';
+  text-align: center;
+  font-size: 17px;
+  color: black;
+  background-color: red;
+  border-radius: 50%; 
+  height: 19px;
+  width: 19px;
+  display: inline-block;
+  position: absolute;
+  top: -25%;
+  right: -25%;
+  
+}
 .box-cursos{
   text-align: center;
   margin-top: 30px;
@@ -322,6 +350,7 @@ a:hover, a:focus {
   outline: none;
 }
 
+<<<<<<< HEAD
 .controlca {
   display: flex;
   justify-content: space-between;
@@ -357,6 +386,8 @@ a:hover, a:focus {
   cursor: pointer;
 }
 
+=======
+>>>>>>> 75e6e5d574420d9e902aa9cc1c8c619907199b2c
 /*-------- 1.2 Buttons --------*/
 a.btn_1,
 .btn_1 {

@@ -219,60 +219,60 @@
 
 							<div class="reviews-container">
 
-								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="http://via.placeholder.com/150x150/ccc/fff/avatar1.jpg" alt="">
-									</figure>
-									<div class="rev-content">
-										<div class="rating">
-											<i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-										</div>
-										<div class="rev-info">
-											Admin – April 03, 2016:
-										</div>
-										<div class="rev-text">
-											<p>
-												Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
-											</p>
-										</div>
+							<div class="review-box clearfix">
+								<figure class="rev-thumb"><img src="img/fotoPerfilAvaliacao.jpg" alt="">
+								</figure>
+								<div class="rev-content">
+									<div class="rating">
+										<i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+									</div>
+									<div class="rev-info">
+										Cristina – 21 de fevereiro de 2019:
+									</div>
+									<div class="rev-text">
+										<p>
+											Curso sensacional, super completo e com professores plenamente capacitados no assunto
+										</p>
 									</div>
 								</div>
-								<!-- /review-box -->
-								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="http://via.placeholder.com/150x150/ccc/fff/avatar2.jpg" alt="">
-									</figure>
-									<div class="rev-content">
-										<div class="rating">
-											<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-										</div>
-										<div class="rev-info">
-											Ahsan – April 01, 2016:
-										</div>
-										<div class="rev-text">
-											<p>
-												Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
-											</p>
-										</div>
+							</div>
+							<!-- /review-box -->
+							<div class="review-box clearfix">
+								<figure class="rev-thumb"><img src="img/fotoPerfilAvaliacao2.jpg" alt="">
+								</figure>
+								<div class="rev-content">
+									<div class="rating">
+										<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+									</div>
+									<div class="rev-info">
+										Angelina – 22 de fevereiro de 2019:
+									</div>
+									<div class="rev-text">
+										<p>
+											Recomento demais a plataforma desses garotos. Saí daqui muito melhor de quando iniciei esse curso.
+										</p>
 									</div>
 								</div>
-								<!-- /review-box -->
-								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="http://via.placeholder.com/150x150/ccc/fff/avatar3.jpg" alt="">
-									</figure>
-									<div class="rev-content">
-										<div class="rating">
-											<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
-										</div>
-										<div class="rev-info">
-											Sara – March 31, 2016:
-										</div>
-										<div class="rev-text">
-											<p>
-												Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis
-											</p>
-										</div>
+							</div>
+							<!-- /review-box -->
+							<div class="review-box clearfix">
+								<figure class="rev-thumb"><img src="img/perfil.jpg" alt="">
+								</figure>
+								<div class="rev-content">
+									<div class="rating">
+										<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+									</div>
+									<div class="rev-info">
+										Robert – 31 de Agosto de 2018:
+									</div>
+									<div class="rev-text">
+										<p>
+										O professor tem uma otíma didática, o que me fez ter um desenvolvimento muito rápido no curso, estou bem satisfeito com o curso.
+										</p>
 									</div>
 								</div>
-								<!-- /review-box -->
+							</div>
+							<!-- /review-box -->
 							</div>
 							<!-- /review-container -->
 						</section>
@@ -291,7 +291,7 @@
 							<form method="POST" action= "carrinho/adicionar">
 								{{ csrf_field() }}
 								<input type="hidden" name="id" value="5">
-								<button class="btn_1 full-width">Comprar</button>
+								<button id="carrinho" class="btn_1 full-width">Comprar</button>
 							</form>
 							<a href="#0" class="btn_1 full-width outline"><i class="icon_heart"></i> Adicionar a minha lista de desejos</a>
 							<div id="list_feat">

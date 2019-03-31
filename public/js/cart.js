@@ -4,6 +4,10 @@ var total_formt = total.replace(/[^\d]+/g,'');
 var id = document.querySelector('#idpedido').innerText;
 var id_formt = id.replace(/[^\d]+/g,'');
 
+$("#botaoFinalizar").click(function(){
+    $("#mostra_carrinho").css('display', 'none')
+})
+
 console.log(id_formt)
 
        

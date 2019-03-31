@@ -51,10 +51,11 @@
 					<li><span><a href="/cursos">Cursos</a></span></li>
 					<li><span><a href="/sobre">Sobre</a></span></li>
 					<li><span><a href="/contato">Contato</a></span></li>
+					<li id="mostra_carrinho"><span><a href="/carrinho"><i class="fas fa-shopping-cart"></i></a></span></li>
 					@if($user = Auth::user())
 
 					<li class="nav-item dropdown show">
-						<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<a id="navbarDropdown" class="nav-link dropdown-toggle link_acesso" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 							Olá, {{Auth::user()->name}} 
 							<span class="caret"></span>
 						</a> 
