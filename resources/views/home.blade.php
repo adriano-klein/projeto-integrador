@@ -157,7 +157,7 @@
                   <div class="curso_ap_box">
                     <h3>{{ $pedido_produto->produto->nome }}</h3>
                     <h3>{{ $pedido_produto->produto->descricao }}</h3>
-                    <button class="btn">Acesse as aulas agora</button>
+                    <a href="/{{ $pedido_produto->produto->rota }}/{{ $pedido_produto->produto->id }}" class="btn">Acesse as aulas agora</a>
                   </div>
                     @endforeach
 

@@ -36,6 +36,16 @@ Route::post('pagamento', 'ControllerPagamento@pagamento');
 Route::get('detalhes_compra/{id}', array('as' => 'detalhes_compra', 'uses' => 'ControllerDetalhesCompra@detalhes_compra'));
 
 
+// teste de aprovação de curso
+
+Route::get('curso_mobile_full/{id}', 'ControllerMostraCursosFull@validaCurso');
+Route::get('curso_marketing_full/{id}', 'ControllerMostraCursosFull@validaCurso');
+Route::get('curso_mentoria_full/{id}', 'ControllerMostraCursosFull@validaCurso');
+Route::get('curso_redes_full/{id}', 'ControllerMostraCursosFull@validaCurso');
+Route::get('curso_programacao_full/{id}', 'ControllerMostraCursosFull@validaCurso');
+Route::get('curso_data_full/{id}', 'ControllerMostraCursosFull@validaCurso');
+
+
 //Carrinho
 Route::get('carrinho', 'ControllerCarrinho@carrinho');
 Route::get('carrinho/adicionar',function(){
