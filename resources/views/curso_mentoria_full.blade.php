@@ -22,13 +22,13 @@
 			</nav>
 			<div class="container margin_60_35">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-12">
 						
 						<section id="description">
 							<h2>Descrição</h2>
 							<p>O curso de formação em mentoring da <strong>Evolution</strong>  traz metodologia inovadora e ferramentas comportamentais de alta performance que integram aspectos pessoais e profissionais para capacitar os alunos a atuar como mentores. Faça a diferença na jornada de outro profissional e/ou empreendedor: seja um mentor!</p>
 							<h5>O que você vai aprender</h5>
-							<ul class="list_ok">
+							<ul class="list_ok_full">
 								<li>
 									<h6>Agilidade, aprendizagem e adaptação organizacional</h6>
 								</li>
@@ -279,32 +279,7 @@
 						<!-- /section -->
 					</div>
 					<!-- /col -->
-					
-					<aside class="col-lg-4" id="sidebar">
-						<div class="box_detail">
-							<figure>
-								<a href="https://www.youtube.com/watch?v=m4PiYmflgYI" class="video"><i class="arrow_triangle-right"></i><img src="img/cursoProgramacao.jpg" alt="" class="img-fluid"><span>Assistir apresentação do curso</span></a>
-							</figure>
-							<div class="price">
-								{{$valorDesconto.',00'}} <span class="original_price"><em> {{$produtos->valor.',00'}} </em><?php echo (($valorDesconto/$produtos->valor)-1)*-100 . '%' . ' ' . 'desconto'?> </span>
-							</div>
-							<form method="POST" action= "carrinho/adicionar">
-								{{ csrf_field() }}
-								<input type="hidden" name="id" value="5">
-								<button class="btn_1 full-width">Comprar</button>
-							</form>
-							<a href="#0" class="btn_1 full-width outline"><i class="icon_heart"></i> Adicionar a minha lista de desejos</a>
-							<div id="list_feat">
-								<h3>O que está incluso</h3>
-								<ul>
-									<li><i class="icon_mobile"></i>Acesso 24/7</li>
-									<li><i class="icon_archive_alt"></i>Atividades extras</li>
-									<li><i class="icon_chat_alt"></i>Chat com o tutor</li>
-									<li><i class="icon_document_alt"></i>Certificado de conclusão</li>
-								</ul>
-							</div>
-						</div>
-					</aside>
+				
 				</div>
 				<!-- /row -->
 			</div>

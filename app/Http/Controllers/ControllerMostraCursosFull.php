@@ -25,10 +25,21 @@ class ControllerMostraCursosFull extends Controller
             $check = false;
             $list = [];
 
-         foreach($varCurso as $product){
-            $item = json_decode($product, true);
-            $pedidoid = $item[0]["produto_id"];
-            $list[] = $pedidoid;    
+        $total = sizeof($varCurso);
+
+
+        $y = [];
+
+        for ($i = 0; $i < $total; $i++) {
+            $x = json_decode($varCurso[$i], true);
+            $y[] = $x;
+        }
+
+         foreach($y as $product){
+            foreach ($product as $unique) {
+                $pedidoid = $unique["produto_id"];
+                $list[] = $pedidoid;
+            }    
             }
 
         foreach ($list as $it) {

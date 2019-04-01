@@ -23,13 +23,13 @@
 			</nav>
 			<div class="container margin_60_35">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-12">
 						
 						<section id="description">
 							<h2>Descrição</h2>
 							<p>Aprenda sobre a pilha de protocolos TCP/IP com um dos maiores especialistas brasileiros no assunto, Gabriel Torres, autor de 24 livros sobre tecnologia. Neste curso você aprenderá o embasamento teórico necessário para aprofundar seus estudos em cursos avançados. Você aprenderá, entre outros assuntos, sobre endereçamento IPv4 e IPv6, portas, tradução de endereços (NAT), protocolos de aplicação (HTTP, DNS, FTP, email, etc.), protocolos de transporte (TCP e UDP), protocolos de rede (IPv4, IPv6, IPsec e ICMP), protocolos de roteamento e muito mais!</p>
 							<h5>O que você vai aprender</h5>
-							<ul class="list_ok">
+							<ul class="list_ok_full">
 								<li>
 									<h6>INTRODUÇÃO AO CURSO</h6>
 								</li>

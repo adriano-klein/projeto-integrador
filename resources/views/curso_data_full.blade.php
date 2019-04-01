@@ -23,7 +23,7 @@
 			</nav>
 			<div class="container margin_60_35">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-12">
 						
 						<section id="description">
 							<h2>Descrição</h2>
@@ -32,8 +32,8 @@
 							Você desenvolverá as habilidades necessárias para atuar em projetos de coleta, análise e estruturação de dados. Dominará os conceitos teóricos e as metodologias mais utilizadas no mundo todo.
 
 							Para coleta, limpeza, análise e visualização de dados, você utilizará o Python e bibliotecas SciPy, entre outras fontes. Além disso, aplicará técnicas de estatística inferencial e algoritmos de Machine Learning usando NumPy, Pandas e Scikit-learn.</p>
-							<h5>O que você vai aprender</h5>
-							<ul class="list_ok">
+							<h5 style="text-align: center">O que você vai aprender</h5>
+							<ul class="list_ok_full">
 								<li>
 									<h6>FUNDAMENTOS DE PROGRAMAÇÃO NO PYTHON</h6>
 									<p>Uma das linguagens mais usadas<br>
@@ -324,33 +324,7 @@
 						</section>
 						<!-- /section -->
 					</div>
-					<!-- /col -->
 					
-					<aside class="col-lg-4" id="sidebar">
-						<div class="box_detail">
-							<figure>
-								<a href="https://www.youtube.com/watch?time_continue=2&v=Pfsd6J781iE" class="video"><i class="arrow_triangle-right"></i><img src="img/datascientist.jpg" alt="" class="img-fluid"><span>Assistir apresentação do curso</span></a>
-							</figure>
-							<div class="price">
-								{{$valorDesconto.',00'}} <span class="original_price"><em> {{$produtos->valor.',00'}} </em><?php echo (($valorDesconto/$produtos->valor)-1)*-100 . '%' . ' ' . 'desconto'?> </span>
-							</div>
-							<form method="POST" action= "carrinho/adicionar">
-								{{ csrf_field() }}
-								<input type="hidden" name="id" value="3">
-								<button class="btn_1 full-width">Comprar</button>
-							</form>
-							<a href="#0" class="btn_1 full-width outline"><i class="icon_heart"></i> Adicionar a minha lista de desejos</a>
-							<div id="list_feat">
-								<h3>O que está incluso</h3>
-								<ul>
-									<li><i class="icon_mobile"></i>Acesso 24/7</li>
-									<li><i class="icon_archive_alt"></i>Atividades extras</li>
-									<li><i class="icon_chat_alt"></i>Chat com o tutor</li>
-									<li><i class="icon_document_alt"></i>Certificado de conclusão</li>
-								</ul>
-							</div>
-						</div>
-					</aside>
 				</div>
 				<!-- /row -->
 			</div>

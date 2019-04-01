@@ -561,7 +561,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 20px 30px;
+  padding: 24px 30px!important;
   z-index: 10;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
@@ -2841,6 +2841,7 @@ a.boxed_list:hover i {
   font-weight: 600;
   font-size: 16px;
   font-size: 1rem;
+  padding-top: 20px;
 }
 .secondary_nav ul li a {
   color: #fff;
@@ -4658,6 +4659,22 @@ ul.list_ok li:before {
   font-family: 'ElegantIcons';
   content: "\52";
   position: absolute;
+  left: 0;
+  top: -10px;
+  font-size: 32px;
+  font-size: 2rem;
+  color: #8dc63f;
+}
+
+ul.list_ok_full li {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+ul.list_ok_full li:before {
+  font-family: 'ElegantIcons';
+  content: "\52";
+  position: relative;
   left: 0;
   top: -10px;
   font-size: 32px;

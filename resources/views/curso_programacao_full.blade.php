@@ -22,15 +22,15 @@
 			</nav>
 			<div class="container margin_60_35">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-12">
 						
 						<section id="description">
 							<h2>Descrição</h2>
 							<p>No Curso de Desenvolvimento Web Full Stack você aprende a criar sites e sistemas web. Nossos professores especialistas ensinam você do zero, por isso, não é necessário ter conhecimento prévio de linguagem de programação.
 							Ao longo do curso, você conhecerá as linguagens, metodologias e as tecnologias mais atuais em uso no mercado. Aprenderá Laravel, HTML, PHP e tudo o que for necessário para dominar o Front End e o Back End de um site ou sistema web. Saberá também concretizar projetos do princípio ao fim, desenvolvendo programação orientada a objetos.
 							Em até 5 meses de curso, você será um desenvolvedor web full stack, profissional muito valorizado por ser versátil e ter a visão de todo o projeto de um site. Conte também com nosso apoio de mentoria que ajuda você a atingir seus objetivos profissionais, seja numa carreira em uma grande empresa, ou como freelancer ou como empreendedor na sua própria startup.</p>
-							<h5>O que você vai aprender</h5>
-							<ul class="list_ok">
+							<h5 style="text-align:center;">O que você vai aprender</h5>
+							<ul class="list_ok_full">
 								<li>
 									<h6>HTML + CSS</h6>
 									<p>Estrutura geral, boas práticas<br>

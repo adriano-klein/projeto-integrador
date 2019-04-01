@@ -22,7 +22,7 @@
 			</nav>
 			<div class="container margin_60_35">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-lg-12">
 						
 						<section id="description">
 							<h2>Descrição</h2>
@@ -31,7 +31,7 @@
 							Implementará campanhas no Google Adwords e nas redes sociais com o Facebook Ads, o LinkedIn Ads e o Twitter Ads. 
 							Definirá estratégias de retargeting e saberá como implementá-las de modo eficiente. 
 							Aprenderá também a usar o e-mail marketing para fidelizar os seus clientes.</h5>
-							<ul class="list_ok">
+							<ul class="list_ok_full">
 								<li>
 									<h6>ESTRATÉGIA DE MARKETING DIGITAL</h6>
 									<p>Você adquirirá os conceitos <br>
@@ -375,33 +375,6 @@
 					</div>
 					<!-- /col -->
 					
-					<aside class="col-lg-4" id="sidebar">
-						<div class="box_detail">
-							<figure>
-								<a href="https://www.youtube.com/watch?time_continue=1&v=ZoBUmn3PnH8" class="video"><i class="arrow_triangle-right"></i><img src="img/marketing_digital.jpg" alt="" class="img-fluid"><span>Assistir apresentação do curso</span></a>
-							</figure>
-							<div class="price">
-							{{ $valorDesconto.',00' }} <span class="original_price"><em> {{ $produtos->valor . ',00'}} </em> <?php echo (($valorDesconto/$produtos->valor)-1)*-100 . '%' . ' ' . 'desconto'?> </span>
-							</div>
-
-							<form method="POST" action= "carrinho/adicionar">
-								{{ csrf_field() }}
-								<input type="hidden" name="id" value="2">
-								<button class="btn_1 full-width">Comprar</button>
-							</form>
-
-							<a href="#0" class="btn_1 full-width outline"><i class="icon_heart"></i> Adicionar a minha lista de desejos</a>
-							<div id="list_feat">
-								<h3>O que está incluso</h3>
-								<ul>
-									<li><i class="icon_mobile"></i>Acesso 24/7</li>
-									<li><i class="icon_archive_alt"></i>Atividades extras</li>
-									<li><i class="icon_chat_alt"></i>Chat com o tutor</li>
-									<li><i class="icon_document_alt"></i>Certificado de conclusão</li>
-								</ul>
-							</div>
-						</div>
-					</aside>
 				</div>
 				<!-- /row -->
 			</div>

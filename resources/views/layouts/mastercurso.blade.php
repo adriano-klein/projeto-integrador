@@ -191,11 +191,18 @@
 		<!-- Login Modal -->
 		<!-- <script type="text/javascript" src="js/loginmodal.js"></script> -->
 	</footer>
-            <script src="js/jquery-2.2.4.min.js"></script>
+			<script src="{{ asset('js/jquery-2.2.4.min.js') }}" defer></script>
+			<script src="{{ asset('js/common_scripts.js') }}" defer></script>
+			<script src="{{ asset('js/main.js') }}" defer></script>
+			<script src="{{ asset('validate.js') }}" defer></script>
+			<script src="{{ asset('js/mostracarrinho.js') }}" defer></script>
+
+
+            <!-- <script src="js/jquery-2.2.4.min.js"></script>
             <script src="js/common_scripts.js"></script>
             <script src="js/main.js"></script>
 			<script src="assets/validate.js"></script>
-			<script src="js/mostracarrinho.js"></script>
+			<script src="js/mostracarrinho.js"></script> -->
     </body>
 </html> 
 

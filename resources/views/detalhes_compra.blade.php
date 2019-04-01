@@ -33,28 +33,10 @@
 					<!-- End bs-wizard -->
 					<div id="confirm">
 						<h2 class="texto_validation">Sua ordem foi concluída</h2>
-						<h3 class="texto_validation">Confira o resumo do seu pedido</h3>
+						<a href="{{url('home')}}"><h3 class="texto_validation">Acesse seu curso</h3></a>
 					</div>
 				</div>
 			</div>
-		</section>
-		<section>
-		<div class="box-cursos">
-					@forelse($cursosAp as $curso)
-
-					@foreach ($curso->pedido_produtos as $pedido_produto)
-
-					<div class="curso_ap_box">
-					<h4>{{ $pedido_produto->produto->nome }}</h4>
-					<p>{{ $pedido_produto->produto->descricao }}</p>
-					<button class="btn">Acesse as aulas agora</button>
-					</div>
-					@endforeach
-
-					@empty
-					<div>Ops.. houve um erro :(</div>
-					@endforelse
-					</div> 
 		</section>
 		<!--/hero_in-->
 	</main>
